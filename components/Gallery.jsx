@@ -21,7 +21,7 @@ export default function Gallery({ projects }){
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-10">
-      <div className="flex flex-wrap gap-2 mb-6">
+      <div className="flex flex-wrap gap-2 mb-8 mt-8">
         {categories.map(c => (
           <button key={c}
             onClick={()=>setCat(c)}
@@ -36,7 +36,6 @@ export default function Gallery({ projects }){
           <section key={pi}>
             <div className="flex items-baseline justify-between mb-3">
               <h3 className="text-xl md:text-2xl font-semibold">{p.title}</h3>
-              <span className="text-xs px-2 py-1 rounded-full border border-gray-200 bg-gray-50">{p.category}</span>
             </div>
             {p.description && <p className="text-gray-700 mb-3 whitespace-pre-line">{p.description}</p>}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 auto-rows-auto">

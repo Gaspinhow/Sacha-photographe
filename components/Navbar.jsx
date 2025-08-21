@@ -27,11 +27,11 @@ export default function Navbar(){
       "fixed top-0 inset-x-0 z-50 transition-all duration-500 ease-expo bg-white/90 backdrop-blur border-b border-gray-200 shadow-sm",
       compact ? "py-2" : "py-4"
     )}>
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 flex items-center">
         <Link href="/" className="font-semibold tracking-wide text-xl">Sacha Nahum</Link>
         
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex items-center space-x-8">
+        <ul className="hidden md:flex items-center space-x-8 ml-16">
           {links.map(l=>(
             <li key={l.href}>
               <Link 
