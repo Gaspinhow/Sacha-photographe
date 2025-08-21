@@ -1,0 +1,12 @@
+{
+  "title": "AUTF - Événement Professionnel Sectoriel",
+  "category": "Corporate",
+  "description": "Couverture photographique de l'événement professionnel sectoriel AUTF.",
+  "images": [
+    "/images/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1.jpeg",
+    "/images/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2.jpeg",
+    "/images/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3.jpeg",
+    "/images/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4.jpeg"
+  ],
+  "slug": "autf-evenement-professionnel-sectoriel"
+}
