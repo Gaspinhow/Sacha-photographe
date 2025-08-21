@@ -22,7 +22,7 @@ export default function Home(){
         <Reveal>
           <div className="text-center space-y-4 sm:space-y-6">
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
-              Je suis Sacha Nahum, photographe à Suresnes, passionné par l&apos;art de capturer l&apos;instant vrai. 
+              Je suis Sacha Nahum, photographe à Paris, passionné par l&apos;art de capturer l&apos;instant vrai. 
               Mon style mêle authenticité et esthétique soignée, que ce soit pour un reportage, un événement 
               ou un portrait. Mon objectif : raconter votre histoire en images, avec émotion, précision et créativité.
             </p>

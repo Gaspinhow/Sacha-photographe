@@ -25,13 +25,13 @@ export default function Navbar(){
   return (
     <nav className={clsx(
       "fixed top-0 inset-x-0 z-50 transition-all duration-500 ease-expo bg-white/90 backdrop-blur border-b border-gray-200 shadow-sm",
-      compact ? "py-2" : "py-4"
+      compact ? "py-3" : "py-5"
     )}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         <Link href="/" className="font-semibold tracking-wide text-lg sm:text-xl">Sacha Nahum</Link>
         
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex gap-6">
+        <ul className="hidden md:flex gap-8">
           {links.map(l=>(
             <li key={l.href}>
               <Link href={l.href} className={clsx("hover:text-accent transition-colors", pathname===l.href && "text-accent")}>{l.label}</Link>
@@ -41,10 +41,10 @@ export default function Navbar(){
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+          className="md:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
-          <div className="w-6 h-6 flex flex-col justify-center items-center">
+          <div className="w-6 h-6 flex flex-col justify-center items-center space-y-1">
             <span className={clsx("w-5 h-0.5 bg-gray-700 transition-all", mobileMenuOpen ? "rotate-45 translate-y-1" : "-translate-y-1")}></span>
             <span className={clsx("w-5 h-0.5 bg-gray-700 transition-all", mobileMenuOpen ? "opacity-0" : "opacity-100")}></span>
             <span className={clsx("w-5 h-0.5 bg-gray-700 transition-all", mobileMenuOpen ? "-rotate-45 -translate-y-1" : "translate-y-1")}></span>
