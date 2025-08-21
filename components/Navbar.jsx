@@ -25,23 +25,33 @@ export default function Navbar(){
   return (
     <nav className={clsx(
       "fixed top-0 inset-x-0 z-50 transition-all duration-500 ease-expo bg-white/90 backdrop-blur border-b border-gray-200 shadow-sm",
-      compact ? "py-3" : "py-5"
+      compact ? "py-2" : "py-4"
     )}>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-        <Link href="/" className="font-semibold tracking-wide text-lg sm:text-xl">Sacha Nahum</Link>
+      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
+        <Link href="/" className="font-semibold tracking-wide text-xl">Sacha Nahum</Link>
         
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex gap-8">
+        <ul className="hidden md:flex items-center space-x-8">
           {links.map(l=>(
             <li key={l.href}>
-              <Link href={l.href} className={clsx("hover:text-accent transition-colors", pathname===l.href && "text-accent")}>{l.label}</Link>
+              <Link 
+                href={l.href} 
+                className={clsx(
+                  "px-3 py-2 rounded-lg transition-colors",
+                  pathname===l.href 
+                    ? "text-accent bg-accent/10" 
+                    : "text-gray-700 hover:text-accent hover:bg-gray-50"
+                )}
+              >
+                {l.label}
+              </Link>
             </li>
           ))}
         </ul>
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors"
+          className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           <div className="w-6 h-6 flex flex-col justify-center items-center space-y-1">
@@ -57,14 +67,16 @@ export default function Navbar(){
         "md:hidden bg-white border-t border-gray-200 transition-all duration-300 ease-in-out overflow-hidden",
         mobileMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
       )}>
-        <ul className="px-4 py-4 space-y-3">
+        <ul className="px-6 py-4 space-y-2">
           {links.map(l=>(
             <li key={l.href}>
               <Link 
                 href={l.href} 
                 className={clsx(
-                  "block py-2 px-3 rounded-lg hover:bg-gray-50 transition-colors",
-                  pathname===l.href ? "text-accent bg-accent/10" : "text-gray-700"
+                  "block py-3 px-4 rounded-lg transition-colors",
+                  pathname===l.href 
+                    ? "text-accent bg-accent/10" 
+                    : "text-gray-700 hover:bg-gray-50"
                 )}
                 onClick={() => setMobileMenuOpen(false)}
               >
