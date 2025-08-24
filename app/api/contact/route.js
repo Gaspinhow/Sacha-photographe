@@ -1,4 +1,4 @@
-import nodemailer from "nodemailer";
+import { Resend } from 'resend';
 
 export const dynamic = "force-dynamic";
 
@@ -6,11 +6,12 @@ export async function POST(request) {
   try {
     const data = await request.json();
     const { firstName, lastName, email, phone, message } = data || {};
+    
     if (!firstName || !lastName || !email || !message) {
       return Response.json({ ok: false, error: "Champs manquants" }, { status: 400 });
     }
 
-    // Always log on the server for traceability
+    // Log du message pour traçabilité
     console.log("[CONTACT] Nouveau message:", {
       firstName,
       lastName,
@@ -19,44 +20,39 @@ export async function POST(request) {
       at: new Date().toISOString(),
     });
 
-    let previewUrl = null;
+    // Configuration Resend avec la vraie clé API
+    const resend = new Resend('re_MB4wYLT7_7vVHxxGCVMH3EhGKmk4fXpa9');
 
-    const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM, SMTP_TO } = process.env;
+    // Envoi de l'email
+    const { data: emailData, error } = await resend.emails.send({
+      from: 'Site Web <onboarding@resend.dev>',
+      to: ['sacha.nahum@gmail.com'],
+      subject: `Nouveau contact: ${firstName} ${lastName}`,
+      html: `
+        <h2>Nouveau message de contact</h2>
+        <p><strong>Nom:</strong> ${lastName}</p>
+        <p><strong>Prénom:</strong> ${firstName}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Téléphone:</strong> ${phone || "-"}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message.replace(/\n/g, '<br>')}</p>
+        <hr>
+        <p><em>Envoyé depuis le site web le ${new Date().toLocaleString('fr-FR')}</em></p>
+      `,
+      text: `Nom: ${lastName}\nPrénom: ${firstName}\nEmail: ${email}\nTéléphone: ${phone || "-"}\n\nMessage:\n${message}`,
+      replyTo: email
+    });
 
-    let transporter;
-    if (SMTP_HOST && SMTP_PORT && SMTP_USER && SMTP_PASS) {
-      transporter = nodemailer.createTransport({
-        host: SMTP_HOST,
-        port: Number(SMTP_PORT),
-        secure: Number(SMTP_PORT) === 465,
-        auth: { user: SMTP_USER, pass: SMTP_PASS },
-      });
-    } else {
-      // Fallback to Ethereal test account for local testing
-      const testAccount = await nodemailer.createTestAccount();
-      transporter = nodemailer.createTransport({
-        host: "smtp.ethereal.email",
-        port: 587,
-        secure: false,
-        auth: { user: testAccount.user, pass: testAccount.pass },
-      });
+    if (error) {
+      console.error("[CONTACT] Erreur Resend:", error);
+      return Response.json({ ok: false, error: "Erreur d'envoi d'email" }, { status: 500 });
     }
 
-    const to = SMTP_TO || "sacha.nahum@gmail.com";
-    const from = SMTP_FROM || (SMTP_USER ? `"Site Web" <${SMTP_USER}>` : '"Site Web (test)" <no-reply@example.com>');
-    const subject = `Nouveau contact: ${firstName} ${lastName}`;
-    const text = `Nom: ${lastName}\nPrénom: ${firstName}\nEmail: ${email}\nTéléphone: ${phone || "-"}\n\nMessage:\n${message}`;
+    console.log("[CONTACT] Email envoyé avec succès:", emailData);
+    return Response.json({ ok: true, message: "Email envoyé avec succès" });
 
-    const info = await transporter.sendMail({ from, to, subject, text, replyTo: email });
-
-    if (nodemailer.getTestMessageUrl && info) {
-      const url = nodemailer.getTestMessageUrl(info);
-      if (url) previewUrl = url;
-    }
-
-    return Response.json({ ok: true, previewUrl });
   } catch (err) {
     console.error("[CONTACT] Erreur:", err);
-    return Response.json({ ok: false, error: "Requête invalide" }, { status: 400 });
+    return Response.json({ ok: false, error: "Erreur serveur" }, { status: 500 });
   }
 }

@@ -1,40 +1,76 @@
-import Reveal from "../../components/Reveal";
 import Link from "next/link";
+import Reveal from "../../components/Reveal";
+import Image from "next/image";
 
-export const metadata = { title: "Qui suis‑je — À propos" };
+export default function About(){
+  // Sélection de quelques photos représentatives
+  const galleryImages = [
+    "/images/slide1.jpg",
+    "/images/slide2.JPG", 
+    "/images/slide3.JPG",
+    "/images/slide4.JPG",
+    "/images/slide5.JPG",
+    "/images/slide6.JPG"
+  ];
 
-export default function AboutPage(){
   return (
-    <main className="pt-[96px] px-6">
-      <section className="max-w-4xl mx-auto py-10 space-y-8">
+    <div className="min-h-screen pt-20">
+      <div className="max-w-4xl mx-auto px-6 py-16">
         <Reveal>
-          <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Sacha Nahum</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-8">Qui suis-je</h1>
         </Reveal>
-        <Reveal delay={100}>
-          <p className="text-gray-700 leading-relaxed">
-            {`Je m'appelle Sacha Nahum, photographe basé à Paris, spécialisé dans la photographie de reportage,
-            d'événementiel et de portrait. Après plusieurs années d'expérience dans le domaine du reportage et
-            de la photographie de soirées, j'ai affiné un style qui mêle authenticité, sens du détail et sensibilité
-            artistique. Je travaille aussi bien pour des événements privés (mariages, portraits, séances lifestyle)
-            que pour des reportages plus documentaires, où l'image raconte une histoire.`}
-          </p>
-        </Reveal>
-        <Reveal delay={180}>
-          <p className="text-gray-700 leading-relaxed">
-            {`J'accorde une attention particulière à la composition, à la lumière naturelle et à la captation des
-            émotions spontanées. Mon approche est simple : créer des images qui reflètent la vérité du moment,
-            tout en apportant une touche artistique personnelle. Chaque séance photo se pense comme une rencontre,
-            où l'échange avec le client est aussi important que la prise de vue. Si vous cherchez un photographe
-            proche de ses sujets, à l'écoute, et capable de capturer des instants uniques, vous êtes au bon endroit.`}
-          </p>
-        </Reveal>
-        <Reveal delay={260}>
-          <div className="flex gap-3">
-            <Link href="/contact" className="px-5 py-2 rounded-lg bg-accent text-white font-medium hover:bg-accent/90 transition-colors">Me contacter</Link>
-            <Link href="/gallery" className="px-5 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">Voir la galerie</Link>
+        
+        <div className="space-y-8">
+          <Reveal>
+            <p className="text-gray-700 leading-relaxed">
+              Passionné de photographie depuis mon plus jeune âge, j&apos;ai développé une approche unique 
+              qui allie technique et créativité. Chaque cliché raconte une histoire, capture une émotion, 
+              immortalise un moment précieux.
+            </p>
+          </Reveal>
+          
+          <Reveal>
+            <p className="text-gray-700 leading-relaxed">
+              Mon parcours m&apos;a amené à travailler sur des projets variés : événements d&apos;entreprise, 
+              reportages institutionnels, portraits artistiques. Chaque mission est une nouvelle aventure 
+              qui me permet de repousser mes limites créatives.
+            </p>
+          </Reveal>
+          
+          <Reveal>
+            <p className="text-gray-700 leading-relaxed">
+              Mon objectif : créer des images qui vous ressemblent, qui racontent votre histoire 
+              avec authenticité et élégance. Chaque projet est unique, chaque client mérite 
+              une approche personnalisée.
+            </p>
+          </Reveal>
+        </div>
+        
+        <div className="mt-12 flex flex-col sm:flex-row gap-4">
+          <Link href="/contact" className="px-5 py-2 rounded-lg bg-accent text-white font-medium hover:bg-accent/90 transition-colors">Me contacter</Link>
+          <Link href="/gallery" className="px-5 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">Voir la galerie</Link>
+        </div>
+
+        {/* Petite galerie d'images */}
+        <Reveal>
+          <div className="mt-16">
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 text-center">Quelques-unes de mes photos</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
+              {galleryImages.map((img, index) => (
+                <div key={index} className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <Image
+                    src={img}
+                    alt={`Photo ${index + 1}`}
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </Reveal>
-      </section>
-    </main>
+      </div>
+    </div>
   );
 }

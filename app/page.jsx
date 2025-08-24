@@ -1,5 +1,4 @@
 import Hero from "../components/Hero";
-import CategoryTiles from "../components/CategoryTiles";
 import Reveal from "../components/Reveal";
 
 export default function Home(){
@@ -29,8 +28,6 @@ export default function Home(){
           </div>
         </Reveal>
       </section>
-      
-      <CategoryTiles/>
     </main>
   );
 }
