@@ -10,7 +10,13 @@ export default function About(){
     "/images/3.jpg",
     "/images/4.jpg",
     "/images/5.jpg",
-    "/images/6.jpg"
+    "/images/6.jpg",
+    "/images/photo7.jpg",
+    "/images/photo8.jpg",
+    "/images/photo9.jpg",
+    "/images/photo10.jpg",
+    "/images/photo11.jpg",
+    "/images/photo12.jpg"
   ];
 
   return (
@@ -55,7 +61,7 @@ export default function About(){
         <Reveal>
           <div className="mt-16">
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 text-center">Quelques-unes de mes photos</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
               {galleryImages.map((img, index) => (
                 <div key={index} className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                   <Image
