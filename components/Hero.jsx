@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // Ajoutez vos 6 images ici (mettez vos fichiers dans public/images/)
 const slides = [
-  "/images/slide1.jpg",
-  "/images/slide2.jpg",
-  "/images/slide3.jpg",
-  "/images/slide4.jpg",
-  "/images/slide5.jpg",
-  "/images/slide6.jpg",
+  "/images/slidehero6.jpg",
+  "/images/slidehero5.jpg",
+  "/images/slidehero4.jpg",
+  "/images/slidehero3.jpg",
+  "/images/slidehero2.jpg",
+  "/images/slidehero1.jpg",
 ];
 
 export default function Hero(){

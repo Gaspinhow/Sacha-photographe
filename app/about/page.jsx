@@ -5,12 +5,12 @@ import Image from "next/image";
 export default function About(){
   // Sélection de quelques photos représentatives
   const galleryImages = [
-    "/images/slide1.jpg",
-    "/images/slide2.JPG", 
-    "/images/slide3.JPG",
-    "/images/slide4.JPG",
-    "/images/slide5.JPG",
-    "/images/slide6.JPG"
+    "/images/1.jpg",
+    "/images/2.jpg", 
+    "/images/3.jpg",
+    "/images/4.jpg",
+    "/images/5.jpg",
+    "/images/6.jpg"
   ];
 
   return (
