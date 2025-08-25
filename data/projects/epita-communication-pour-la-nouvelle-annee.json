@@ -3,10 +3,12 @@
   "category": "Education",
   "description": "Campagne de communication pour la nouvelle année de l'EPITA.",
   "images": [
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.jpeg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.jpeg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.jpeg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.jpeg"
+    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.jpg",
+    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.jpg",
+    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.jpg",
+    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.jpg",
+    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.jpg",
+    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.jpg"
   ],
   "slug": "epita-communication-pour-la-nouvelle-annee"
 }

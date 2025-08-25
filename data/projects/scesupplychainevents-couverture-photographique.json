@@ -3,11 +3,10 @@
   "category": "Corporate",
   "description": "Couverture photographique des événements SCE SupplyChainEvents.",
   "images": [
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.jpeg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.jpeg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.jpeg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.jpeg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_5.jpeg"
+    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.jpg",
+    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.jpg",
+    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.jpg",
+    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.jpg"
   ],
   "slug": "scesupplychainevents-couverture-photographique"
 }
