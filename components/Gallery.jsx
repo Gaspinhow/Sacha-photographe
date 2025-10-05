@@ -48,7 +48,6 @@ export default function Gallery({ projects }){
             <div className="flex items-baseline justify-start mb-3">
               <h3 className="text-xl md:text-2xl font-semibold">{p.title}</h3>
             </div>
-            {p.description && <p className="text-gray-700 mb-3 whitespace-pre-line">{p.description}</p>}
             
             {/* Grille dynamique qui s'adapte au nombre d'images */}
             <div className={`grid ${getGridClass(p.images.length)} gap-3`}>

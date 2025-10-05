@@ -29,24 +29,26 @@ export default function About(){
         <div className="space-y-8">
           <Reveal>
             <p className="text-gray-700 leading-relaxed">
-              Passionné de photographie depuis mon plus jeune âge, j&apos;ai développé une approche unique 
-              qui allie technique et créativité. Chaque cliché raconte une histoire, capture une émotion, 
-              immortalise un moment précieux.
+              Passionné de photographie, je souhaite arpenter le monde en quête de projets humains, 
+              sociaux qui racontent l&apos;histoire d&apos;autrui. Chaque cliché est pour moi un plaisir 
+              comme un défi, qui se doit de perdurer dans le temps.
             </p>
           </Reveal>
           
           <Reveal>
             <p className="text-gray-700 leading-relaxed">
               Mon parcours m&apos;a amené à travailler sur des projets variés : événements d&apos;entreprise, 
-              reportages institutionnels, portraits artistiques. Chaque mission est une nouvelle aventure 
-              qui me permet de repousser mes limites créatives.
+              reportages institutionnels, portraits artistiques. Et plus personnellement, des projets 
+              personnels comme la rencontre avec des porteurs de souffre en Indonésie ou encore 
+              découvrir la vie de marginaux de la banlieue parisienne.
             </p>
           </Reveal>
           
           <Reveal>
             <p className="text-gray-700 leading-relaxed">
-              Mon objectif : créer des images qui vous ressemblent, qui racontent votre histoire 
-              avec authenticité et élégance. Chaque projet est unique, chaque client mérite 
+              Chaque mission est une nouvelle aventure qui me permet de découvrir l&apos;environnement 
+              qui nous entoure. Mon objectif : créer des images qui vous ressemblent, qui racontent 
+              votre histoire avec authenticité. Chaque projet est unique, chaque client mérite 
               une approche personnalisée.
             </p>
           </Reveal>
