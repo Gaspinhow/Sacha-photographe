@@ -55,7 +55,7 @@ export default function Gallery({ projects }){
                 <div key={i} className="relative w-full rounded-lg overflow-hidden">
                   <Image
                     src={src}
-                    alt={`${p.title} - Image ${i + 1}`}
+                    alt={`Photographie par Sacha Nahum - ${p.title} - Image ${i + 1}`}
                     width={400}
                     height={300}
                     className="w-full h-auto rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
