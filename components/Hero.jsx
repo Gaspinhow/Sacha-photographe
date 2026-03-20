@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
-// Ajoutez vos 6 images ici (mettez vos fichiers dans public/images/)
 const slides = [
   "/images/slidehero6.jpg",
   "/images/slidehero5.jpg",
@@ -15,22 +15,30 @@ const slides = [
 export default function Hero(){
   const [i, setI] = useState(0);
   useEffect(()=>{
-    const id = setInterval(()=> setI(s => (s+1)%slides.length), 4000); // 4s
+    const id = setInterval(()=> setI(s => (s+1)%slides.length), 4000);
     return ()=> clearInterval(id);
   },[]);
   return (
     <div className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] overflow-hidden pt-[72px] sm:pt-[80px] md:pt-[88px] lg:pt-[96px]">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 bg-gray-900">
         <AnimatePresence initial={false}>
-          <motion.img
+          <motion.div
             key={i}
-            src={slides[i]}
-            alt=""
-            className="w-full h-full object-cover kenburns"
+            className="absolute inset-0"
             initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:.8}}
-          />
+          >
+            <Image
+              src={slides[i]}
+              alt=""
+              fill
+              className="object-cover kenburns"
+              priority={i === 0}
+              sizes="100vw"
+              quality={85}
+            />
+          </motion.div>
         </AnimatePresence>
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/40 z-10" />
       </div>
     </div>
   );

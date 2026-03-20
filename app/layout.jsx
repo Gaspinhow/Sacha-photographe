@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import StructuredData from "../components/StructuredData";
 export const metadata = {
+  metadataBase: new URL("https://www.sacha-nahum.com"),
   title: "Sacha Nahum – Photographe professionnel | Événements, Corporate, Portraits",
   description: "Sacha Nahum, photographe professionnel spécialisé dans les événements d'entreprise, reportages institutionnels et portraits artistiques. Photographie corporate, soirées et projets personnels à Paris.",
   keywords: "Sacha Nahum, photographe, photographe professionnel, photographie événement, photographie corporate, reportage institutionnel, portrait artistique, Paris, événements d'entreprise",
@@ -42,7 +43,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: "votre-code-verification-google", // À remplacer par votre code Google Search Console
+    google: "votre-code-verification-google",
   }
 };
 export default function RootLayout({children}){
