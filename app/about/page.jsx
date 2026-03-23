@@ -1,84 +1,61 @@
-import Link from "next/link";
-import Reveal from "../../components/Reveal";
-import Image from "next/image";
+"use client";
+import React from 'react';
+import Image from 'next/image';
+// 1. IMPORT DU HOOK GLOBAL
+import { useLanguage } from "../context/LanguageContext"; 
 
-export default function About(){
-  // Sélection de quelques photos représentatives
-  const galleryImages = [
-    "/images/1.jpg",
-    "/images/2.jpg", 
-    "/images/3.jpg",
-    "/images/4.jpg",
-    "/images/5.jpg",
-    "/images/6.jpg",
-    "/images/photo7.jpg",
-    "/images/photo8.jpg",
-    "/images/photo9.jpg",
-    "/images/photo10.jpg",
-    "/images/photo11.jpg",
-    "/images/photo12.jpg"
-  ];
+export default function QuiSuisJe() {
+  // 2. ON UTILISE LE CONTEXTE (On supprime le useState local)
+  const { lang } = useLanguage();
+
+  // 3. ADAPTATION DES CLÉS (FR/EN en majuscules pour matcher ton Context)
+  const texts = {
+    FR: {
+      intro: "Je parcours le monde en quête de projets humains et sociaux qui racontent l'histoire d'autrui.",
+      p1: "Photographe de formation technique et artistique, j'arpente les émotions, les paysages, les identités et les mœurs de nos sociétés en m'efforçant de les retranscrire en images, en histoires qui perdurent dans le temps.",
+      p2: "Mon parcours m'a amené à travailler sur des projets variés: événements d'entreprise, reportages institutionnels, portraits artistiques. Mais aussi, plus personnellement, la rencontre avec des porteurs de soufre en Indonésie ou encore la découverte de la vie de marginaux de la banlieue parisienne.",
+      p3: "Photographier ce qui nous entoure est une chance qui se doit d'être transmise, partagée entre frontières et générations. C'est, à mes yeux, un devoir de documenter la société humaine avec authenticité.",
+    },
+    EN: {
+      intro: "I travel the world in search of human and social projects that tell the stories of others.",
+      p1: "A photographer with both technical and artistic training, I explore emotions, landscapes, identities and the ways of our societies — striving to translate them into images, into stories that stand the test of time.",
+      p2: "My journey has led me to work on a wide range of projects: corporate events, institutional reportages, artistic portraits. But also, on a more personal level, encounters with sulfur miners in Indonesia or glimpses into the lives of the marginalized in the suburbs of Paris.",
+      p3: "Photographing what surrounds us is a privilege that must be passed on, shared across borders and generations. To me, it is a duty to document human society with authenticity.",
+    }
+  };
 
   return (
-    <div className="min-h-screen pt-20">
-      <div className="max-w-4xl mx-auto px-6 py-16">
-        <Reveal>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-8">Qui suis-je</h1>
-        </Reveal>
+    <main className="min-h-screen bg-white pt-40 pb-20 px-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         
-        <div className="space-y-8">
-          <Reveal>
-            <p className="text-gray-700 leading-relaxed">
-              Passionné de photographie, je souhaite arpenter le monde en quête de projets humains, 
-              sociaux qui racontent l&apos;histoire d&apos;autrui. Chaque cliché est pour moi un plaisir 
-              comme un défi, qui se doit de perdurer dans le temps.
-            </p>
-          </Reveal>
-          
-          <Reveal>
-            <p className="text-gray-700 leading-relaxed">
-              Mon parcours m&apos;a amené à travailler sur des projets variés : événements d&apos;entreprise, 
-              reportages institutionnels, portraits artistiques. Et plus personnellement, des projets 
-              personnels comme la rencontre avec des porteurs de souffre en Indonésie ou encore 
-              découvrir la vie de marginaux de la banlieue parisienne.
-            </p>
-          </Reveal>
-          
-          <Reveal>
-            <p className="text-gray-700 leading-relaxed">
-              Chaque mission est une nouvelle aventure qui me permet de découvrir l&apos;environnement 
-              qui nous entoure. Mon objectif : créer des images qui vous ressemblent, qui racontent 
-              votre histoire avec authenticité. Chaque projet est unique, chaque client mérite 
-              une approche personnalisée.
-            </p>
-          </Reveal>
-        </div>
-        
-        <div className="mt-12 flex flex-col sm:flex-row gap-4">
-          <Link href="/contact" className="px-5 py-2 rounded-lg bg-accent text-white font-medium hover:bg-accent/90 transition-colors">Me contacter</Link>
-          <Link href="/gallery" className="px-5 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">Voir la galerie</Link>
+        {/* Colonne Image */}
+        <div className="relative aspect-[4/5] bg-gray-100 overflow-hidden shadow-sm">
+          <Image 
+            src="/images/sacha-portrait.jpg" 
+            alt="Sacha Nahum"
+            fill
+            className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+            priority
+          />
         </div>
 
-        {/* Petite galerie d'images */}
-        <Reveal>
-          <div className="mt-16">
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 text-center">Quelques-unes de mes photos</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
-              {galleryImages.map((img, index) => (
-                <div key={index} className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                  <Image
-                    src={img}
-                    alt={`Photo ${index + 1}`}
-                    fill
-                    className="object-cover hover:scale-105 transition-transform duration-300"
-                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
-                  />
-                </div>
-              ))}
-            </div>
+        {/* Colonne Texte */}
+        <div className="flex flex-col gap-10">
+          {/* Note: On n'a plus besoin du bouton ici car la Navbar gère tout le site ! */}
+          
+          <h1 className="text-2xl md:text-4xl font-serif leading-tight text-gray-900 tracking-tight">
+            {texts[lang].intro}
+          </h1>
+
+          <div className="space-y-8 text-sm md:text-base text-gray-600 leading-relaxed font-light max-w-xl">
+            <p>{texts[lang].p1}</p>
+            <p>{texts[lang].p2}</p>
+            <p className="italic border-l-2 border-gray-100 pl-6 py-2 text-gray-400">
+                {texts[lang].p3}
+            </p>
           </div>
-        </Reveal>
+        </div>
       </div>
-    </div>
+    </main>
   );
 }

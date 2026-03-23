@@ -1,0 +1,12 @@
+{
+    "id": "indonesie",
+    "category": "reportage",
+    "title": "Soufriers d'Indonésie",
+    "description": "Une immersion brute au cœur des cratères, là où l'humanité défie les éléments.",
+    "coverImage": "/images/slidehero4.jpg",
+    "images": [
+      "/images/slidehero4.jpg",
+      "/images/slidehero3.jpg",
+      "/images/slidehero2.jpg"
+    ]
+  }
