@@ -1,5 +1,5 @@
 export async function GET() {
-  const baseUrl = 'https://votre-domaine.com'; // Remplacez par votre vrai domaine
+  const baseUrl = 'https://www.sacha-nahum.com';
   
   const staticPages = [
     {
