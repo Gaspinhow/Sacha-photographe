@@ -5,9 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { projects } from "../../../data/projects/index"; 
+// ✅ AJOUT DE L'IMPORT DU CONTEXTE
+import { useLanguage } from "../../context/LanguageContext"; 
 
 export default function ProjectPage() {
   const { id } = useParams();
+  // ✅ DÉCLARATION DE LA VARIABLE LANG
+  const { lang } = useLanguage();
+  
   const project = projects ? projects.find(p => p.id === id) : null;
 
   if (!project) {
@@ -24,7 +29,6 @@ export default function ProjectPage() {
   }
 
   return (
-    // pt-28 sur mobile pour coller à la navbar, pt-44 sur desktop
     <main className="min-h-screen bg-white pt-28 md:pt-44 pb-20 px-4 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto">
         
@@ -48,7 +52,7 @@ export default function ProjectPage() {
           </motion.p>
         </header>
 
-        {/* FLUX D'IMAGES (Style Narratif) */}
+        {/* FLUX D'IMAGES */}
         <div className="flex flex-col gap-12 md:gap-40 lg:gap-52">
           {project.images && project.images.map((img, index) => (
             <motion.div 
@@ -59,10 +63,6 @@ export default function ProjectPage() {
               viewport={{ once: true, margin: "-10%" }}
               className="relative w-full"
             >
-              {/* Rythme visuel : 
-                  - Full width sur mobile pour toutes les images (confort de lecture)
-                  - Alternance large/centré sur desktop pour le style "exposition"
-              */}
               <div className={`relative w-full shadow-sm overflow-hidden bg-gray-50 
                 ${index % 3 === 0 
                   ? "aspect-[3/2] md:aspect-video w-full" 
