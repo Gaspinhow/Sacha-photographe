@@ -13,51 +13,47 @@ export default function Home() {
   };
 
   return (
-    //pt-28 sur mobile pour ne pas être collé à la navbar
-    <main className="min-h-screen bg-white pt-28 md:pt-40 pb-16 px-4 md:px-12 flex flex-col justify-center">
+    <main className="min-h-screen bg-white pt-28 md:pt-40 pb-24 px-6 md:px-12 flex flex-col justify-center">
       
-      {/* Container Responsive : 1 col sur mobile, 2 cols décalées sur PC */}
-      <div className="max-w-[1300px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+      {/* Container : On utilise items-start pour que le décalage mt-32 fonctionne bien */}
+      <div className="max-w-[1300px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
         
-        {/* Bloc Documentaire */}
+        {/* Bloc Documentaire - Plus large sur mobile */}
         <Link 
           href="/reportage" 
-          className="group relative block overflow-hidden bg-gray-100 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm"
+          className="group relative block overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-[92%] md:w-full shadow-sm"
         >
           <Image 
             src="/images/photo7.jpg" 
             alt="Documentary Section"
             fill
-            // 🔥 RETOUR À OBJECT-COVER + EFFET N&B
-            className="object-cover transition-transform duration-[1.5s] group-hover:scale-105 md:grayscale hover:grayscale-0" 
+            className="object-cover transition-transform duration-[2s] group-hover:scale-105 md:grayscale hover:grayscale-0" 
             sizes="(max-width: 768px) 100vw, 50vw"
+            quality={75}
             priority
           />
-          {/* Overlay Texte */}
-          <div className="absolute inset-0 flex items-center justify-center bg-black/15 md:bg-black/5 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
+          <div className="absolute inset-0 flex items-center justify-center bg-black/15 md:bg-black/5 md:opacity-0 group-hover:opacity-100 transition-all duration-700">
             <h2 className="text-white text-lg md:text-2xl font-serif uppercase tracking-[0.4em] pointer-events-none">
               {content[lang].documentary}
             </h2>
           </div>
         </Link>
 
-        {/* Bloc Business / Corporate */}
+        {/* Bloc Business / Corporate - Décalé à droite et vers le bas sur mobile */}
         <Link 
           href="/corporate" 
-          // md:mt-32 : garde le décalage élégant sur PC
-          className="group relative block overflow-hidden bg-gray-100 aspect-[4/5] md:aspect-[3/4] w-full md:mt-32 shadow-sm"
+          className="group relative block overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-[85%] ml-auto md:w-full mt-12 md:mt-32 shadow-sm"
         >
           <Image 
             src="/images/slide6.jpg" 
             alt="Business Section"
             fill
-            // 🔥 RETOUR À OBJECT-COVER + EFFET N&B
-            className="object-cover transition-transform duration-[1.5s] group-hover:scale-105 md:grayscale hover:grayscale-0"
+            className="object-cover transition-transform duration-[2s] group-hover:scale-105 md:grayscale hover:grayscale-0"
             sizes="(max-width: 768px) 100vw, 50vw"
+            quality={75}
             priority
           />
-          {/* Overlay Texte */}
-          <div className="absolute inset-0 flex items-center justify-center bg-black/15 md:bg-black/5 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
+          <div className="absolute inset-0 flex items-center justify-center bg-black/15 md:bg-black/5 md:opacity-0 group-hover:opacity-100 transition-all duration-700">
             <h2 className="text-white text-lg md:text-2xl font-serif uppercase tracking-[0.4em] pointer-events-none">
               {content[lang].business}
             </h2>
@@ -66,8 +62,7 @@ export default function Home() {
 
       </div>
 
-      {/* Signature */}
-      <div className="mt-12 md:mt-24 text-center">
+      <div className="mt-16 md:mt-24 text-center">
         <p className="text-[8px] md:text-[10px] uppercase tracking-[0.6em] text-gray-300 font-light italic">
           Sacha Nahum — Photography
         </p>

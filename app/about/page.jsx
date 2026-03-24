@@ -22,38 +22,44 @@ export default function QuiSuisJe() {
   };
 
   return (
-    // pt-24 sur mobile pour ne pas laisser trop de vide sous la Navbar
-    <main className="min-h-screen bg-white pt-24 md:pt-44 pb-20 px-6 md:px-12 lg:px-20">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
+    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-20 px-6 md:px-12 lg:px-20">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-start">
         
-        {/* Colonne Image - Elle passe en haut sur mobile */}
-        <div className="relative aspect-[4/5] bg-gray-50 overflow-hidden shadow-sm w-full max-w-md mx-auto md:max-w-none">
+        {/* Colonne Image - Look Mosaïque sur Mobile */}
+        <div className="relative w-[88%] md:w-full aspect-[4/5] bg-gray-50 overflow-hidden shadow-sm transition-all duration-1000">
           <Image 
             src="/images/photosach.jpg" 
             alt="Sacha Nahum"
             fill
             className="object-cover md:grayscale hover:grayscale-0 transition-all duration-1000"
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="(max-width: 768px) 90vw, 50vw"
+            quality={80}
             priority
           />
         </div>
 
-        {/* Colonne Texte */}
-        <div className="flex flex-col gap-8 md:gap-12">
+        {/* Colonne Texte - Décalée sur mobile pour la mosaïque */}
+        <div className="flex flex-col gap-8 md:gap-12 mt-4 md:mt-0 px-2 md:px-0">
           
-          {/* Intro : texte plus petit sur mobile pour éviter les césures bizarres */}
-          <h1 className="text-xl md:text-3xl lg:text-4xl font-serif leading-tight text-gray-900 tracking-tight">
+          <h1 className="text-xl md:text-3xl lg:text-4xl font-serif leading-tight text-gray-900 tracking-tight max-w-lg">
             {texts[lang].intro}
           </h1>
 
-          {/* Paragraphes : text-sm sur mobile (très élégant), md:text-base sur ordi */}
           <div className="space-y-6 md:space-y-8 text-[13px] md:text-base text-gray-600 leading-relaxed font-light max-w-xl">
             <p>{texts[lang].p1}</p>
             <p>{texts[lang].p2}</p>
             
-            {/* Citation : bordure plus fine sur mobile */}
-            <p className="italic border-l-2 border-gray-100 pl-4 md:pl-6 py-2 text-gray-400 text-sm md:text-base">
-                {texts[lang].p3}
+            <div className="pt-4">
+              <p className="italic border-l border-gray-200 pl-6 py-2 text-gray-400 text-sm md:text-base leading-relaxed">
+                  {texts[lang].p3}
+              </p>
+            </div>
+          </div>
+
+          {/* Signature discrète en bas de page about */}
+          <div className="mt-8 pt-8 border-t border-gray-50">
+            <p className="text-[9px] uppercase tracking-[0.4em] text-gray-300">
+              Sacha Nahum — Paris
             </p>
           </div>
         </div>

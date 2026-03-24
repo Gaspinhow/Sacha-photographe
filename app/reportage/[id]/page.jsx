@@ -5,12 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { projects } from "../../../data/projects/index"; 
-// ✅ AJOUT DE L'IMPORT DU CONTEXTE
 import { useLanguage } from "../../context/LanguageContext"; 
 
 export default function ProjectPage() {
   const { id } = useParams();
-  // ✅ DÉCLARATION DE LA VARIABLE LANG
   const { lang } = useLanguage();
   
   const project = projects ? projects.find(p => p.id === id) : null;
@@ -33,7 +31,7 @@ export default function ProjectPage() {
       <div className="max-w-6xl mx-auto">
         
         {/* EN-TÊTE DU REPORTAGE */}
-        <header className="mb-16 md:mb-32 max-w-4xl">
+        <header className="mb-20 md:mb-32 max-w-4xl">
           <motion.h1 
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
@@ -46,38 +44,49 @@ export default function ProjectPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 1 }}
-            className="text-gray-500 text-sm md:text-xl leading-relaxed font-light italic max-w-2xl"
+            className="text-gray-500 text-sm md:text-lg leading-relaxed font-light italic max-w-2xl"
           >
             {project.description}
           </motion.p>
         </header>
 
-        {/* FLUX D'IMAGES */}
-        <div className="flex flex-col gap-12 md:gap-40 lg:gap-52">
-          {project.images && project.images.map((img, index) => (
-            <motion.div 
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true, margin: "-10%" }}
-              className="relative w-full"
-            >
-              <div className={`relative w-full shadow-sm overflow-hidden bg-gray-50 
-                ${index % 3 === 0 
-                  ? "aspect-[3/2] md:aspect-video w-full" 
-                  : "aspect-[3/2] md:w-4/5 md:mx-auto"}`}
+        {/* FLUX D'IMAGES EN MOSAÏQUE */}
+        <div className="flex flex-col gap-16 md:gap-40 lg:gap-52">
+          {project.images && project.images.map((img, index) => {
+            // Logique de mosaïque mobile & desktop
+            // Index 0, 3, 6... : Pleine largeur
+            // Index 1, 4, 7... : Petit et à gauche
+            // Index 2, 5, 8... : Petit et à droite
+            const isFull = index % 3 === 0;
+            const isLeft = index % 3 === 1;
+            const isRight = index % 3 === 2;
+
+            return (
+              <motion.div 
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+                viewport={{ once: true, margin: "-10%" }}
+                className={`relative w-full flex ${isLeft ? 'justify-start' : isRight ? 'justify-end' : 'justify-center'}`}
               >
-                <Image
-                  src={img}
-                  alt={`${project.title} - ${index}`}
-                  fill
-                  className="object-cover transition-transform duration-[2s] hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px"
-                />
-              </div>
-            </motion.div>
-          ))}
+                <div className={`relative shadow-sm overflow-hidden bg-gray-50 transition-all
+                  ${isFull 
+                    ? "w-full aspect-[3/2] md:aspect-video" 
+                    : "w-[85%] md:w-[70%] aspect-[3/2] md:aspect-[4/3]"}`}
+                >
+                  <Image
+                    src={img}
+                    alt={`${project.title} - ${index}`}
+                    fill
+                    className="object-cover transition-transform duration-[2.5s] hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 1200px"
+                    quality={75}
+                  />
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
 
         {/* NAVIGATION BAS DE PAGE */}
