@@ -2,6 +2,9 @@ import { Resend } from 'resend';
 
 export const dynamic = "force-dynamic";
 
+// ✅ On utilise la variable d'environnement pour ne pas exposer la clé en clair
+const resend = new Resend(process.env.RESEND_API_KEY);
+
 export async function POST(request) {
   try {
     const data = await request.json();
@@ -11,48 +14,39 @@ export async function POST(request) {
       return Response.json({ ok: false, error: "Champs manquants" }, { status: 400 });
     }
 
-    // Log du message pour traçabilité
-    console.log("[CONTACT] Nouveau message:", {
-      firstName,
-      lastName,
-      email,
-      phone,
-      at: new Date().toISOString(),
-    });
-
-    // Configuration Resend avec la vraie clé API
-    const resend = new Resend('re_MB4wYLT7_7vVHxxGCVMH3EhGKmk4fXpa9');
-
-    // Envoi de l'email
+    // Envoi de l'email avec style "Noir Pur" 
     const { data: emailData, error } = await resend.emails.send({
-      from: 'Site Web <onboarding@resend.dev>',
-      to: ['sacha.nahum@gmail.com'],
-      subject: `Nouveau contact: ${firstName} ${lastName}`,
+      from: 'Portfolio <onboarding@resend.dev>',
+      to: ['sacha.nahum@gmail.com'], // Email de destination [cite: 51]
+      subject: `CONTACT : ${firstName} ${lastName}`,
+      replyTo: email,
       html: `
-        <h2>Nouveau message de contact</h2>
-        <p><strong>Nom:</strong> ${lastName}</p>
-        <p><strong>Prénom:</strong> ${firstName}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Téléphone:</strong> ${phone || "-"}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-        <hr>
-        <p><em>Envoyé depuis le site web le ${new Date().toLocaleString('fr-FR')}</em></p>
-      `,
-      text: `Nom: ${lastName}\nPrénom: ${firstName}\nEmail: ${email}\nTéléphone: ${phone || "-"}\n\nMessage:\n${message}`,
-      replyTo: email
+        <div style="font-family: serif; color: #000000; line-height: 1.6; max-width: 600px;">
+          <h2 style="text-transform: uppercase; letter-spacing: 0.2em; border-bottom: 1px solid #000; padding-bottom: 10px;">
+            Nouveau Message de Contact
+          </h2>
+          <p><strong>Nom :</strong> ${lastName}</p>
+          <p><strong>Prénom :</strong> ${firstName}</p>
+          <p><strong>Email :</strong> ${email}</p>
+          <p><strong>Téléphone :</strong> ${phone || "-"}</p>
+          <div style="margin-top: 20px; border-top: 1px solid #000; pt: 10px;">
+            <p><strong>Message :</strong></p>
+            <p style="white-space: pre-wrap;">${message}</p>
+          </div>
+          <footer style="margin-top: 40px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: #000000;">
+            Envoyé depuis sacha-nahum.com
+          </footer>
+        </div>
+      `
     });
 
     if (error) {
-      console.error("[CONTACT] Erreur Resend:", error);
-      return Response.json({ ok: false, error: "Erreur d'envoi d'email" }, { status: 500 });
+      return Response.json({ ok: false, error: "Erreur d'envoi" }, { status: 500 });
     }
 
-    console.log("[CONTACT] Email envoyé avec succès:", emailData);
-    return Response.json({ ok: true, message: "Email envoyé avec succès" });
+    return Response.json({ ok: true, message: "Email envoyé" });
 
   } catch (err) {
-    console.error("[CONTACT] Erreur:", err);
     return Response.json({ ok: false, error: "Erreur serveur" }, { status: 500 });
   }
 }

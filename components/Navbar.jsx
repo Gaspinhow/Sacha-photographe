@@ -127,7 +127,7 @@ export default function Navbar() {
             <div className="flex gap-6 text-black/60">
               <a href="https://www.instagram.com/sacha_nahum" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">Instagram</a>
               <a href="mailto:contact@sacha-nahum.com" className="text-[10px] tracking-[0.2em] uppercase">Email</a>
-              <a href="https://www.linkedin.com/in/sacha-nahum" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/sacha-nahum-a06279281/" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">LinkedIn</a>
             </div>
           </li>
         </ul>
