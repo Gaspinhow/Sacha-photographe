@@ -1,13 +1,12 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
-// 1. IMPORT DU HOOK GLOBAL (Attention au chemin selon ton arborescence)
+// Vérifie bien ce chemin selon ton dossier app ou src
 import { useLanguage } from "../app/context/LanguageContext";
 
 export default function Footer() {
   const { lang } = useLanguage();
 
-  // 2. DICTIONNAIRE DE TRADUCTION
   const content = {
     FR: {
       copyright: "Tous droits réservés",
@@ -28,29 +27,29 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-white border-t border-gray-100 py-12 px-10">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+    <footer className="w-full bg-white border-t border-gray-100 py-16 px-6 md:px-12 font-serif">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
         
-        {/* Copyright & Nom */}
-        <div className="text-[10px] uppercase tracking-[0.3em] text-gray-400">
+        {/* Copyright & Nom - Noir pur et espacement large */}
+        <div className="text-[10px] uppercase tracking-[0.4em] text-black font-medium text-center md:text-left">
           © {new Date().getFullYear()} SACHA NAHUM — {content[lang].copyright}
         </div>
 
-        {/* Bouton Retour en haut (Optionnel mais pro) */}
+        {/* Bouton Retour en haut - Discret et élégant */}
         <button 
           onClick={scrollToTop}
-          className="text-[9px] uppercase tracking-[0.4em] text-gray-900 border-b border-black pb-1 hover:text-gray-400 hover:border-gray-400 transition-all"
+          className="text-[9px] uppercase tracking-[0.5em] text-black border-b border-black pb-1 hover:opacity-40 transition-all"
         >
           {content[lang].backToTop}
         </button>
 
-        {/* Liens secondaires & Crédits */}
-        <div className="flex gap-8 items-center">
-          <Link href="/legal" className="text-[10px] uppercase tracking-[0.3em] text-gray-400 hover:text-black transition-colors">
+        {/* Liens secondaires & Crédits avec ta signature */}
+        <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
+          <Link href="/legal" className="text-[10px] uppercase tracking-[0.3em] text-black/50 hover:text-black transition-colors">
             {content[lang].mentions}
           </Link>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-gray-200 font-light">
-            {content[lang].credits} <span className="text-gray-400">EPI</span>
+          <span className="text-[10px] uppercase tracking-[0.3em] text-black/30 font-light italic">
+            {content[lang].credits} <span className="text-black font-medium not-italic">Gaspar Lebacq</span>
           </span>
         </div>
 

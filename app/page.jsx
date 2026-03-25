@@ -13,47 +13,47 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-white pt-28 md:pt-40 pb-24 px-6 md:px-12 flex flex-col justify-center">
+    <main className="min-h-screen bg-white pt-32 md:pt-48 pb-24 px-6 md:px-12 flex flex-col items-center justify-center">
       
-      {/* Container : On utilise items-start pour que le décalage mt-32 fonctionne bien */}
-      <div className="max-w-[1300px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
+      {/* Grille alignée : Plus de décalage mt-32 ou de largeurs différentes */}
+      <div className="max-w-[1400px] w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
         
-        {/* Bloc Documentaire - Plus large sur mobile */}
+        {/* Bloc Documentaire */}
         <Link 
           href="/reportage" 
-          className="group relative block overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-[92%] md:w-full shadow-sm"
+          className="group relative block overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm"
         >
           <Image 
             src="/images/photo7.jpg" 
             alt="Documentary Section"
             fill
-            className="object-cover transition-transform duration-[2s] group-hover:scale-105 md:grayscale hover:grayscale-0" 
+            className="object-cover transition-transform duration-[2.5s] group-hover:scale-105" 
             sizes="(max-width: 768px) 100vw, 50vw"
-            quality={75}
+            quality={85}
             priority
           />
-          <div className="absolute inset-0 flex items-center justify-center bg-black/15 md:bg-black/5 md:opacity-0 group-hover:opacity-100 transition-all duration-700">
+          <div className="absolute inset-0 flex items-center justify-center bg-black/20 md:bg-black/10 opacity-100 md:opacity-0 group-hover:opacity-100 transition-all duration-700">
             <h2 className="text-white text-lg md:text-2xl font-serif uppercase tracking-[0.4em] pointer-events-none">
               {content[lang].documentary}
             </h2>
           </div>
         </Link>
 
-        {/* Bloc Business / Corporate - Décalé à droite et vers le bas sur mobile */}
+        {/* Bloc Business / Corporate - Maintenant aligné avec le premier */}
         <Link 
           href="/corporate" 
-          className="group relative block overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-[85%] ml-auto md:w-full mt-12 md:mt-32 shadow-sm"
+          className="group relative block overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm"
         >
           <Image 
             src="/images/slide6.jpg" 
             alt="Business Section"
             fill
-            className="object-cover transition-transform duration-[2s] group-hover:scale-105 md:grayscale hover:grayscale-0"
+            className="object-cover transition-transform duration-[2.5s] group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, 50vw"
-            quality={75}
+            quality={85}
             priority
           />
-          <div className="absolute inset-0 flex items-center justify-center bg-black/15 md:bg-black/5 md:opacity-0 group-hover:opacity-100 transition-all duration-700">
+          <div className="absolute inset-0 flex items-center justify-center bg-black/20 md:bg-black/10 opacity-100 md:opacity-0 group-hover:opacity-100 transition-all duration-700">
             <h2 className="text-white text-lg md:text-2xl font-serif uppercase tracking-[0.4em] pointer-events-none">
               {content[lang].business}
             </h2>
@@ -62,8 +62,9 @@ export default function Home() {
 
       </div>
 
-      <div className="mt-16 md:mt-24 text-center">
-        <p className="text-[8px] md:text-[10px] uppercase tracking-[0.6em] text-gray-300 font-light italic">
+      {/* Signature en Noir pur */}
+      <div className="mt-20 md:mt-32 text-center">
+        <p className="text-[9px] md:text-[10px] uppercase tracking-[0.5em] text-black font-medium">
           Sacha Nahum — Photography
         </p>
       </div>
