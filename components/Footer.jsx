@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
-// Vérifie bien ce chemin selon ton dossier app ou src
 import { useLanguage } from "../app/context/LanguageContext";
 
 export default function Footer() {
@@ -27,29 +26,32 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-white border-t border-gray-100 py-16 px-6 md:px-12 font-serif">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+    // Suppression du gris (border-t border-black)
+    <footer className="w-full bg-white border-t border-black py-16 px-6 md:px-12 font-serif text-black">
+      <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
         
-        {/* Copyright & Nom - Noir pur et espacement large */}
-        <div className="text-[10px] uppercase tracking-[0.4em] text-black font-medium text-center md:text-left">
+        {/* Copyright & Nom - Noir pur strict */}
+        <div className="text-[10px] uppercase tracking-[0.4em] font-medium text-center md:text-left">
           © {new Date().getFullYear()} SACHA NAHUM — {content[lang].copyright}
         </div>
 
-        {/* Bouton Retour en haut - Discret et élégant */}
+        {/* Bouton Retour en haut - Aligné sur le style minimaliste */}
         <button 
           onClick={scrollToTop}
-          className="text-[9px] uppercase tracking-[0.5em] text-black border-b border-black pb-1 hover:opacity-40 transition-all"
+          className="text-[9px] uppercase tracking-[0.5em] border-b border-black pb-1 hover:opacity-40 transition-all"
         >
           {content[lang].backToTop}
         </button>
 
-        {/* Liens secondaires & Crédits avec ta signature */}
+        {/* Liens & Signature Gaspar Lebacq */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
-          <Link href="/legal" className="text-[10px] uppercase tracking-[0.3em] text-black/50 hover:text-black transition-colors">
+          {/* CORRECTION DU LIEN : on met /mentions-legales pour stopper la 404 Google */}
+          <Link href="/mentions-legales" className="text-[10px] uppercase tracking-[0.3em] hover:opacity-40 transition-opacity">
             {content[lang].mentions}
           </Link>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-black/30 font-light italic">
-            {content[lang].credits} <span className="text-black font-medium not-italic">Gaspar Lebacq</span>
+          
+          <span className="text-[10px] uppercase tracking-[0.3em] font-light italic">
+            {content[lang].credits} <span className="font-medium not-italic">Gaspar Lebacq</span>
           </span>
         </div>
 
