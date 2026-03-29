@@ -2,11 +2,16 @@
   "id": "indonesie",
   "category": "reportage",
   "title": "Soufriers d'Indonésie",
-  "description": "Une immersion brute au cœur des cratères, là où l'humanité défie les éléments.",
-  "coverImage": "/images/3.jpg",
+  "description": "Les porteurs de soufre ",
+  "coverImage": "/images/indexindo.jpg",
   "images": [
-    "/images/4.jpg",
-    "/images/photo9.jpg",
-    "/images/photo11.jpg"
+    "/images/indo1.jpg",
+    "/images/indo2.jpg",
+    "/images/indo4.jpg",
+    "/images/indo5.jpg",
+    "/images/indo6.jpg",
+    "/images/indo7.jpg",
+    "/images/indo8jpg",
+    "/images/indo9.jpg"
   ]
 }

@@ -1,0 +1,16 @@
+{
+    "id": "laponie",
+    "category": "reportage",
+    "title": "Pêche en Laponie",
+    "description": "Perdu dans la toundra finlandaise et dans l’attente, très longue et froide d’attraper quelque chose",
+    "coverImage": "/images/indexlapo.jpg",
+    "images": [
+      "/images/lapo1.jpg",
+      "/images/lapo2.jpg", 
+      "/images/lapo3.jpg",
+      "/images/lapo4.jpg",
+      "/images/lapo5.jpg",
+      "/images/lapo6.jpg",
+      "/images/lapo7.jpg"
+  ]
+  }

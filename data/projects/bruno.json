@@ -1,0 +1,19 @@
+{
+    "id": "Bruno",
+    "category": "reportage",
+    "title": "Le menuisier du tram",
+    "description": "Bruno du tram",
+    "coverImage": "/images/indexbruno.jpg",
+    "images": [
+      "/images/bruno1.jpg",
+      "/images/bruno2.jpg",
+      "/images/bruno3.jpg",
+      "/images/bruno4.jpg",
+      "/images/bruno5.jpg",
+      "/images/bruno6.jpg",
+      "/images/bruno7.jpg",
+      "/images/bruno8.jpg",
+      "/images/bruno9.jpg",
+      "/images/bruno10.jpg"
+    ]
+  }

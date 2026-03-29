@@ -1,0 +1,18 @@
+{
+    "id": "TMB",
+    "category": "reportage",
+    "title": "Genesis Du Mont Blanc",
+    "description": "Le tour du mont blanc représente environ. 170 Km, tout au long, des paysages immenses",
+    "coverImage": "/images/indextmb.jpg",
+    "images": [
+      "/images/tmb1.jpg",
+      "/images/tmb2.jpg",
+      "/images/tmb3.jpg",
+      "/images/tmb4.jpg",
+      "/images/tmb5.jpg",
+      "/images/tmb6.jpg",
+      "/images/tmb7.jpg",
+      "/images/tmb8.jpg",
+      "/images/tmb9.jpg"
+    ]
+  }

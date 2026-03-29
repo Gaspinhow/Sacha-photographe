@@ -1,0 +1,16 @@
+{
+    "id": "bagarre",
+    "category": "reportage",
+    "title": "Bagarre",
+    "description": "Concert du groupe BAGARRE a la Maroquinerie à l’occasion de leur dernier album",
+    "coverImage": "/images/indexbagarre.jpg",
+    "images": [
+      "/images/bagarre1.jpg",
+      "/images/bagarre2.jpg",
+      "/images/bagarre3.jpg",
+      "/images/bagarre4.jpg",
+      "/images/bagarre5.jpg",
+      "/images/bagarre6.jpg",
+      "/images/bagarre7.jpg"
+    ]
+  }

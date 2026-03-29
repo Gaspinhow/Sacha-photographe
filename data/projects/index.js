@@ -1,7 +1,9 @@
 // --- REPORTAGES ---
 import indonesie from './indonesie.json';
-import banlieue from './banlieue.json';
-
+import TMB from './TMB.json';
+import bagarre from './bagarre.json';
+import laponie from './laponie.json';
+import Bruno from './bruno.json';
 // --- CORPORATE (Missions Business & Institutionnelles) ---
 import ambassade from './ambassade-rdc-france.json';
 import creditAgricole from './credit-agricole-limousin.json';
@@ -22,7 +24,10 @@ import snitem from './assemblee-generale-du-snitem-roland-garros.json';
 export const projects = [
   // SECTION REPORTAGE
   { ...indonesie, id: "indonesie", category: "reportage" },
-  { ...banlieue, id: "banlieue", category: "reportage" },
+  { ...TMB, id: "TMB", category: "reportage" },
+  { ...Bruno, id: "Bruno", category: "reportage" },
+  { ...bagarre, id: "bagarre", category: "reportage" },
+  { ...laponie, id: "laponie", category: "reportage" },
 
   // SECTION CORPORATE
   { ...ambassade, id: "ambassade-rdc", category: "corporate" },
