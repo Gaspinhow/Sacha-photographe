@@ -9,7 +9,6 @@ export default function Corporate() {
   const { lang } = useLanguage();
 
   const realProjects = projects ? projects.filter(p => p.category === "corporate") : [];
-  // On garde 10 placeholders comme tu avais prévu
   const placeholders = Array(10).fill({ isPlaceholder: true });
 
   const content = {
@@ -28,7 +27,6 @@ export default function Corporate() {
   return (
     <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-4 md:px-12 lg:px-20 text-black font-serif">
       
-      {/* HEADER : COPIÉ SUR REPORTAGE */}
       <header className="max-w-4xl mx-auto text-left mb-16 md:mb-32">
         <h1 className="text-xl md:text-3xl font-serif uppercase tracking-[0.2em] leading-relaxed text-black">
           {content[lang].title}
@@ -38,10 +36,8 @@ export default function Corporate() {
         </p>
       </header>
 
-      {/* --- GRILLE ALIGNÉE (IDENTIQUE À REPORTAGE) --- */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12 md:gap-x-10 md:gap-y-16 max-w-7xl mx-auto">
         {[...realProjects, ...placeholders].map((item, index) => {
-          // Ratios variés pour garder le côté "Artsy" de Reportage
           const ratios = ["aspect-[3/4]", "aspect-[4/5]", "aspect-square", "aspect-[2/3]"];
           const currentRatio = ratios[index % ratios.length];
 
@@ -56,8 +52,8 @@ export default function Corporate() {
           }
 
           return (
+            /* IMPORTANT : On pointe vers /reportage/ car c'est là que se trouve ton fichier [id]/page.jsx */
             <Link key={item.id} href={`/reportage/${item.id}`} className="group block w-full text-center">
-              {/* IMAGE SANS TEXTE DESSUS */}
               <div className={`relative w-full ${currentRatio} overflow-hidden bg-gray-50 shadow-sm mb-4 mx-auto`}>
                 <Image
                   src={item.coverImage || (item.images && item.images[0])}
@@ -69,7 +65,6 @@ export default function Corporate() {
                 />
               </div>
               
-              {/* TITRE : NOIR, CENTRÉ, EN DESSOUS (COMME REPORTAGE) */}
               <p className="text-[10px] uppercase tracking-[0.3em] text-black font-medium text-center px-2">
                 {item.title}
               </p>

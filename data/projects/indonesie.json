@@ -2,7 +2,9 @@
   "id": "indonesie",
   "category": "reportage",
   "title": "Soufriers d'Indonésie",
-  "description": "Les porteurs de soufre ",
+  "titleEN": "Sulfur Miners of Indonesia",
+  "description": "Les porteurs de soufre se trouvent dans des conditions de travail extrêmement dangereuses, tout cela dans le seul but de subvenir aux besoins de leur famille. Ils opèrent sans masques à gaz ni chemins sécurisés pour gravir ce cratère. À proximité de la solfatare, on découvre un lac considéré comme le plus acide de la planète, avec en prime les risques d'effondrements des parois rocheuses. Malgré tous ces périls, ils rejettent l'idée d'automatiser le processus de récupération du soufre, de peur que cela n'entraîne des pertes d'emplois et financières.",
+  "descriptionEN": "Sulfur miners work in extremely dangerous conditions, all with the sole purpose of providing for their families. They operate without gas masks or secure paths to climb the crater. Near the solfatara, a lake considered the most acidic on the planet can be found, with the added risks of rock wall collapses. Despite all these perils, they reject the idea of automating the sulfur recovery process, fearing it would lead to job and financial losses.",
   "coverImage": "/images/indexindo.jpg",
   "images": [
     "/images/indo1.jpg",
@@ -11,7 +13,7 @@
     "/images/indo5.jpg",
     "/images/indo6.jpg",
     "/images/indo7.jpg",
-    "/images/indo8jpg",
+    "/images/indo8.jpg",
     "/images/indo9.jpg"
   ]
 }

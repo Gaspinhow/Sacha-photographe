@@ -2,7 +2,9 @@
     "id": "laponie",
     "category": "reportage",
     "title": "Pêche en Laponie",
+    "titleEN": "Fishing in Lapland",
     "description": "Perdu dans la toundra finlandaise et dans l’attente, très longue et froide d’attraper quelque chose",
+    "descriptionEN":"Lost in the Finnish tundra, waiting — a long, cold wait — to catch something.",
     "coverImage": "/images/indexlapo.jpg",
     "images": [
       "/images/lapo1.jpg",
