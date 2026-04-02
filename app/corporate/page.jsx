@@ -61,7 +61,7 @@ export default function Corporate() {
                   fill
                   className="object-cover transition-transform duration-[2s] group-hover:scale-105"
                   sizes="(max-width: 768px) 50vw, 25vw"
-                  quality={85}
+                  priority={index < 4}
                 />
               </div>
               

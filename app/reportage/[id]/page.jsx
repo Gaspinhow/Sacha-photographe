@@ -32,12 +32,12 @@ export default function ProjectPage() {
             const currentRatio = "aspect-[3/2] md:aspect-auto"; 
 
             return (
-              <motion.div 
+              <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: true }}
+                transition={{ duration: 0.4 }}
+                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
                 className={`relative w-full ${isEven ? 'md:mt-40' : ''}`}
               >
                 <div className={`relative shadow-sm overflow-hidden bg-gray-50 ${currentRatio} w-full min-h-[300px]`}>
@@ -45,10 +45,9 @@ export default function ProjectPage() {
                     src={img}
                     alt={`${displayTitle}-${index}`}
                     fill
-                    // MOBILE: contain (pour voir toute la photo) | DESKTOP: cover (pour le style)
-                    className="object-contain md:object-cover" 
+                    className="object-contain md:object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    quality={90}
+                    priority={index < 4}
                   />
                 </div>
               </motion.div>

@@ -44,7 +44,7 @@ export default function Reportage() {
                   fill
                   className="object-cover md:group-hover:scale-105 transition-transform duration-[2s]"
                   sizes="(max-width: 768px) 50vw, 25vw"
-                  quality={85}
+                  priority={index < 4}
                 />
               </div>
               <p className="text-[10px] uppercase tracking-[0.3em] text-black font-medium text-center px-2">{item.title}</p>
