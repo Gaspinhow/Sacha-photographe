@@ -5,17 +5,17 @@
   "titleEN": "The Tram Carpenter",
   "description": "Cet homme est un ancien menuisier de 63 ans qui, depuis trois années, aménage son territoire. Entre tram et périphérique, il a construit à l’aide de ses compétences un habitat qui dénote du paysage environnant, comme une faille dans l’environnement. Faites de planche, de palette, de clous, sa cabane trouve sa place entre la végétation et le béton. Il est aussi équipé d’appareils électroménagers, de générateur électrique de gaz, lui permettant l’accès à tout l’équipement nécessaire pour vivre convenablement, réalisant gâteaux, entretien, et autre banalité du quotidien. Il est loin des préjugés que l’on se fait des marginaux. Bruno est aussi accompagné chaque jour par sa chienne Pixie, qui semble apprécier cette existence en marge des normes tout autant que son maître. Son style de vie reste complexe et parfois dangereux ; il peut à tout moment être expulsé de son lieu de vie et, si ce n’est pas forcé, il en sera contraint. Bruno doit parfois faire face à du voisinage nocif, comme un toxicomane qui a déjà essayé de mettre le feu à sa maison et qui a récemment brûlé tout le campement d’un voisin plus loin sur la bande de terre où il vit.",
   "descriptionEN": "This man is a 63-year-old former carpenter who has been developing his territory for three years. Between the tramway and the ring road, he used his skills to build a habitat that stands out from the surrounding landscape, like a rift in the environment. Made of boards, pallets, and nails, his cabin finds its place between vegetation and concrete. He is also equipped with household appliances and a gas electric generator, giving him access to everything necessary to live comfortably—baking cakes, doing maintenance, and other everyday tasks. He is far from the common prejudices held about marginalized people. Bruno is also accompanied every day by his dog Pixie, who seems to enjoy this existence on the fringes of norms as much as her master. His lifestyle remains complex and sometimes dangerous; he can be evicted from his home at any moment and, if not forced out, he will eventually be compelled to leave. Bruno must sometimes deal with harmful neighbors, such as a drug addict who has already tried to set fire to his house and recently burned down a neighbor's entire camp further down the strip of land where he lives.",
-  "coverImage": "/images/indexbruno.jpg",
+  "coverImage": "/images-compressed/indexbruno.webp",
   "images": [
-    "/images/bruno1.jpg",
-    "/images/bruno2.jpg",
-    "/images/bruno3.jpg",
-    "/images/bruno4.jpg",
-    "/images/bruno5.jpg",
-    "/images/bruno6.jpg",
-    "/images/bruno7.jpg",
-    "/images/bruno8.jpg",
-    "/images/bruno9.jpg",
-    "/images/bruno10.jpg"
+    "/images-compressed/bruno1.webp",
+    "/images-compressed/bruno2.webp",
+    "/images-compressed/bruno3.webp",
+    "/images-compressed/bruno4.webp",
+    "/images-compressed/bruno5.webp",
+    "/images-compressed/bruno6.webp",
+    "/images-compressed/bruno7.webp",
+    "/images-compressed/bruno8.webp",
+    "/images-compressed/bruno9.webp",
+    "/images-compressed/bruno10.webp"
   ]
 }

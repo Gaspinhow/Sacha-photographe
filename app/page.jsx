@@ -23,7 +23,7 @@ export default function Home() {
           {/* Conteneur Image avec zoom hover */}
           <div className="relative overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm mb-4 mx-auto">
             <Image 
-              src="/images/indexacc.jpg" 
+              src="/images-compressed/indexacc.webp" 
               alt="Documentary Section"
               fill
               className="object-cover transition-transform duration-[2.5s] group-hover:scale-105" 
@@ -45,7 +45,7 @@ export default function Home() {
           {/* Ajout de 'mx-auto' pour s'assurer que le bloc image est bien au centre */}
           <div className="relative overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm mb-4 mx-auto">
             <Image 
-              src="/images/indexcorp.jpg" 
+              src="/images-compressed/indexcorp.webp" 
               alt="Business Section"
               fill
               className="object-cover transition-transform duration-[2.5s] group-hover:scale-105"

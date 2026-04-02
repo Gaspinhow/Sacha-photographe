@@ -28,7 +28,7 @@ export default function QuiSuisJe() {
         {/* Colonne Image - Look Mosaïque sur Mobile */}
         <div className="relative w-[88%] md:w-full aspect-[4/5] bg-gray-50 overflow-hidden shadow-sm transition-all duration-1000">
           <Image 
-            src="/images/photosach.jpg" 
+            src="/images-compressed/photosach.webp" 
             alt="Sacha Nahum"
             fill
             className="object-cover md:grayscale hover:grayscale-0 transition-all duration-1000"

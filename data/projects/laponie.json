@@ -5,14 +5,14 @@
     "titleEN": "Fishing in Lapland",
     "description": "Perdu dans la toundra finlandaise et dans l’attente, très longue et froide d’attraper quelque chose",
     "descriptionEN":"Lost in the Finnish tundra, waiting — a long, cold wait — to catch something.",
-    "coverImage": "/images/indexlapo.jpg",
+    "coverImage": "/images-compressed/indexlapo.webp",
     "images": [
-      "/images/lapo1.jpg",
-      "/images/lapo2.jpg", 
-      "/images/lapo3.jpg",
-      "/images/lapo4.jpg",
-      "/images/lapo5.jpg",
-      "/images/lapo6.jpg",
-      "/images/lapo7.jpg"
+      "/images-compressed/lapo1.webp",
+      "/images-compressed/lapo2.webp", 
+      "/images-compressed/lapo3.webp",
+      "/images-compressed/lapo4.webp",
+      "/images-compressed/lapo5.webp",
+      "/images-compressed/lapo6.webp",
+      "/images-compressed/lapo7.webp"
   ]
   }

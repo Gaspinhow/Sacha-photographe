@@ -5,16 +5,16 @@
     "titleEN":"Genesis of Mont Blanc",
     "description": "Le tour du mont blanc représente environ. 170 Km, tout au long, des paysages immenses",
     "descriptionEN": "The Tour du Mont Blanc covers approximately 170 km, lined throughout with vast, sweeping landscapes.",
-    "coverImage": "/images/indextmb.jpg",
+    "coverImage": "/images-compressed/indextmb.webp",
     "images": [
-      "/images/tmb1.jpg",
-      "/images/tmb2.jpg",
-      "/images/tmb3.jpg",
-      "/images/tmb4.jpg",
-      "/images/tmb5.jpg",
-      "/images/tmb6.jpg",
-      "/images/tmb7.jpg",
-      "/images/tmb8.jpg",
-      "/images/tmb9.jpg"
+      "/images-compressed/tmb1.webp",
+      "/images-compressed/tmb2.webp",
+      "/images-compressed/tmb3.webp",
+      "/images-compressed/tmb4.webp",
+      "/images-compressed/tmb5.webp",
+      "/images-compressed/tmb6.webp",
+      "/images-compressed/tmb7.webp",
+      "/images-compressed/tmb8.webp",
+      "/images-compressed/tmb9.webp"
     ]
   }
