@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from "../context/LanguageContext"; 
 import { motion } from "framer-motion";
+import Logo from "../../components/Logo";
 
 export default function Contact() {
   const { lang } = useLanguage();
@@ -76,13 +77,14 @@ export default function Contact() {
           >
             {content[lang].title}
           </motion.h1>
-          <p className="text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-gray-400 font-light italic leading-relaxed">
+          <p className="text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-black/80 font-light italic leading-relaxed">
             {content[lang].subtitle}
           </p>
           <div className="hidden md:block pt-12">
-             <p className="text-[9px] uppercase tracking-[0.5em] text-gray-300 font-light">
-               Sacha Nahum — Paris
-             </p>
+             <Logo
+               className="h-16 w-auto object-contain"
+               placeholderClassName="h-16 w-40"
+             />
           </div>
         </header>
 
@@ -92,34 +94,34 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
               <input 
                 name="firstName" type="text" required placeholder={content[lang].firstName}
-                className="w-full border-b border-gray-100 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-gray-300"
+                className="w-full border-b border-black/30 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-black/70"
               />
               <input 
                 name="lastName" type="text" required placeholder={content[lang].lastName}
-                className="w-full border-b border-gray-100 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-gray-300"
+                className="w-full border-b border-black/30 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-black/70"
               />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
               <input 
                 name="email" type="email" required placeholder={content[lang].email}
-                className="w-full border-b border-gray-100 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-gray-300"
+                className="w-full border-b border-black/30 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-black/70"
               />
               <input 
                 name="phone" type="tel" placeholder={content[lang].phone}
-                className="w-full border-b border-gray-100 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-gray-300"
+                className="w-full border-b border-black/30 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent rounded-none placeholder-black/70"
               />
             </div>
 
             <textarea 
               name="message" rows="5" required placeholder={content[lang].message}
-              className="w-full border-b border-gray-100 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent resize-none rounded-none placeholder-gray-300"
+              className="w-full border-b border-black/30 py-4 text-[11px] uppercase tracking-[0.2em] outline-none focus:border-black transition-all bg-transparent resize-none rounded-none placeholder-black/70"
             ></textarea>
 
             <div className="flex flex-col gap-10 pt-4">
               <button 
                 disabled={status === 'loading'}
-                className="w-full md:w-fit px-20 py-5 border border-black/10 hover:border-black text-[10px] font-bold uppercase tracking-[0.5em] transition-all duration-700 bg-black text-white md:bg-transparent md:text-black md:hover:bg-black md:hover:text-white"
+                className="w-full md:w-fit px-20 py-5 border border-black/40 hover:border-black text-[10px] font-bold uppercase tracking-[0.5em] transition-all duration-700 bg-black text-white md:bg-transparent md:text-black md:hover:bg-black md:hover:text-white"
               >
                 {status === 'loading' ? content[lang].sending : content[lang].send}
               </button>
@@ -127,7 +129,7 @@ export default function Contact() {
               <div className="space-y-4">
                 {status === 'success' && <p className="text-green-600 text-[10px] uppercase tracking-widest">{content[lang].success}</p>}
                 {status === 'error' && <p className="text-red-600 text-[10px] uppercase tracking-widest">{content[lang].error}</p>}
-                <p className="text-[9px] uppercase tracking-[0.3em] text-gray-300 italic">
+                <p className="text-[9px] uppercase tracking-[0.3em] text-black/80 italic">
                   {content[lang].info}
                 </p>
               </div>
