@@ -26,13 +26,13 @@ export const metadata = {
     type: "website",
     locale: "fr_FR",
     siteName: "Sacha Nahum Photographe",
-    images: [{ url: "/images-compressed/repo.webp", width: 1200, height: 630, alt: "Sacha Nahum - Photographe professionnel" }]
+    images: [{ url: "/images-compressed/indexacc.webp", width: 1200, height: 630, alt: "Sacha Nahum - Photographe professionnel" }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Sacha Nahum – Photographe professionnel",
     description: "Photographe professionnel spécialisé dans les événements d'entreprise, reportages institutionnels et portraits artistiques.",
-    images: ["/images-compressed/repo.webp"]
+    images: ["/images-compressed/indexacc.webp"]
   },
   robots: { index: true, follow: true },
   verification: { google: "google5e410f2d46014fbe" }
