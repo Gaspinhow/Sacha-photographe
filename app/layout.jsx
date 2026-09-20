@@ -47,7 +47,6 @@ export default function RootLayout({ children }) {
       {/* Changement ici : font-serif pour activer la Garamond sur tout le texte du site */}
       <body className="font-serif antialiased text-black bg-white">
         <LanguageProvider>
-          <div className="cursor-glow" />
           <Navbar />
           {children}
           <Footer />

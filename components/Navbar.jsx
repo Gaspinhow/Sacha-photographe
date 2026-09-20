@@ -35,6 +35,7 @@ export default function Navbar() {
         {/* LOGO */}
         <Link 
           href="/" 
+          aria-label={lang === "EN" ? "Sacha Nahum — home" : "Sacha Nahum — accueil"}
           className="flex items-center hover:opacity-60 transition-opacity"
         >
           <Logo
@@ -65,27 +66,29 @@ export default function Navbar() {
         {/* Desktop Actions & Socials */}
         <div className="hidden md:flex items-center gap-8">
           <button 
+            type="button"
             onClick={toggleLang}
+            aria-label={lang === "FR" ? "Switch to English" : "Passer en français"}
             className="text-[10px] font-bold tracking-[0.2em] border border-black px-3 py-1 hover:bg-black hover:text-white transition-all uppercase"
           >
             {lang}
           </button>
 
           <div className="flex items-center gap-5 text-black">
-            <a href="https://www.instagram.com/sacha_nahum" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
+            <a href="https://www.instagram.com/sacha_nahum" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:opacity-50 transition-opacity">
               <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.2" viewBox="0 0 24 24">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                 <circle cx="12" cy="12" r="4"/>
                 <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
               </svg>
             </a>
-            <a href="mailto:photo@sacha-nahum.com" className="hover:opacity-50 transition-opacity">
+            <a href="mailto:photo@sacha-nahum.com" aria-label={lang === "EN" ? "Send an email" : "Envoyer un e-mail"} className="hover:opacity-50 transition-opacity">
               <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.2" viewBox="0 0 24 24">
                 <rect x="2" y="4" width="20" height="16" rx="2"/>
                 <polyline points="2,4 12,13 22,4"/>
               </svg>
             </a>
-            <a href="https://fr.linkedin.com/in/sacha-nahum-a06279281" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
+            <a href="https://fr.linkedin.com/in/sacha-nahum-a06279281" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:opacity-50 transition-opacity">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
                 <circle cx="4" cy="4" r="2"/>
@@ -95,7 +98,14 @@ export default function Navbar() {
         </div>
 
         {/* Mobile burger */}
-        <button className="md:hidden p-2 text-black" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+        <button
+          type="button"
+          className="md:hidden p-2 text-black"
+          aria-label={mobileMenuOpen ? (lang === "EN" ? "Close menu" : "Fermer le menu") : (lang === "EN" ? "Open menu" : "Ouvrir le menu")}
+          aria-expanded={mobileMenuOpen}
+          aria-controls="menu-mobile"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
           <div className="flex flex-col gap-1.5">
             <span className={clsx("w-6 h-px bg-black transition-all", mobileMenuOpen ? "rotate-45 translate-y-2" : "")}></span>
             <span className={clsx("w-6 h-px bg-black transition-all", mobileMenuOpen ? "opacity-0" : "")}></span>
@@ -105,7 +115,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      <div className={clsx(
+      <div id="menu-mobile" className={clsx(
         "md:hidden bg-white border-t border-gray-100 transition-all duration-500 overflow-hidden",
         mobileMenuOpen ? "max-h-screen pb-10" : "max-h-0"
       )}>
@@ -125,7 +135,7 @@ export default function Navbar() {
             </li>
           ))}
           <li className="flex flex-col gap-8 pt-8 border-t border-gray-50 mt-4 pl-4">
-             <button onClick={toggleLang} className="w-fit text-[10px] font-bold tracking-widest border border-black px-4 py-1.5 uppercase">
+             <button type="button" onClick={toggleLang} aria-label={lang === "FR" ? "Switch to English" : "Passer en français"} className="w-fit text-[10px] font-bold tracking-widest border border-black px-4 py-1.5 uppercase">
               {lang}
             </button>
             <div className="flex gap-6 text-black/60">

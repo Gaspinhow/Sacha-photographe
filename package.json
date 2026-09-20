@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "images:sizes": "node scripts/generate-image-sizes.mjs",
+    "images": "node scripts/generate-image-sizes.mjs",
     "lint": "next lint"
   },
   "dependencies": {
