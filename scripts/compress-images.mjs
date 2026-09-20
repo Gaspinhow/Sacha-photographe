@@ -27,6 +27,9 @@ async function compressImages() {
     const sizeBefore = statBefore.size;
 
     await sharp(inputPath)
+      // .rotate() sans argument applique l'orientation EXIF :
+      // sans ça, les photos prises en portrait ressortent couchées.
+      .rotate()
       .resize({ width: MAX_WIDTH, withoutEnlargement: true })
       .webp({ quality: QUALITY })
       .toFile(outputPath);
