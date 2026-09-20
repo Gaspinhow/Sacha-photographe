@@ -27,22 +27,6 @@
   a { text-decoration: none; }
 }
 
-/* --- OPTIMISATION IMAGES --- */
-img, .next-image {
-  /* On s'assure que les photos sont TOUJOURS en couleur */
-  filter: grayscale(0) !important;
-  -webkit-filter: grayscale(0) !important;
-  transition: filter 0.5s ease;
-}
-
-/* --- EFFETS VISUELS --- */
-.cursor-glow {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 40;
-  background: radial-gradient(600px 600px at var(--x, 50%) var(--y, 50%), rgba(0,0,0, 0.03), transparent 60%);
-}
 
 .reveal {
   opacity: 0;

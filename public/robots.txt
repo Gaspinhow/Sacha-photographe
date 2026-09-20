@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://votre-domaine.com/sitemap.xml
-
-# Optimisations pour les moteurs de recherche
-Crawl-delay: 1
+Sitemap: https://www.sacha-nahum.com/sitemap.xml

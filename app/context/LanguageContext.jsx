@@ -1,17 +1,37 @@
 "use client";
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
-// On crée la boîte qui contiendra la langue
 const LanguageContext = createContext();
 
+const STORAGE_KEY = 'sn-lang';
+
 export function LanguageProvider({ children }) {
-  // Par défaut, on met en FR
   const [lang, setLang] = useState('FR');
 
-  // La fonction pour switcher entre FR et EN
-  const toggleLang = () => {
-    setLang((prev) => (prev === 'FR' ? 'EN' : 'FR'));
-  };
+  // Le choix de langue était perdu à chaque rafraîchissement.
+  // On le relit au montage, et pas avant : le serveur rend toujours du FR,
+  // donc lire plus tôt provoquerait une différence serveur / navigateur.
+  useEffect(() => {
+    try {
+      const saved = window.localStorage.getItem(STORAGE_KEY);
+      if (saved === 'EN' || saved === 'FR') setLang(saved);
+    } catch {
+      // navigation privée ou stockage bloqué : on reste en FR
+    }
+  }, []);
+
+  // L'attribut lang de la page restait à "fr" même en anglais : les lecteurs
+  // d'écran prononçaient le contenu anglais avec la phonétique française.
+  useEffect(() => {
+    document.documentElement.lang = lang === 'EN' ? 'en' : 'fr';
+    try {
+      window.localStorage.setItem(STORAGE_KEY, lang);
+    } catch {
+      // stockage indisponible : le choix vaut pour la visite en cours
+    }
+  }, [lang]);
+
+  const toggleLang = () => setLang((prev) => (prev === 'FR' ? 'EN' : 'FR'));
 
   return (
     <LanguageContext.Provider value={{ lang, toggleLang }}>
@@ -20,7 +40,6 @@ export function LanguageProvider({ children }) {
   );
 }
 
-// C'est ce petit hook qu'on utilisera dans tes pages pour récupérer la langue
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) {
