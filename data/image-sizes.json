@@ -1,0 +1,2288 @@
+{
+  "/images-compressed/bagarre1.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre1.webp"
+      }
+    ]
+  },
+  "/images-compressed/bagarre2.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre2.webp"
+      }
+    ]
+  },
+  "/images-compressed/bagarre3.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre3.webp"
+      }
+    ]
+  },
+  "/images-compressed/bagarre4.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre4.webp"
+      }
+    ]
+  },
+  "/images-compressed/bagarre5.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre5.webp"
+      }
+    ]
+  },
+  "/images-compressed/bagarre6.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre6.webp"
+      }
+    ]
+  },
+  "/images-compressed/bagarre7.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bagarre7-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bagarre7-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bagarre7-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bagarre7.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno1.webp": {
+    "w": 2400,
+    "h": 1801,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno1.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno10.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno10-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno10-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno10-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno10.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno2.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno2.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno3.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno3.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno4.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno4.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno5.webp": {
+    "w": 2400,
+    "h": 1802,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno5.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno6.webp": {
+    "w": 2400,
+    "h": 1802,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno6.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno7.webp": {
+    "w": 2400,
+    "h": 1802,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno7-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno7-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno7-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno7.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno8.webp": {
+    "w": 2400,
+    "h": 1802,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno8-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno8-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno8-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno8.webp"
+      }
+    ]
+  },
+  "/images-compressed/bruno9.webp": {
+    "w": 2400,
+    "h": 1802,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/bruno9-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/bruno9-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/bruno9-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/bruno9.webp"
+      }
+    ]
+  },
+  "/images-compressed/indexacc.webp": {
+    "w": 2400,
+    "h": 1802,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indexacc-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indexacc-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indexacc-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indexacc.webp"
+      }
+    ]
+  },
+  "/images-compressed/indexbagarre.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indexbagarre-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indexbagarre-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indexbagarre-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indexbagarre.webp"
+      }
+    ]
+  },
+  "/images-compressed/indexbruno.webp": {
+    "w": 2400,
+    "h": 1920,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indexbruno-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indexbruno-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indexbruno-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indexbruno.webp"
+      }
+    ]
+  },
+  "/images-compressed/indexcorp.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indexcorp-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indexcorp-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indexcorp-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indexcorp.webp"
+      }
+    ]
+  },
+  "/images-compressed/indexindo.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indexindo-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indexindo-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indexindo-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indexindo.webp"
+      }
+    ]
+  },
+  "/images-compressed/indexlapo.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indexlapo-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indexlapo-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indexlapo-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indexlapo.webp"
+      }
+    ]
+  },
+  "/images-compressed/indextmb.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indextmb-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indextmb-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indextmb-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indextmb.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo1.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo1.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo2.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo2.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo4.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo4.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo5.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo5.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo6.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo6.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo7.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo7-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo7-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo7-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo7.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo8.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo8-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo8-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo8-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo8.webp"
+      }
+    ]
+  },
+  "/images-compressed/indo9.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/indo9-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/indo9-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/indo9-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/indo9.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo1.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo1.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo2.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo2.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo3.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo3.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo4.webp": {
+    "w": 2400,
+    "h": 1876,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo4.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo5.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo5.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo6.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo6.webp"
+      }
+    ]
+  },
+  "/images-compressed/lapo7.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/lapo7-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/lapo7-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/lapo7-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/lapo7.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1.webp": {
+    "w": 2048,
+    "h": 1536,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1-1200.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2.webp": {
+    "w": 1024,
+    "h": 768,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3.webp": {
+    "w": 820,
+    "h": 615,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3-800.webp"
+      },
+      {
+        "w": 820,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4.webp": {
+    "w": 820,
+    "h": 615,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4-800.webp"
+      },
+      {
+        "w": 820,
+        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1.webp": {
+    "w": 1503,
+    "h": 1000,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1-1200.webp"
+      },
+      {
+        "w": 1503,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2.webp": {
+    "w": 1144,
+    "h": 761,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2-800.webp"
+      },
+      {
+        "w": 1144,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3.webp": {
+    "w": 1130,
+    "h": 753,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3-800.webp"
+      },
+      {
+        "w": 1130,
+        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1.webp": {
+    "w": 1652,
+    "h": 1101,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1-1200.webp"
+      },
+      {
+        "w": 1652,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2.webp": {
+    "w": 1607,
+    "h": 1072,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2-1200.webp"
+      },
+      {
+        "w": 1607,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3.webp": {
+    "w": 1649,
+    "h": 1099,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3-1200.webp"
+      },
+      {
+        "w": 1649,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4.webp": {
+    "w": 1556,
+    "h": 1037,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4-1200.webp"
+      },
+      {
+        "w": 1556,
+        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1.webp": {
+    "w": 2208,
+    "h": 1474,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1-1200.webp"
+      },
+      {
+        "w": 2208,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2.webp": {
+    "w": 1472,
+    "h": 983,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2-1200.webp"
+      },
+      {
+        "w": 1472,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3.webp": {
+    "w": 1188,
+    "h": 793,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3-800.webp"
+      },
+      {
+        "w": 1188,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4.webp": {
+    "w": 1472,
+    "h": 983,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4-1200.webp"
+      },
+      {
+        "w": 1472,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5.webp": {
+    "w": 1174,
+    "h": 781,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5-800.webp"
+      },
+      {
+        "w": 1174,
+        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2.webp": {
+    "w": 1472,
+    "h": 983,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2-1200.webp"
+      },
+      {
+        "w": 1472,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3.webp": {
+    "w": 1466,
+    "h": 979,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3-1200.webp"
+      },
+      {
+        "w": 1466,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4.webp": {
+    "w": 1472,
+    "h": 983,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4-1200.webp"
+      },
+      {
+        "w": 1472,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5.webp": {
+    "w": 1329,
+    "h": 887,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5-1200.webp"
+      },
+      {
+        "w": 1329,
+        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.webp": {
+    "w": 2400,
+    "h": 1351,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.webp": {
+    "w": 2400,
+    "h": 1351,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4-1200.webp"
+      },
+      {
+        "w": 1800,
+        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1.webp": {
+    "w": 1612,
+    "h": 1075,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1-1200.webp"
+      },
+      {
+        "w": 1612,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2.webp": {
+    "w": 1612,
+    "h": 1075,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2-1200.webp"
+      },
+      {
+        "w": 1612,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3.webp": {
+    "w": 1144,
+    "h": 761,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3-800.webp"
+      },
+      {
+        "w": 1144,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4.webp": {
+    "w": 1602,
+    "h": 1068,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4-1200.webp"
+      },
+      {
+        "w": 1602,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5.webp": {
+    "w": 1705,
+    "h": 1134,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5-1200.webp"
+      },
+      {
+        "w": 1705,
+        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1.webp": {
+    "w": 820,
+    "h": 546,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1-800.webp"
+      },
+      {
+        "w": 820,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2.webp": {
+    "w": 1024,
+    "h": 682,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3.webp": {
+    "w": 820,
+    "h": 546,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3-800.webp"
+      },
+      {
+        "w": 820,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4.webp": {
+    "w": 1024,
+    "h": 682,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1.webp": {
+    "w": 820,
+    "h": 546,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1-800.webp"
+      },
+      {
+        "w": 820,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2.webp": {
+    "w": 1024,
+    "h": 682,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3.webp": {
+    "w": 820,
+    "h": 546,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3-800.webp"
+      },
+      {
+        "w": 820,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4.webp": {
+    "w": 1024,
+    "h": 682,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1.webp": {
+    "w": 1484,
+    "h": 989,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1-1200.webp"
+      },
+      {
+        "w": 1484,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2.webp": {
+    "w": 1183,
+    "h": 787,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2-800.webp"
+      },
+      {
+        "w": 1183,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3.webp": {
+    "w": 1313,
+    "h": 876,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3-1200.webp"
+      },
+      {
+        "w": 1313,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4.webp": {
+    "w": 1417,
+    "h": 946,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4-1200.webp"
+      },
+      {
+        "w": 1417,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2.webp"
+      }
+    ]
+  },
+  "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3.webp"
+      }
+    ]
+  },
+  "/images-compressed/photosach.webp": {
+    "w": 2400,
+    "h": 3000,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/photosach-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/photosach-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/photosach-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/photosach.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb1.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb1-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb1-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb1-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb1.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb2.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb2-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb2-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb2-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb2.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb3.webp": {
+    "w": 2400,
+    "h": 3200,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb3-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb3-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb3-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb3.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb4.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb4-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb4-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb4-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb4.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb5.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb5-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb5-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb5-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb5.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb6.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb6-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb6-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb6-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb6.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb7.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb7-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb7-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb7-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb7.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb8.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb8-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb8-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb8-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb8.webp"
+      }
+    ]
+  },
+  "/images-compressed/tmb9.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/tmb9-400.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/tmb9-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/images-compressed/tmb9-1200.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/tmb9.webp"
+      }
+    ]
+  }
+}

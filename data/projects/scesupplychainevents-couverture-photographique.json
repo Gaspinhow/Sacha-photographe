@@ -5,10 +5,10 @@
   "description": "Couverture photographique des événements SCE SupplyChainEvents.",
   "descriptionEN": "Photography coverage of SCE SupplyChainEvents events.",
   "images": [
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.jpg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.jpg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.jpg",
-    "/images/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.jpg"
+    "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.webp",
+    "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.webp",
+    "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.webp",
+    "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.webp"
   ],
   "slug": "scesupplychainevents-couverture-photographique"
 }

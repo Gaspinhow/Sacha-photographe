@@ -36,6 +36,29 @@ npm install
 npm run dev
 ```
 
+### **Ajouter des photos**
+
+Les photos affichées sont les WebP de `public/images-compressed`. Les originaux
+ne sont pas dans le dépôt : ils sont sauvegardés sur le bureau
+(`photos-originales-sacha` et `photos-originales-sacha-corporate`).
+
+Pour ajouter des photos :
+
+```bash
+# 1. Déposer les originaux (jpg/png) dans public/images
+# 2. Les compresser en WebP
+node scripts/compress-images.mjs
+
+# 3. Générer les déclinaisons (400, 800, 1200 px) et le manifeste de dimensions
+npm run images
+
+# 4. Référencer les nouveaux fichiers dans la fiche projet de data/projects
+```
+
+`npm run images` est à relancer après tout ajout ou remplacement de photo :
+sans lui, la nouvelle image s'affichera en pleine taille sur téléphone et la
+page sursautera pendant le chargement.
+
 ### **Étape 2: Déployer sur Vercel**
 
 1. **Aller sur [vercel.com](https://vercel.com)**

@@ -1,67 +1,39 @@
-"use client";
-import React from 'react';
-import { useParams } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { projects } from "../../../data/projects/index"; 
-import { useLanguage } from "../../context/LanguageContext"; 
+import { notFound } from "next/navigation";
+import { projects } from "../../../data/projects/index";
+import { photoInfo } from "../../../components/Photo";
+import ProjectGallery from "./ProjectGallery";
 
-export default function ProjectPage() {
-  const { id } = useParams();
-  const { lang } = useLanguage();
-  const project = projects ? projects.find(p => p.id === id) : null;
+const findProject = (id) => projects.find((p) => p.id === id);
 
-  if (!project) return null;
+// Chaque projet est connu au build : les 18 pages sont générées en statique.
+export function generateStaticParams() {
+  return projects.map((p) => ({ id: p.id }));
+}
 
-  const displayTitle = (lang === 'EN' && project.titleEN) ? project.titleEN : project.title;
-  const displayDescription = (lang === 'EN' && project.descriptionEN) ? project.descriptionEN : project.description;
+// Sans ça les 18 pages projet partageaient le titre et la description du site,
+// et Google les voyait comme dix-huit fois la même page.
+export function generateMetadata({ params }) {
+  const project = findProject(params.id);
+  if (!project) return { title: "Page introuvable — Sacha Nahum" };
 
-  return (
-    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-20 px-4 md:px-12 lg:px-20 text-black">
-      <div className="max-w-7xl mx-auto">
-        <header className="mb-24 md:mb-40 max-w-4xl text-left">
-          <h1 className="text-3xl md:text-6xl font-serif uppercase tracking-[0.05em] mb-10 text-black leading-tight">{displayTitle}</h1>
-          <p className="text-black text-sm md:text-xl leading-relaxed font-light italic max-w-3xl">{displayDescription}</p>
-        </header>
+  const cover = project.coverImage || (project.images && project.images[0]);
+  const info = cover ? photoInfo(cover) : null;
+  const title = `${project.title} — Sacha Nahum, photographe`;
+  const url = `/reportage/${project.id}`;
+  const images = cover ? [{ url: cover, width: info?.w, height: info?.h, alt: project.title }] : undefined;
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-16 md:gap-y-32">
-          {project.images && project.images.map((img, index) => {
-            const isEven = index % 2 === 1;
-            // On ajuste les ratios pour que ce soit moins "serré" sur mobile
-            const currentRatio = "aspect-[3/2] md:aspect-auto"; 
+  return {
+    title,
+    description: project.description,
+    alternates: { canonical: url },
+    openGraph: { title, description: project.description, type: "article", url, images },
+    twitter: { card: "summary_large_image", title, description: project.description, images: cover ? [cover] : undefined },
+  };
+}
 
-            return (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4 }}
-                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
-                className={`relative w-full ${isEven ? 'md:mt-40' : ''}`}
-              >
-                <div className={`relative shadow-sm overflow-hidden bg-gray-50 ${currentRatio} w-full min-h-[300px]`}>
-                  <Image
-                    src={img}
-                    alt={`${displayTitle}-${index}`}
-                    fill
-                    className="object-contain md:object-cover"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    priority={index < 4}
-                  />
-                </div>
-              </motion.div>
-            );
-          })}
-        </div>
+export default function ProjectPage({ params }) {
+  const project = findProject(params.id);
+  if (!project) notFound(); // un identifiant inconnu renvoyait un 200 avec une page blanche
 
-        <footer className="mt-40 pt-10 border-t border-gray-100 flex justify-between items-center">
-          <Link href={`/${project.category}`} className="text-[10px] uppercase tracking-[0.4em] text-black font-bold">
-            ← {lang === 'FR' ? 'Retour' : 'Back'}
-          </Link>
-          <p className="text-[9px] uppercase tracking-[0.5em] text-black font-medium">Sacha Nahum — Photography</p>
-        </footer>
-      </div>
-    </main>
-  );
+  return <ProjectGallery project={project} />;
 }
