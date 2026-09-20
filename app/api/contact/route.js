@@ -17,7 +17,7 @@ export async function POST(request) {
     // Envoi de l'email avec style "Noir Pur" 
     const { data: emailData, error } = await resend.emails.send({
       from: 'Portfolio <onboarding@resend.dev>',
-      to: ['sacha.nahum@gmail.com'], // Email de destination [cite: 51]
+      to: ['photo@sacha-nahum.com'], // Email de destination
       subject: `CONTACT : ${firstName} ${lastName}`,
       replyTo: email,
       html: `
@@ -41,12 +41,16 @@ export async function POST(request) {
     });
 
     if (error) {
+      // Tracé côté serveur : sans ça, un refus de Resend (domaine non vérifié,
+      // quota, adresse invalide) est invisible et le formulaire semble juste "planté".
+      console.error("Resend a refusé l'envoi :", error);
       return Response.json({ ok: false, error: "Erreur d'envoi" }, { status: 500 });
     }
 
     return Response.json({ ok: true, message: "Email envoyé" });
 
   } catch (err) {
+    console.error("Erreur du formulaire de contact :", err);
     return Response.json({ ok: false, error: "Erreur serveur" }, { status: 500 });
   }
 }

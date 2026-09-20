@@ -5,10 +5,12 @@ export default function StructuredData() {
     "name": "Sacha Nahum",
     "jobTitle": "Photographe professionnel",
     "description": "Photographe professionnel spécialisé dans les événements d'entreprise, reportages institutionnels et portraits artistiques.",
-    "url": "https://votre-domaine.com",
+    "url": "https://www.sacha-nahum.com",
     "sameAs": [
-      // Ajoutez ici vos réseaux sociaux si vous en avez
+      "https://fr.linkedin.com/in/sacha-nahum-a06279281",
+      "https://www.instagram.com/sacha_nahum"
     ],
+    "email": "photo@sacha-nahum.com",
     "knowsAbout": [
       "Photographie d'événements",
       "Photographie corporate", 
@@ -34,7 +36,7 @@ export default function StructuredData() {
       "addressLocality": "Paris",
       "addressCountry": "France"
     },
-    "image": "https://votre-domaine.com/images/repo.jpg"
+    "image": "https://www.sacha-nahum.com/images-compressed/photosach.webp"
   };
 
   return (
