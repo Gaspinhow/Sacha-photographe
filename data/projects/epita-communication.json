@@ -5,12 +5,12 @@
   "description": "Campagne de communication pour la nouvelle année de l'EPITA.",
   "descriptionEN": "New Year communication campaign for EPITA.",
   "images": [
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.jpg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.jpg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.jpg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.jpg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.jpg",
-    "/images/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.jpg"
+    "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.webp",
+    "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.webp",
+    "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.webp",
+    "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.webp",
+    "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.webp",
+    "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.webp"
   ],
   "slug": "epita-communication-pour-la-nouvelle-annee"
 }

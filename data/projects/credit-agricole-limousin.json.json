@@ -5,10 +5,10 @@
   "description": "Photographie de la façade du nouveau bâtiment du Crédit Agricole Limoges.",
   "descriptionEN":"Photography of the new Crédit Agricole Limoges building facade",
   "images": [
-    "/images/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1.jpeg",
-    "/images/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2.jpeg",
-    "/images/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3.jpeg",
-    "/images/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4.jpeg"
+    "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1.webp",
+    "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2.webp",
+    "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3.webp",
+    "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4.webp"
   ],
   "slug": "credit-agricole-limoges-facade-du-nouveau-batiment"
 }
