@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import { useLanguage } from "../app/context/LanguageContext"; 
+import { useLanguage } from "../app/context/LanguageContext";
+import Logo from "./Logo";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -31,12 +32,15 @@ export default function Navbar() {
     <nav className="fixed top-0 inset-x-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 font-serif">
       <div className="max-w-7xl mx-auto px-6 h-20 md:h-28 flex items-center justify-between transition-all">
 
-        {/* LOGO : SACHA NAHUM (Agrandi & Espacé) */}
+        {/* LOGO */}
         <Link 
           href="/" 
-          className="text-lg md:text-2xl font-medium tracking-[0.4em] uppercase text-black hover:opacity-60 transition-opacity"
+          className="flex items-center hover:opacity-60 transition-opacity"
         >
-          Sacha Nahum
+          <Logo
+            className="h-10 md:h-14 w-auto object-contain"
+            placeholderClassName="h-10 md:h-14 w-32 md:w-48"
+          />
         </Link>
 
         {/* Desktop Menu */}
@@ -75,13 +79,13 @@ export default function Navbar() {
                 <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
               </svg>
             </a>
-            <a href="mailto:contact@sacha-nahum.com" className="hover:opacity-50 transition-opacity">
+            <a href="mailto:photo@sacha-nahum.com" className="hover:opacity-50 transition-opacity">
               <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.2" viewBox="0 0 24 24">
                 <rect x="2" y="4" width="20" height="16" rx="2"/>
                 <polyline points="2,4 12,13 22,4"/>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/sacha-nahum" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
+            <a href="https://fr.linkedin.com/in/sacha-nahum-a06279281" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
                 <circle cx="4" cy="4" r="2"/>
@@ -126,8 +130,8 @@ export default function Navbar() {
             </button>
             <div className="flex gap-6 text-black/60">
               <a href="https://www.instagram.com/sacha_nahum" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">Instagram</a>
-              <a href="mailto:contact@sacha-nahum.com" className="text-[10px] tracking-[0.2em] uppercase">Email</a>
-              <a href="https://www.linkedin.com/in/sacha-nahum-a06279281/" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">LinkedIn</a>
+              <a href="mailto:photo@sacha-nahum.com" className="text-[10px] tracking-[0.2em] uppercase">Email</a>
+              <a href="https://fr.linkedin.com/in/sacha-nahum-a06279281" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">LinkedIn</a>
             </div>
           </li>
         </ul>
