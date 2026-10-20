@@ -1,11 +1,12 @@
 "use client";
 import React, { useState } from 'react';
-import { useLanguage } from "../context/LanguageContext"; 
+import { useLanguage } from "../context/LanguageContext";
+import { EMAIL, TELEPHONE_AFFICHE, TELEPHONE_LIEN, LINKEDIN } from "../../lib/coordonnees"; 
 import { motion } from "framer-motion";
 import Logo from "../../components/Logo";
 
 const inputClass =
-  "w-full border-b border-black/30 py-3 text-[12px] tracking-[0.1em] outline-none focus:border-black transition-colors bg-transparent rounded-none";
+  "w-full border-b border-black/55 py-3 text-[12px] tracking-[0.1em] outline-none focus:border-black transition-colors bg-transparent rounded-none";
 
 function Field({ id, label, type = "text", autoComplete, required = false, textarea = false }) {
   const common = {
@@ -41,7 +42,7 @@ export default function ContactForm() {
       message: "Votre message",
       send: "Envoyer le message",
       sending: "Envoi en cours...",
-      success: "Message envoyé avec succès !",
+      success: "Merci, je reviens vers vous sous 24 h.",
       error: "Une erreur est survenue. Veuillez réessayer.",
       info: "Basé à Paris — Disponible à l'international."
     },
@@ -55,7 +56,7 @@ export default function ContactForm() {
       message: "Your message",
       send: "Send Message",
       sending: "Sending...",
-      success: "Message sent successfully!",
+      success: "Thank you, I will get back to you within 24 hours.",
       error: "An error occurred. Please try again.",
       info: "Based in Paris — Available for assignments worldwide."
     }
@@ -104,11 +105,21 @@ export default function ContactForm() {
             {content[lang].subtitle}
           </p>
           <div className="hidden md:block pt-12">
-             <Logo
-               className="h-16 w-auto object-contain"
-               placeholderClassName="h-16 w-40"
-             />
+             <Logo variant="complet" className="h-28 w-auto object-contain" />
           </div>
+
+          {/* Coordonnees : le cahier demande un telephone cliquable et un seul LinkedIn */}
+          <address className="not-italic flex flex-col gap-3 pt-2 text-[11px] tracking-[0.15em] text-black">
+            <a href={`mailto:${EMAIL}`} className="w-fit border-b border-black/40 pb-0.5 hover:opacity-60 transition-opacity">
+              {EMAIL}
+            </a>
+            <a href={`tel:${TELEPHONE_LIEN}`} className="w-fit border-b border-black/40 pb-0.5 hover:opacity-60 transition-opacity">
+              {TELEPHONE_AFFICHE}
+            </a>
+            <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className="w-fit border-b border-black/40 pb-0.5 hover:opacity-60 transition-opacity">
+              LinkedIn
+            </a>
+          </address>
         </header>
 
         {/* Colonne de droite : Formulaire */}

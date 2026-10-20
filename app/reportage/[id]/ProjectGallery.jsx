@@ -31,7 +31,7 @@ export default function ProjectGallery({ project }) {
 
         {/* Colonnes CSS plutôt qu'une grille : les photos s'empilent au plus près,
             sans trou laissé par la plus haute de la rangée. */}
-        <div className="columns-1 md:columns-2 gap-4 md:gap-6 [column-fill:_balance]">
+        <div className="columns-1 md:columns-2 gap-2.5 [column-fill:_balance]">
           {images.map((img, index) => (
             <motion.button
               key={img}
@@ -46,7 +46,7 @@ export default function ProjectGallery({ project }) {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
               viewport={{ once: true, margin: "0px 0px -50px 0px" }}
-              className="group relative mb-4 md:mb-6 block w-full break-inside-avoid cursor-zoom-in overflow-hidden bg-gray-50 shadow-sm"
+              className="group relative mb-2.5 block w-full break-inside-avoid cursor-zoom-in overflow-hidden bg-gray-50 shadow-sm"
             >
               <Photo
                 src={img}
@@ -86,7 +86,7 @@ export default function ProjectGallery({ project }) {
           <Link href={`/${project.category}`} className="text-[10px] uppercase tracking-[0.4em] text-black font-bold">
             ← {lang === 'FR' ? 'Retour' : 'Back'}
           </Link>
-          <p className="text-[9px] uppercase tracking-[0.5em] text-black font-medium">Sacha Nahum — Photography</p>
+          <p className="text-[9px] uppercase tracking-[0.5em] text-black font-medium">Sacha Nahum — Photographe</p>
         </footer>
       </div>
     </main>

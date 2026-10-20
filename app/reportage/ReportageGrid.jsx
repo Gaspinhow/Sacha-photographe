@@ -11,7 +11,7 @@ export default function ReportageGrid() {
 
   return (
     <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-4 md:px-12 lg:px-20 text-black font-serif">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 md:gap-x-6 md:gap-y-10 max-w-7xl mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2.5 gap-y-6 max-w-7xl mx-auto">
         {realProjects.map((item, index) => {
           const cardTitle = (lang === 'EN' && item.titleEN) ? item.titleEN : item.title;
           return (
