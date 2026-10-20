@@ -41,7 +41,7 @@ function tropDEnvois(ip) {
 export async function POST(request) {
   try {
     const data = await request.json();
-    const { firstName, lastName, email, phone, message, website } = data || {};
+    const { firstName, lastName, email, phone, message, website, company, prestation, dateEvenement, lieu } = data || {};
 
     // Champ piège : invisible dans le formulaire, donc rempli seulement par un robot.
     if (website) return Response.json({ ok: true, message: "Email envoyé" });
@@ -75,6 +75,10 @@ export async function POST(request) {
           <p><strong>Prénom :</strong> ${escapeHtml(firstName)}</p>
           <p><strong>Email :</strong> ${escapeHtml(email)}</p>
           <p><strong>Téléphone :</strong> ${escapeHtml(phone) || "-"}</p>
+          <p><strong>Entreprise :</strong> ${escapeHtml(company) || "-"}</p>
+          <p><strong>Type de prestation :</strong> ${escapeHtml(prestation) || "-"}</p>
+          <p><strong>Date de l'événement :</strong> ${escapeHtml(dateEvenement) || "-"}</p>
+          <p><strong>Lieu :</strong> ${escapeHtml(lieu) || "-"}</p>
           <div style="margin-top: 20px; border-top: 1px solid #000; padding-top: 10px;">
             <p><strong>Message :</strong></p>
             <p style="white-space: pre-wrap;">${escapeHtml(message)}</p>
@@ -91,6 +95,32 @@ export async function POST(request) {
       // quota, adresse invalide) est invisible et le formulaire semble juste "planté".
       console.error("Resend a refusé l'envoi :", error);
       return Response.json({ ok: false, error: "Erreur d'envoi" }, { status: 500 });
+    }
+
+    // Accusé de réception automatique demandé par le cahier. Il part après le
+    // message principal : s'il échoue, la demande de Sacha est déjà transmise,
+    // donc on n'en fait pas échouer le formulaire.
+    try {
+      const { error: erreurAccuse } = await resend.emails.send({
+        from: 'Sacha Nahum <onboarding@resend.dev>',
+        to: [email],
+        replyTo: DESTINATAIRE,
+        subject: "Votre message a bien été reçu",
+        html: `
+          <div style="font-family: serif; color: #000000; line-height: 1.6; max-width: 600px;">
+            <p>Bonjour ${escapeHtml(firstName)},</p>
+            <p>Votre message m'est bien parvenu. Je reviens vers vous sous 24 h.</p>
+            <p style="white-space: pre-wrap; border-left: 2px solid #000; padding-left: 14px; color: #333;">${escapeHtml(message)}</p>
+            <p>À très vite,<br/>Sacha Nahum</p>
+            <footer style="margin-top: 32px; font-size: 11px; color: #444;">
+              ${DESTINATAIRE} — sacha-nahum.com
+            </footer>
+          </div>
+        `
+      });
+      if (erreurAccuse) console.error("Accusé de réception non envoyé :", erreurAccuse);
+    } catch (err) {
+      console.error("Accusé de réception non envoyé :", err);
     }
 
     return Response.json({ ok: true, message: "Email envoyé" });

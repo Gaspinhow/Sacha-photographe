@@ -4,11 +4,12 @@ import { useLanguage } from "../context/LanguageContext";
 import { EMAIL, TELEPHONE_AFFICHE, TELEPHONE_LIEN, LINKEDIN } from "../../lib/coordonnees"; 
 import { motion } from "framer-motion";
 import Logo from "../../components/Logo";
+import Link from "next/link";
 
 const inputClass =
   "w-full border-b border-black/55 py-3 text-[12px] tracking-[0.1em] outline-none focus:border-black transition-colors bg-transparent rounded-none";
 
-function Field({ id, label, type = "text", autoComplete, required = false, textarea = false }) {
+function Field({ id, label, type = "text", autoComplete, required = false, textarea = false, options }) {
   const common = {
     id,
     name: id,
@@ -22,7 +23,16 @@ function Field({ id, label, type = "text", autoComplete, required = false, texta
       <label htmlFor={id} className="text-[10px] uppercase tracking-[0.25em] text-black">
         {label}
       </label>
-      {textarea ? <textarea rows="5" {...common} /> : <input type={type} {...common} />}
+      {options ? (
+        <select {...common} defaultValue="">
+          <option value="" disabled>—</option>
+          {options.map((o) => <option key={o} value={o}>{o}</option>)}
+        </select>
+      ) : textarea ? (
+        <textarea rows="5" {...common} />
+      ) : (
+        <input type={type} {...common} />
+      )}
     </div>
   );
 }
@@ -38,8 +48,14 @@ export default function ContactForm() {
       firstName: "Prénom",
       lastName: "Nom",
       email: "Adresse e-mail",
-      phone: "Téléphone (optionnel)",
+      company: "Entreprise",
+      phone: "Téléphone",
+      prestation: "Type de prestation",
+      prestations: ["Convention ou séminaire", "Salon ou congrès", "Conférence", "Portraits en entreprise", "Soirée ou remise de prix", "Autre"],
+      dateEvenement: "Date de l'événement",
+      lieu: "Lieu de l'événement",
       message: "Votre message",
+      consentement: "J'accepte que ces informations soient utilisées pour répondre à ma demande.",
       send: "Envoyer le message",
       sending: "Envoi en cours...",
       success: "Merci, je reviens vers vous sous 24 h.",
@@ -52,8 +68,14 @@ export default function ContactForm() {
       firstName: "First Name",
       lastName: "Last Name",
       email: "Email Address",
-      phone: "Phone (optional)",
+      company: "Company",
+      phone: "Phone",
+      prestation: "Type of assignment",
+      prestations: ["Convention or seminar", "Trade show or congress", "Conference", "Corporate portraits", "Evening event or awards", "Other"],
+      dateEvenement: "Date of the event",
+      lieu: "Place of the event",
       message: "Your message",
+      consentement: "I agree that this information may be used to answer my request.",
       send: "Send Message",
       sending: "Sending...",
       success: "Thank you, I will get back to you within 24 hours.",
@@ -70,7 +92,11 @@ export default function ContactForm() {
       firstName: formData.get('firstName'),
       lastName: formData.get('lastName'),
       email: formData.get('email'),
+      company: formData.get('company'),
       phone: formData.get('phone'),
+      prestation: formData.get('prestation'),
+      dateEvenement: formData.get('dateEvenement'),
+      lieu: formData.get('lieu'),
       message: formData.get('message'),
       website: formData.get('website'), // champ piège, toujours vide chez un humain
     };
@@ -135,7 +161,34 @@ export default function ContactForm() {
               <Field id="phone" label={content[lang].phone} type="tel" autoComplete="tel" />
             </div>
 
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+              <Field id="company" label={content[lang].company} autoComplete="organization" />
+              <Field id="prestation" label={content[lang].prestation} options={content[lang].prestations} />
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+              <Field id="dateEvenement" label={content[lang].dateEvenement} type="date" />
+              <Field id="lieu" label={content[lang].lieu} />
+            </div>
+
             <Field id="message" label={content[lang].message} textarea required />
+
+            {/* Case de consentement exigee par le cahier (RGPD) */}
+            <div className="flex items-start gap-3">
+              <input
+                id="consentement"
+                name="consentement"
+                type="checkbox"
+                required
+                className="mt-1 h-4 w-4 shrink-0 accent-black"
+              />
+              <label htmlFor="consentement" className="text-[11px] leading-relaxed">
+                {content[lang].consentement}{" "}
+                <Link href="/confidentialite" className="border-b border-black/40 hover:opacity-60">
+                  {lang === 'EN' ? "Privacy policy" : "Politique de confidentialité"}
+                </Link>
+              </label>
+            </div>
 
             {/* Piège à robots : invisible et hors du parcours clavier. Un humain
                 ne le remplit jamais, un robot d'envoi automatique si. */}

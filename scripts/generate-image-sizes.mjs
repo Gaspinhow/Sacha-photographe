@@ -22,8 +22,11 @@ const WIDTHS = [400, 800, 1600];
 const PLAFOND_KO = { 400: 150, 800: 300, 1600: 600, max: 600 };
 const QUALITES = [82, 74, 66, 58, 50];
 
-// Les fichiers déjà générés par un passage précédent, pour ne pas les réindexer
-const isGenerated = (name) => /-(\d+)\.webp$/.test(name);
+// Les déclinaisons portent un suffixe qui ne peut pas apparaître dans un nom
+// de photo livré. Un simple "-800" ne suffisait pas : « 01_sitl-2025-2026.webp »
+// était pris pour une déclinaison, donc supprimé au passage suivant.
+const SUFFIXE = (largeur) => `@${largeur}w.webp`;
+const isGenerated = (name) => /@\d+w\.webp$/.test(name);
 
 async function walk(dir) {
   const out = [];
@@ -72,7 +75,7 @@ for (const file of sources) {
   const variants = [];
   for (const target of WIDTHS) {
     if (target >= w) continue; // jamais d'agrandissement
-    const out = file.replace(/\.webp$/i, `-${target}.webp`);
+    const out = file.replace(/\.webp$/i, SUFFIXE(target));
     await encoderSousPlafond(file, out, target, PLAFOND_KO[target]);
     variants.push({ w: target, src: '/' + relative(PUBLIC_DIR, out) });
     generated++;
