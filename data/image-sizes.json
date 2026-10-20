@@ -5,15 +5,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre1-400.webp"
+        "src": "/images-compressed/bagarre1@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre1-800.webp"
+        "src": "/images-compressed/bagarre1@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre1-1600.webp"
+        "src": "/images-compressed/bagarre1@1600w.webp"
       },
       {
         "w": 2400,
@@ -27,15 +27,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre2-400.webp"
+        "src": "/images-compressed/bagarre2@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre2-800.webp"
+        "src": "/images-compressed/bagarre2@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre2-1600.webp"
+        "src": "/images-compressed/bagarre2@1600w.webp"
       },
       {
         "w": 2400,
@@ -49,15 +49,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre3-400.webp"
+        "src": "/images-compressed/bagarre3@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre3-800.webp"
+        "src": "/images-compressed/bagarre3@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre3-1600.webp"
+        "src": "/images-compressed/bagarre3@1600w.webp"
       },
       {
         "w": 2400,
@@ -71,15 +71,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre4-400.webp"
+        "src": "/images-compressed/bagarre4@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre4-800.webp"
+        "src": "/images-compressed/bagarre4@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre4-1600.webp"
+        "src": "/images-compressed/bagarre4@1600w.webp"
       },
       {
         "w": 2400,
@@ -93,15 +93,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre5-400.webp"
+        "src": "/images-compressed/bagarre5@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre5-800.webp"
+        "src": "/images-compressed/bagarre5@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre5-1600.webp"
+        "src": "/images-compressed/bagarre5@1600w.webp"
       },
       {
         "w": 2400,
@@ -115,15 +115,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre6-400.webp"
+        "src": "/images-compressed/bagarre6@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre6-800.webp"
+        "src": "/images-compressed/bagarre6@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre6-1600.webp"
+        "src": "/images-compressed/bagarre6@1600w.webp"
       },
       {
         "w": 2400,
@@ -137,15 +137,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bagarre7-400.webp"
+        "src": "/images-compressed/bagarre7@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bagarre7-800.webp"
+        "src": "/images-compressed/bagarre7@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bagarre7-1600.webp"
+        "src": "/images-compressed/bagarre7@1600w.webp"
       },
       {
         "w": 2400,
@@ -159,15 +159,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno1-400.webp"
+        "src": "/images-compressed/bruno1@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno1-800.webp"
+        "src": "/images-compressed/bruno1@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno1-1600.webp"
+        "src": "/images-compressed/bruno1@1600w.webp"
       },
       {
         "w": 2400,
@@ -181,15 +181,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno10-400.webp"
+        "src": "/images-compressed/bruno10@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno10-800.webp"
+        "src": "/images-compressed/bruno10@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno10-1600.webp"
+        "src": "/images-compressed/bruno10@1600w.webp"
       },
       {
         "w": 2400,
@@ -203,15 +203,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno2-400.webp"
+        "src": "/images-compressed/bruno2@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno2-800.webp"
+        "src": "/images-compressed/bruno2@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno2-1600.webp"
+        "src": "/images-compressed/bruno2@1600w.webp"
       },
       {
         "w": 2400,
@@ -225,15 +225,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno3-400.webp"
+        "src": "/images-compressed/bruno3@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno3-800.webp"
+        "src": "/images-compressed/bruno3@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno3-1600.webp"
+        "src": "/images-compressed/bruno3@1600w.webp"
       },
       {
         "w": 2400,
@@ -247,15 +247,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno4-400.webp"
+        "src": "/images-compressed/bruno4@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno4-800.webp"
+        "src": "/images-compressed/bruno4@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno4-1600.webp"
+        "src": "/images-compressed/bruno4@1600w.webp"
       },
       {
         "w": 2400,
@@ -269,15 +269,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno5-400.webp"
+        "src": "/images-compressed/bruno5@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno5-800.webp"
+        "src": "/images-compressed/bruno5@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno5-1600.webp"
+        "src": "/images-compressed/bruno5@1600w.webp"
       },
       {
         "w": 2000,
@@ -291,15 +291,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno6-400.webp"
+        "src": "/images-compressed/bruno6@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno6-800.webp"
+        "src": "/images-compressed/bruno6@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno6-1600.webp"
+        "src": "/images-compressed/bruno6@1600w.webp"
       },
       {
         "w": 2400,
@@ -313,15 +313,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno7-400.webp"
+        "src": "/images-compressed/bruno7@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno7-800.webp"
+        "src": "/images-compressed/bruno7@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno7-1600.webp"
+        "src": "/images-compressed/bruno7@1600w.webp"
       },
       {
         "w": 2400,
@@ -335,11 +335,11 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno8-400.webp"
+        "src": "/images-compressed/bruno8@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno8-800.webp"
+        "src": "/images-compressed/bruno8@800w.webp"
       },
       {
         "w": 1600,
@@ -353,15 +353,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/bruno9-400.webp"
+        "src": "/images-compressed/bruno9@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/bruno9-800.webp"
+        "src": "/images-compressed/bruno9@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/bruno9-1600.webp"
+        "src": "/images-compressed/bruno9@1600w.webp"
       },
       {
         "w": 2400,
@@ -375,15 +375,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indexacc-400.webp"
+        "src": "/images-compressed/indexacc@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indexacc-800.webp"
+        "src": "/images-compressed/indexacc@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indexacc-1600.webp"
+        "src": "/images-compressed/indexacc@1600w.webp"
       },
       {
         "w": 2400,
@@ -397,15 +397,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indexbagarre-400.webp"
+        "src": "/images-compressed/indexbagarre@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indexbagarre-800.webp"
+        "src": "/images-compressed/indexbagarre@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indexbagarre-1600.webp"
+        "src": "/images-compressed/indexbagarre@1600w.webp"
       },
       {
         "w": 2400,
@@ -419,15 +419,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indexbruno-400.webp"
+        "src": "/images-compressed/indexbruno@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indexbruno-800.webp"
+        "src": "/images-compressed/indexbruno@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indexbruno-1600.webp"
+        "src": "/images-compressed/indexbruno@1600w.webp"
       },
       {
         "w": 1800,
@@ -441,15 +441,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indexcorp-400.webp"
+        "src": "/images-compressed/indexcorp@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indexcorp-800.webp"
+        "src": "/images-compressed/indexcorp@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indexcorp-1600.webp"
+        "src": "/images-compressed/indexcorp@1600w.webp"
       },
       {
         "w": 2400,
@@ -463,15 +463,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indexindo-400.webp"
+        "src": "/images-compressed/indexindo@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indexindo-800.webp"
+        "src": "/images-compressed/indexindo@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indexindo-1600.webp"
+        "src": "/images-compressed/indexindo@1600w.webp"
       },
       {
         "w": 2400,
@@ -485,15 +485,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indexlapo-400.webp"
+        "src": "/images-compressed/indexlapo@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indexlapo-800.webp"
+        "src": "/images-compressed/indexlapo@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indexlapo-1600.webp"
+        "src": "/images-compressed/indexlapo@1600w.webp"
       },
       {
         "w": 2400,
@@ -507,15 +507,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indextmb-400.webp"
+        "src": "/images-compressed/indextmb@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indextmb-800.webp"
+        "src": "/images-compressed/indextmb@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indextmb-1600.webp"
+        "src": "/images-compressed/indextmb@1600w.webp"
       },
       {
         "w": 2000,
@@ -529,15 +529,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo1-400.webp"
+        "src": "/images-compressed/indo1@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo1-800.webp"
+        "src": "/images-compressed/indo1@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo1-1600.webp"
+        "src": "/images-compressed/indo1@1600w.webp"
       },
       {
         "w": 2400,
@@ -551,15 +551,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo2-400.webp"
+        "src": "/images-compressed/indo2@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo2-800.webp"
+        "src": "/images-compressed/indo2@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo2-1600.webp"
+        "src": "/images-compressed/indo2@1600w.webp"
       },
       {
         "w": 2400,
@@ -573,15 +573,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo4-400.webp"
+        "src": "/images-compressed/indo4@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo4-800.webp"
+        "src": "/images-compressed/indo4@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo4-1600.webp"
+        "src": "/images-compressed/indo4@1600w.webp"
       },
       {
         "w": 2400,
@@ -595,15 +595,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo5-400.webp"
+        "src": "/images-compressed/indo5@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo5-800.webp"
+        "src": "/images-compressed/indo5@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo5-1600.webp"
+        "src": "/images-compressed/indo5@1600w.webp"
       },
       {
         "w": 2400,
@@ -617,15 +617,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo6-400.webp"
+        "src": "/images-compressed/indo6@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo6-800.webp"
+        "src": "/images-compressed/indo6@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo6-1600.webp"
+        "src": "/images-compressed/indo6@1600w.webp"
       },
       {
         "w": 2400,
@@ -639,15 +639,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo7-400.webp"
+        "src": "/images-compressed/indo7@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo7-800.webp"
+        "src": "/images-compressed/indo7@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo7-1600.webp"
+        "src": "/images-compressed/indo7@1600w.webp"
       },
       {
         "w": 2400,
@@ -661,15 +661,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo8-400.webp"
+        "src": "/images-compressed/indo8@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo8-800.webp"
+        "src": "/images-compressed/indo8@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo8-1600.webp"
+        "src": "/images-compressed/indo8@1600w.webp"
       },
       {
         "w": 2400,
@@ -683,15 +683,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/indo9-400.webp"
+        "src": "/images-compressed/indo9@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/indo9-800.webp"
+        "src": "/images-compressed/indo9@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/indo9-1600.webp"
+        "src": "/images-compressed/indo9@1600w.webp"
       },
       {
         "w": 2400,
@@ -705,15 +705,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo1-400.webp"
+        "src": "/images-compressed/lapo1@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo1-800.webp"
+        "src": "/images-compressed/lapo1@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo1-1600.webp"
+        "src": "/images-compressed/lapo1@1600w.webp"
       },
       {
         "w": 2400,
@@ -727,15 +727,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo2-400.webp"
+        "src": "/images-compressed/lapo2@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo2-800.webp"
+        "src": "/images-compressed/lapo2@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo2-1600.webp"
+        "src": "/images-compressed/lapo2@1600w.webp"
       },
       {
         "w": 2400,
@@ -749,15 +749,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo3-400.webp"
+        "src": "/images-compressed/lapo3@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo3-800.webp"
+        "src": "/images-compressed/lapo3@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo3-1600.webp"
+        "src": "/images-compressed/lapo3@1600w.webp"
       },
       {
         "w": 2400,
@@ -771,15 +771,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo4-400.webp"
+        "src": "/images-compressed/lapo4@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo4-800.webp"
+        "src": "/images-compressed/lapo4@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo4-1600.webp"
+        "src": "/images-compressed/lapo4@1600w.webp"
       },
       {
         "w": 2400,
@@ -793,15 +793,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo5-400.webp"
+        "src": "/images-compressed/lapo5@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo5-800.webp"
+        "src": "/images-compressed/lapo5@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo5-1600.webp"
+        "src": "/images-compressed/lapo5@1600w.webp"
       },
       {
         "w": 2400,
@@ -815,15 +815,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo6-400.webp"
+        "src": "/images-compressed/lapo6@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo6-800.webp"
+        "src": "/images-compressed/lapo6@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo6-1600.webp"
+        "src": "/images-compressed/lapo6@1600w.webp"
       },
       {
         "w": 2400,
@@ -837,1183 +837,19 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/lapo7-400.webp"
+        "src": "/images-compressed/lapo7@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/lapo7-800.webp"
+        "src": "/images-compressed/lapo7@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/lapo7-1600.webp"
+        "src": "/images-compressed/lapo7@1600w.webp"
       },
       {
         "w": 2400,
         "src": "/images-compressed/lapo7.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1.webp": {
-    "w": 2048,
-    "h": 1536,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1-1600.webp"
-      },
-      {
-        "w": 2048,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2.webp": {
-    "w": 1024,
-    "h": 768,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2-800.webp"
-      },
-      {
-        "w": 1024,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3.webp": {
-    "w": 820,
-    "h": 615,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3-800.webp"
-      },
-      {
-        "w": 820,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4.webp": {
-    "w": 820,
-    "h": 615,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4-800.webp"
-      },
-      {
-        "w": 820,
-        "src": "/images-compressed/pdf/01_Seminaire_ESCP_Parlement_Europeen/01_Seminaire_ESCP_Parlement_Europeen_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1.webp": {
-    "w": 1503,
-    "h": 1000,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1-800.webp"
-      },
-      {
-        "w": 1503,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2.webp": {
-    "w": 1144,
-    "h": 761,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2-800.webp"
-      },
-      {
-        "w": 1144,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3.webp": {
-    "w": 1130,
-    "h": 753,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3-800.webp"
-      },
-      {
-        "w": 1130,
-        "src": "/images-compressed/pdf/02_Campagne_McDonalds_Pomme_de_Terre/02_Campagne_McDonalds_Pomme_de_Terre_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1.webp": {
-    "w": 1652,
-    "h": 1101,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1-1600.webp"
-      },
-      {
-        "w": 1652,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2.webp": {
-    "w": 1607,
-    "h": 1072,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2-1600.webp"
-      },
-      {
-        "w": 1607,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3.webp": {
-    "w": 1649,
-    "h": 1099,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3-1600.webp"
-      },
-      {
-        "w": 1649,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4.webp": {
-    "w": 1556,
-    "h": 1037,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4-800.webp"
-      },
-      {
-        "w": 1556,
-        "src": "/images-compressed/pdf/03_Ambassade_RDC_France/03_Ambassade_RDC_France_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1.webp": {
-    "w": 2208,
-    "h": 1474,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1-1600.webp"
-      },
-      {
-        "w": 2208,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2.webp": {
-    "w": 1472,
-    "h": 983,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2-800.webp"
-      },
-      {
-        "w": 1472,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3.webp": {
-    "w": 1188,
-    "h": 793,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3-800.webp"
-      },
-      {
-        "w": 1188,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4.webp": {
-    "w": 1472,
-    "h": 983,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4-800.webp"
-      },
-      {
-        "w": 1472,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5.webp": {
-    "w": 1174,
-    "h": 781,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5-800.webp"
-      },
-      {
-        "w": 1174,
-        "src": "/images-compressed/pdf/04_DSM_Firmenich_Capital_Market_Day_2024/04_DSM_Firmenich_Capital_Market_Day_2024_5.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2.webp": {
-    "w": 1472,
-    "h": 983,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2-800.webp"
-      },
-      {
-        "w": 1472,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3.webp": {
-    "w": 1466,
-    "h": 979,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3-800.webp"
-      },
-      {
-        "w": 1466,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4.webp": {
-    "w": 1472,
-    "h": 983,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4-800.webp"
-      },
-      {
-        "w": 1472,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5.webp": {
-    "w": 1329,
-    "h": 887,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5-800.webp"
-      },
-      {
-        "w": 1329,
-        "src": "/images-compressed/pdf/05_Soiree_Hogan_Lovells/05_Soiree_Hogan_Lovells_5.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.webp": {
-    "w": 2400,
-    "h": 1351,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.webp": {
-    "w": 2400,
-    "h": 1351,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.webp": {
-    "w": 1800,
-    "h": 1013,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4-1600.webp"
-      },
-      {
-        "w": 1800,
-        "src": "/images-compressed/pdf/06_SCESupplyChainEvents/06_SCESupplyChainEvents_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_5.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/07_EPITA_Communication_Nouvelle_Annee/07_EPITA_Communication_Nouvelle_Annee_6.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1.webp": {
-    "w": 1612,
-    "h": 1075,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1-1600.webp"
-      },
-      {
-        "w": 1612,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2.webp": {
-    "w": 1612,
-    "h": 1075,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2-1600.webp"
-      },
-      {
-        "w": 1612,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3.webp": {
-    "w": 1144,
-    "h": 761,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3-800.webp"
-      },
-      {
-        "w": 1144,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4.webp": {
-    "w": 1602,
-    "h": 1068,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4-1600.webp"
-      },
-      {
-        "w": 1602,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5.webp": {
-    "w": 1705,
-    "h": 1134,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5-1600.webp"
-      },
-      {
-        "w": 1705,
-        "src": "/images-compressed/pdf/08_Soiree_Organ_Levels_Salle_Cortot/08_Soiree_Organ_Levels_Salle_Cortot_5.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1.webp": {
-    "w": 820,
-    "h": 546,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1-800.webp"
-      },
-      {
-        "w": 820,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2.webp": {
-    "w": 1024,
-    "h": 682,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2-800.webp"
-      },
-      {
-        "w": 1024,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3.webp": {
-    "w": 820,
-    "h": 546,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3-800.webp"
-      },
-      {
-        "w": 820,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4.webp": {
-    "w": 1024,
-    "h": 682,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4-800.webp"
-      },
-      {
-        "w": 1024,
-        "src": "/images-compressed/pdf/09_AUTF_Evenement_Professionnel/09_AUTF_Evenement_Professionnel_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1.webp": {
-    "w": 820,
-    "h": 546,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1-800.webp"
-      },
-      {
-        "w": 820,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2.webp": {
-    "w": 1024,
-    "h": 682,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2-800.webp"
-      },
-      {
-        "w": 1024,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3.webp": {
-    "w": 820,
-    "h": 546,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3-800.webp"
-      },
-      {
-        "w": 820,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4.webp": {
-    "w": 1024,
-    "h": 682,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4-800.webp"
-      },
-      {
-        "w": 1024,
-        "src": "/images-compressed/pdf/10_Credit_Agricole_Limoges_Facade/10_Credit_Agricole_Limoges_Facade_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1.webp": {
-    "w": 1484,
-    "h": 989,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1-800.webp"
-      },
-      {
-        "w": 1484,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2.webp": {
-    "w": 1183,
-    "h": 787,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2-800.webp"
-      },
-      {
-        "w": 1183,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3.webp": {
-    "w": 1313,
-    "h": 876,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3-800.webp"
-      },
-      {
-        "w": 1313,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4.webp": {
-    "w": 1417,
-    "h": 946,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4-800.webp"
-      },
-      {
-        "w": 1417,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5.webp": {
-    "w": 2400,
-    "h": 1597,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_5.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6.webp": {
-    "w": 2400,
-    "h": 1597,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/11_Remise_Diplomes_ESCP_Hotel_Potocki/11_Remise_Diplomes_ESCP_Hotel_Potocki_6.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1.webp": {
-    "w": 2400,
-    "h": 1597,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2.webp": {
-    "w": 2400,
-    "h": 1597,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_3.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_4.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_5.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6.webp": {
-    "w": 2400,
-    "h": 1600,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/12_AG_SNITEM_Roland_Garros/12_AG_SNITEM_Roland_Garros_6.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1.webp": {
-    "w": 2400,
-    "h": 1602,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_1.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2.webp": {
-    "w": 2400,
-    "h": 1597,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_2.webp"
-      }
-    ]
-  },
-  "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3.webp": {
-    "w": 2400,
-    "h": 1597,
-    "variants": [
-      {
-        "w": 400,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3-400.webp"
-      },
-      {
-        "w": 800,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3-800.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3-1600.webp"
-      },
-      {
-        "w": 2400,
-        "src": "/images-compressed/pdf/13_SITL_2025/13_SITL_2025_3.webp"
       }
     ]
   },
@@ -2023,15 +859,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/photosach-400.webp"
+        "src": "/images-compressed/photosach@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/photosach-800.webp"
+        "src": "/images-compressed/photosach@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/photosach-1600.webp"
+        "src": "/images-compressed/photosach@1600w.webp"
       },
       {
         "w": 2400,
@@ -2045,15 +881,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb1-400.webp"
+        "src": "/images-compressed/tmb1@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb1-800.webp"
+        "src": "/images-compressed/tmb1@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb1-1600.webp"
+        "src": "/images-compressed/tmb1@1600w.webp"
       },
       {
         "w": 2400,
@@ -2067,15 +903,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb2-400.webp"
+        "src": "/images-compressed/tmb2@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb2-800.webp"
+        "src": "/images-compressed/tmb2@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb2-1600.webp"
+        "src": "/images-compressed/tmb2@1600w.webp"
       },
       {
         "w": 2400,
@@ -2089,15 +925,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb3-400.webp"
+        "src": "/images-compressed/tmb3@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb3-800.webp"
+        "src": "/images-compressed/tmb3@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb3-1600.webp"
+        "src": "/images-compressed/tmb3@1600w.webp"
       },
       {
         "w": 2400,
@@ -2111,15 +947,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb4-400.webp"
+        "src": "/images-compressed/tmb4@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb4-800.webp"
+        "src": "/images-compressed/tmb4@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb4-1600.webp"
+        "src": "/images-compressed/tmb4@1600w.webp"
       },
       {
         "w": 2400,
@@ -2133,15 +969,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb5-400.webp"
+        "src": "/images-compressed/tmb5@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb5-800.webp"
+        "src": "/images-compressed/tmb5@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb5-1600.webp"
+        "src": "/images-compressed/tmb5@1600w.webp"
       },
       {
         "w": 2400,
@@ -2155,15 +991,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb6-400.webp"
+        "src": "/images-compressed/tmb6@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb6-800.webp"
+        "src": "/images-compressed/tmb6@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb6-1600.webp"
+        "src": "/images-compressed/tmb6@1600w.webp"
       },
       {
         "w": 2400,
@@ -2177,15 +1013,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb7-400.webp"
+        "src": "/images-compressed/tmb7@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb7-800.webp"
+        "src": "/images-compressed/tmb7@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb7-1600.webp"
+        "src": "/images-compressed/tmb7@1600w.webp"
       },
       {
         "w": 2400,
@@ -2199,15 +1035,15 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb8-400.webp"
+        "src": "/images-compressed/tmb8@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb8-800.webp"
+        "src": "/images-compressed/tmb8@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb8-1600.webp"
+        "src": "/images-compressed/tmb8@1600w.webp"
       },
       {
         "w": 2400,
@@ -2221,19 +1057,2703 @@
     "variants": [
       {
         "w": 400,
-        "src": "/images-compressed/tmb9-400.webp"
+        "src": "/images-compressed/tmb9@400w.webp"
       },
       {
         "w": 800,
-        "src": "/images-compressed/tmb9-800.webp"
+        "src": "/images-compressed/tmb9@800w.webp"
       },
       {
         "w": 1600,
-        "src": "/images-compressed/tmb9-1600.webp"
+        "src": "/images-compressed/tmb9@1600w.webp"
       },
       {
         "w": 2400,
         "src": "/images-compressed/tmb9.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/03_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/03_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/03_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/03_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/03_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/04_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/04_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/04_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/04_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/04_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/05_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/05_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/05_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/05_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/05_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/06_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/06_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/06_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/06_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/06_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/ambassade-rdc/07_ambassade-rdc.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/ambassade-rdc/07_ambassade-rdc@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/ambassade-rdc/07_ambassade-rdc@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/ambassade-rdc/07_ambassade-rdc@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/ambassade-rdc/07_ambassade-rdc.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/01_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/01_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/01_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/01_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/01_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/02_autf-2024-2026.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/02_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/02_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/02_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/autf/02_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/03_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/03_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/03_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/03_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/03_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/04_autf-2024-2026.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/04_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/04_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/04_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/autf/04_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/05_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/05_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/05_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/05_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/05_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/06_autf-2024-2026.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/06_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/06_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/06_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/autf/06_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/07_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/07_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/07_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/07_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/07_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/08_autf-2024-2026.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/08_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/08_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/08_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/autf/08_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/09_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/09_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/09_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/09_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/09_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/10_autf-2024-2026.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/10_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/10_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/10_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/autf/10_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/11_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/11_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/11_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/11_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/11_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/12_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/12_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/12_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/12_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/12_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/13_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/13_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/13_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/13_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/13_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/autf/14_autf-2024-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/autf/14_autf-2024-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/autf/14_autf-2024-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/autf/14_autf-2024-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/autf/14_autf-2024-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/credit-agricole/03_credit-agricole-limoges.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/credit-agricole/03_credit-agricole-limoges@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/credit-agricole/03_credit-agricole-limoges@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/credit-agricole/03_credit-agricole-limoges@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/credit-agricole/03_credit-agricole-limoges.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/credit-agricole/04_credit-agricole-limoges.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/credit-agricole/04_credit-agricole-limoges@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/credit-agricole/04_credit-agricole-limoges@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/credit-agricole/04_credit-agricole-limoges@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/credit-agricole/04_credit-agricole-limoges.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/credit-agricole/05_credit-agricole-limoges.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/credit-agricole/05_credit-agricole-limoges@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/credit-agricole/05_credit-agricole-limoges@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/credit-agricole/05_credit-agricole-limoges@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/credit-agricole/05_credit-agricole-limoges.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/credit-agricole/06_credit-agricole-limoges.webp": {
+    "w": 2048,
+    "h": 1363,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/credit-agricole/06_credit-agricole-limoges@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/credit-agricole/06_credit-agricole-limoges@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/credit-agricole/06_credit-agricole-limoges@1600w.webp"
+      },
+      {
+        "w": 2048,
+        "src": "/images-compressed/v2/credit-agricole/06_credit-agricole-limoges.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/dsm-firmenich/03_dsm-firmenich-capital-markets-day-2024.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/dsm-firmenich/03_dsm-firmenich-capital-markets-day-2024@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/dsm-firmenich/03_dsm-firmenich-capital-markets-day-2024@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/dsm-firmenich/03_dsm-firmenich-capital-markets-day-2024@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/dsm-firmenich/03_dsm-firmenich-capital-markets-day-2024.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/dsm-firmenich/04_dsm-firmenich-capital-markets-day-2024.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/dsm-firmenich/04_dsm-firmenich-capital-markets-day-2024@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/dsm-firmenich/04_dsm-firmenich-capital-markets-day-2024@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/dsm-firmenich/04_dsm-firmenich-capital-markets-day-2024@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/dsm-firmenich/04_dsm-firmenich-capital-markets-day-2024.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/dsm-firmenich/05_dsm-firmenich-capital-markets-day-2024.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/dsm-firmenich/05_dsm-firmenich-capital-markets-day-2024@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/dsm-firmenich/05_dsm-firmenich-capital-markets-day-2024@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/dsm-firmenich/05_dsm-firmenich-capital-markets-day-2024@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/dsm-firmenich/05_dsm-firmenich-capital-markets-day-2024.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/dsm-firmenich/06_dsm-firmenich-capital-markets-day-2024.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/dsm-firmenich/06_dsm-firmenich-capital-markets-day-2024@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/dsm-firmenich/06_dsm-firmenich-capital-markets-day-2024@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/dsm-firmenich/06_dsm-firmenich-capital-markets-day-2024@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/dsm-firmenich/06_dsm-firmenich-capital-markets-day-2024.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/epita/01_epita-vie-de-campus.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/epita/01_epita-vie-de-campus@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/epita/01_epita-vie-de-campus@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/epita/01_epita-vie-de-campus@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/epita/01_epita-vie-de-campus.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/epita/02_epita-vie-de-campus.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/epita/02_epita-vie-de-campus@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/epita/02_epita-vie-de-campus@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/epita/02_epita-vie-de-campus@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/epita/02_epita-vie-de-campus.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/epita/03_epita-vie-de-campus.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/epita/03_epita-vie-de-campus@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/epita/03_epita-vie-de-campus@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/epita/03_epita-vie-de-campus@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/epita/03_epita-vie-de-campus.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/epita/04_epita-vie-de-campus.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/epita/04_epita-vie-de-campus@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/epita/04_epita-vie-de-campus@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/epita/04_epita-vie-de-campus@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/epita/04_epita-vie-de-campus.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/epita/05_epita-vie-de-campus.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/epita/05_epita-vie-de-campus@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/epita/05_epita-vie-de-campus@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/epita/05_epita-vie-de-campus@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/epita/05_epita-vie-de-campus.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/epita/06_epita-vie-de-campus.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/epita/06_epita-vie-de-campus@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/epita/06_epita-vie-de-campus@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/epita/06_epita-vie-de-campus@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/epita/06_epita-vie-de-campus.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/03_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/03_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/03_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/03_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/03_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/04_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/04_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/04_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/04_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/04_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/05_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/05_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/05_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/05_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/05_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/06_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/06_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/06_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/06_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/06_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/07_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/07_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/07_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/07_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/07_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/08_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/08_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/08_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/08_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/08_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/09_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/09_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/09_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/09_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/09_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/10_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/10_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/10_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/10_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/10_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/11_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/11_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/11_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/11_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/11_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/12_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1800,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/12_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/12_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/12_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/12_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/13_escp-parlement-europeen.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/13_escp-parlement-europeen@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/13_escp-parlement-europeen@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/13_escp-parlement-europeen@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/13_escp-parlement-europeen.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/03_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/03_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/03_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/03_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/03_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/04_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/04_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/04_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/04_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/04_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/05_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/05_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/05_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/05_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/05_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/06_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/06_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/06_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/06_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/06_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/07_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/07_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/07_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/07_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/07_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/b_Remise-des-diplomes/08_escp-remise-des-diplomes.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/08_escp-remise-des-diplomes@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/08_escp-remise-des-diplomes@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/08_escp-remise-des-diplomes@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/b_Remise-des-diplomes/08_escp-remise-des-diplomes.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/03_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/03_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/03_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/03_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/03_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/04_escp-woman.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/04_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/04_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/04_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/04_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/05_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/05_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/05_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/05_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/05_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/06_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/06_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/06_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/06_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/06_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/07_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/07_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/07_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/07_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/07_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/08_escp-woman.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/08_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/08_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/08_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/08_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/c_ESCP-Woman/09_escp-woman.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/09_escp-woman@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/09_escp-woman@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/09_escp-woman@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/c_ESCP-Woman/09_escp-woman.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/01_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/01_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/01_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/01_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/01_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/02_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/02_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/02_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/02_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/02_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/03_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/03_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/03_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/03_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/03_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/04_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/04_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/04_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/04_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/04_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/05_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/05_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/05_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/05_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/05_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/06_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/06_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/06_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/06_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/06_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/07_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/07_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/07_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/07_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/07_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/08_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/08_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/08_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/08_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/08_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/escp/d_Conference/09_escp-conference.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/escp/d_Conference/09_escp-conference@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/escp/d_Conference/09_escp-conference@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/escp/d_Conference/09_escp-conference@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/escp/d_Conference/09_escp-conference.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/03_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/03_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/03_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/03_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/03_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/04_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/04_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/04_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/04_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/04_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/05_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/05_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/05_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/05_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/05_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/06_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/06_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/06_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/06_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/06_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/07_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/07_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/07_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/07_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/07_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/08_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/08_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/08_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/08_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/08_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/09_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/09_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/09_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/09_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/09_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/10_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/10_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/10_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/10_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/10_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/11_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/11_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/11_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/11_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/11_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/12_hogan-lovells-soiree.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/12_hogan-lovells-soiree@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/12_hogan-lovells-soiree@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/12_hogan-lovells-soiree@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/12_hogan-lovells-soiree.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/03_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/03_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/03_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/03_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/03_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/04_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/04_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/04_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/04_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/04_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/05_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/05_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/05_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/05_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/05_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/06_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/06_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/06_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/06_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/06_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/07_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/07_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/07_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/07_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/07_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/08_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/08_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/08_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/08_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/08_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/09_hogan-lovells-recital-cortot.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/09_hogan-lovells-recital-cortot@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/09_hogan-lovells-recital-cortot@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/09_hogan-lovells-recital-cortot@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/09_hogan-lovells-recital-cortot.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/mcdonalds/03_mcdonalds-filiere-pomme-de-terre.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/mcdonalds/03_mcdonalds-filiere-pomme-de-terre@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/mcdonalds/03_mcdonalds-filiere-pomme-de-terre@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/mcdonalds/03_mcdonalds-filiere-pomme-de-terre@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/mcdonalds/03_mcdonalds-filiere-pomme-de-terre.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/mcdonalds/04_mcdonalds-filiere-pomme-de-terre.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/mcdonalds/04_mcdonalds-filiere-pomme-de-terre@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/mcdonalds/04_mcdonalds-filiere-pomme-de-terre@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/mcdonalds/04_mcdonalds-filiere-pomme-de-terre@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/mcdonalds/04_mcdonalds-filiere-pomme-de-terre.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/mcdonalds/05_mcdonalds-filiere-pomme-de-terre.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/mcdonalds/05_mcdonalds-filiere-pomme-de-terre@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/mcdonalds/05_mcdonalds-filiere-pomme-de-terre@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/mcdonalds/05_mcdonalds-filiere-pomme-de-terre@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/mcdonalds/05_mcdonalds-filiere-pomme-de-terre.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/mcdonalds/06_mcdonalds-filiere-pomme-de-terre.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/mcdonalds/06_mcdonalds-filiere-pomme-de-terre@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/mcdonalds/06_mcdonalds-filiere-pomme-de-terre@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/mcdonalds/06_mcdonalds-filiere-pomme-de-terre@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/mcdonalds/06_mcdonalds-filiere-pomme-de-terre.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/01_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/01_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/01_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/01_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/01_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/02_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1602,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/02_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/02_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/02_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/02_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/03_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/03_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/03_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/03_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/03_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/04_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/04_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/04_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/04_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/04_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/05_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/05_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/05_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/05_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/05_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/06_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/06_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/06_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/06_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/06_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/sitl/07_sitl-2025-2026.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/sitl/07_sitl-2025-2026@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/sitl/07_sitl-2025-2026@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/sitl/07_sitl-2025-2026@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/sitl/07_sitl-2025-2026.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/snitem/01_snitem-assemblee-generale.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/snitem/01_snitem-assemblee-generale@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/snitem/01_snitem-assemblee-generale@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/snitem/01_snitem-assemblee-generale@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/snitem/01_snitem-assemblee-generale.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/snitem/02_snitem-assemblee-generale.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/snitem/02_snitem-assemblee-generale@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/snitem/02_snitem-assemblee-generale@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/snitem/02_snitem-assemblee-generale@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/snitem/02_snitem-assemblee-generale.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/snitem/03_snitem-assemblee-generale.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/snitem/03_snitem-assemblee-generale@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/snitem/03_snitem-assemblee-generale@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/snitem/03_snitem-assemblee-generale@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/snitem/03_snitem-assemblee-generale.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/snitem/04_snitem-assemblee-generale.webp": {
+    "w": 2400,
+    "h": 1597,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/snitem/04_snitem-assemblee-generale@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/snitem/04_snitem-assemblee-generale@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/snitem/04_snitem-assemblee-generale@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/snitem/04_snitem-assemblee-generale.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/snitem/05_snitem-assemblee-generale.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/snitem/05_snitem-assemblee-generale@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/snitem/05_snitem-assemblee-generale@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/snitem/05_snitem-assemblee-generale@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/snitem/05_snitem-assemblee-generale.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/snitem/06_snitem-assemblee-generale.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/snitem/06_snitem-assemblee-generale@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/snitem/06_snitem-assemblee-generale@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/snitem/06_snitem-assemblee-generale@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/snitem/06_snitem-assemblee-generale.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/supply-chain-event/01_supply-chain-event.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/supply-chain-event/01_supply-chain-event@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/supply-chain-event/01_supply-chain-event@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/supply-chain-event/01_supply-chain-event@1600w.webp"
+      },
+      {
+        "w": 1800,
+        "src": "/images-compressed/v2/supply-chain-event/01_supply-chain-event.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/supply-chain-event/02_supply-chain-event.webp": {
+    "w": 2400,
+    "h": 1351,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/supply-chain-event/02_supply-chain-event@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/supply-chain-event/02_supply-chain-event@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/supply-chain-event/02_supply-chain-event@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/supply-chain-event/02_supply-chain-event.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/supply-chain-event/03_supply-chain-event.webp": {
+    "w": 2400,
+    "h": 1600,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/supply-chain-event/03_supply-chain-event@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/supply-chain-event/03_supply-chain-event@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/supply-chain-event/03_supply-chain-event@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/supply-chain-event/03_supply-chain-event.webp"
+      }
+    ]
+  },
+  "/images-compressed/v2/supply-chain-event/04_supply-chain-event.webp": {
+    "w": 2400,
+    "h": 1351,
+    "variants": [
+      {
+        "w": 400,
+        "src": "/images-compressed/v2/supply-chain-event/04_supply-chain-event@400w.webp"
+      },
+      {
+        "w": 800,
+        "src": "/images-compressed/v2/supply-chain-event/04_supply-chain-event@800w.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/images-compressed/v2/supply-chain-event/04_supply-chain-event@1600w.webp"
+      },
+      {
+        "w": 2400,
+        "src": "/images-compressed/v2/supply-chain-event/04_supply-chain-event.webp"
       }
     ]
   }

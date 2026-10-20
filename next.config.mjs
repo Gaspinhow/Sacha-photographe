@@ -6,6 +6,32 @@ const nextConfig = {
     unoptimized: true
   },
 
+  // Les reportages d'entreprise avaient chacun leur page ; ils sont maintenant
+  // regroupés par client sur /corporate. On renvoie les anciennes adresses vers
+  // la bonne section plutôt que de les laisser tomber en 404.
+  async redirects() {
+    const versCorporate = {
+      'mcdonalds': 'mcdonalds',
+      'escp-diplome': 'escp',
+      'escp-parlement': 'escp',
+      'ambassade-rdc': 'ambassade-rdc',
+      'sitl-2025': 'sitl',
+      'sce-supply': 'supply-chain-event',
+      'autf-pro': 'autf',
+      'credit-agricole': 'credit-agricole',
+      'epita': 'epita',
+      'dsm-firmenich': 'dsm-firmenich',
+      'hogan-reseautage': 'hogan-lovells',
+      'hogan-recital': 'hogan-lovells',
+      'snitem-roland-garros': 'snitem',
+    };
+    return Object.entries(versCorporate).map(([ancien, ancre]) => ({
+      source: `/reportage/${ancien}`,
+      destination: `/corporate#${ancre}`,
+      permanent: true,
+    }));
+  },
+
   async headers() {
     return [
       {

@@ -1,0 +1,302 @@
+[
+  {
+    "rang": 1,
+    "ancre": "mcdonalds",
+    "nom": "McDonald's",
+    "couverture": "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre.webp",
+    "reportages": [
+      {
+        "id": "mcdonalds",
+        "titre": "Campagne filière pomme de terre",
+        "images": [
+          "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre.webp",
+          "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre.webp",
+          "/images-compressed/v2/mcdonalds/03_mcdonalds-filiere-pomme-de-terre.webp",
+          "/images-compressed/v2/mcdonalds/04_mcdonalds-filiere-pomme-de-terre.webp",
+          "/images-compressed/v2/mcdonalds/05_mcdonalds-filiere-pomme-de-terre.webp",
+          "/images-compressed/v2/mcdonalds/06_mcdonalds-filiere-pomme-de-terre.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 2,
+    "ancre": "escp",
+    "nom": "ESCP Business School",
+    "couverture": "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen.webp",
+    "reportages": [
+      {
+        "id": "Parlement-europeen-2-editions",
+        "titre": "Séminaires au Parlement européen — éditions 2024 et 2026",
+        "images": [
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/03_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/04_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/05_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/06_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/07_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/08_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/09_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/10_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/11_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/12_escp-parlement-europeen.webp",
+          "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/13_escp-parlement-europeen.webp"
+        ]
+      },
+      {
+        "id": "Remise-des-diplomes",
+        "titre": "Remise des diplômes",
+        "images": [
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/03_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/04_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/05_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/06_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/07_escp-remise-des-diplomes.webp",
+          "/images-compressed/v2/escp/b_Remise-des-diplomes/08_escp-remise-des-diplomes.webp"
+        ]
+      },
+      {
+        "id": "ESCP-Woman",
+        "titre": "ESCP Woman",
+        "images": [
+          "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/03_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/04_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/05_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/06_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/07_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/08_escp-woman.webp",
+          "/images-compressed/v2/escp/c_ESCP-Woman/09_escp-woman.webp"
+        ]
+      },
+      {
+        "id": "Conference",
+        "titre": "Conférence",
+        "images": [
+          "/images-compressed/v2/escp/d_Conference/01_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/02_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/03_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/04_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/05_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/06_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/07_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/08_escp-conference.webp",
+          "/images-compressed/v2/escp/d_Conference/09_escp-conference.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 3,
+    "ancre": "ambassade-rdc",
+    "nom": "Ambassade de la RDC",
+    "couverture": "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc.webp",
+    "reportages": [
+      {
+        "id": "ambassade-rdc",
+        "titre": "Conférence et réception, Paris",
+        "images": [
+          "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc.webp",
+          "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc.webp",
+          "/images-compressed/v2/ambassade-rdc/03_ambassade-rdc.webp",
+          "/images-compressed/v2/ambassade-rdc/04_ambassade-rdc.webp",
+          "/images-compressed/v2/ambassade-rdc/05_ambassade-rdc.webp",
+          "/images-compressed/v2/ambassade-rdc/06_ambassade-rdc.webp",
+          "/images-compressed/v2/ambassade-rdc/07_ambassade-rdc.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 4,
+    "ancre": "sitl",
+    "nom": "SITL",
+    "couverture": "/images-compressed/v2/sitl/01_sitl-2025-2026.webp",
+    "reportages": [
+      {
+        "id": "sitl",
+        "titre": "SITL — éditions 2025 et 2026",
+        "images": [
+          "/images-compressed/v2/sitl/01_sitl-2025-2026.webp",
+          "/images-compressed/v2/sitl/02_sitl-2025-2026.webp",
+          "/images-compressed/v2/sitl/03_sitl-2025-2026.webp",
+          "/images-compressed/v2/sitl/04_sitl-2025-2026.webp",
+          "/images-compressed/v2/sitl/05_sitl-2025-2026.webp",
+          "/images-compressed/v2/sitl/06_sitl-2025-2026.webp",
+          "/images-compressed/v2/sitl/07_sitl-2025-2026.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 5,
+    "ancre": "supply-chain-event",
+    "nom": "Supply Chain Event",
+    "couverture": "/images-compressed/v2/supply-chain-event/01_supply-chain-event.webp",
+    "reportages": [
+      {
+        "id": "supply-chain-event",
+        "titre": "Couverture du salon",
+        "images": [
+          "/images-compressed/v2/supply-chain-event/01_supply-chain-event.webp",
+          "/images-compressed/v2/supply-chain-event/02_supply-chain-event.webp",
+          "/images-compressed/v2/supply-chain-event/03_supply-chain-event.webp",
+          "/images-compressed/v2/supply-chain-event/04_supply-chain-event.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 6,
+    "ancre": "autf",
+    "nom": "AUTF",
+    "couverture": "/images-compressed/v2/autf/01_autf-2024-2026.webp",
+    "reportages": [
+      {
+        "id": "autf",
+        "titre": "AUTF — éditions 2024 et 2026",
+        "images": [
+          "/images-compressed/v2/autf/01_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/02_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/03_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/04_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/05_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/06_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/07_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/08_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/09_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/10_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/11_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/12_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/13_autf-2024-2026.webp",
+          "/images-compressed/v2/autf/14_autf-2024-2026.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 7,
+    "ancre": "credit-agricole",
+    "nom": "Crédit Agricole",
+    "couverture": "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges.webp",
+    "reportages": [
+      {
+        "id": "credit-agricole",
+        "titre": "Nouveau bâtiment, Limoges",
+        "images": [
+          "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges.webp",
+          "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges.webp",
+          "/images-compressed/v2/credit-agricole/03_credit-agricole-limoges.webp",
+          "/images-compressed/v2/credit-agricole/04_credit-agricole-limoges.webp",
+          "/images-compressed/v2/credit-agricole/05_credit-agricole-limoges.webp",
+          "/images-compressed/v2/credit-agricole/06_credit-agricole-limoges.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 8,
+    "ancre": "epita",
+    "nom": "EPITA",
+    "couverture": "/images-compressed/v2/epita/01_epita-vie-de-campus.webp",
+    "reportages": [
+      {
+        "id": "epita",
+        "titre": "Vie de campus",
+        "images": [
+          "/images-compressed/v2/epita/01_epita-vie-de-campus.webp",
+          "/images-compressed/v2/epita/02_epita-vie-de-campus.webp",
+          "/images-compressed/v2/epita/03_epita-vie-de-campus.webp",
+          "/images-compressed/v2/epita/04_epita-vie-de-campus.webp",
+          "/images-compressed/v2/epita/05_epita-vie-de-campus.webp",
+          "/images-compressed/v2/epita/06_epita-vie-de-campus.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 9,
+    "ancre": "dsm-firmenich",
+    "nom": "dsm-firmenich",
+    "couverture": "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024.webp",
+    "reportages": [
+      {
+        "id": "dsm-firmenich",
+        "titre": "Capital Markets Day 2024",
+        "images": [
+          "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024.webp",
+          "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024.webp",
+          "/images-compressed/v2/dsm-firmenich/03_dsm-firmenich-capital-markets-day-2024.webp",
+          "/images-compressed/v2/dsm-firmenich/04_dsm-firmenich-capital-markets-day-2024.webp",
+          "/images-compressed/v2/dsm-firmenich/05_dsm-firmenich-capital-markets-day-2024.webp",
+          "/images-compressed/v2/dsm-firmenich/06_dsm-firmenich-capital-markets-day-2024.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 10,
+    "ancre": "hogan-lovells",
+    "nom": "Hogan Lovells",
+    "couverture": "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree.webp",
+    "reportages": [
+      {
+        "id": "Soiree-reseautage",
+        "titre": "Soirée réseautage",
+        "images": [
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/03_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/04_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/05_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/06_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/07_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/08_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/09_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/10_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/11_hogan-lovells-soiree.webp",
+          "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/12_hogan-lovells-soiree.webp"
+        ]
+      },
+      {
+        "id": "Recital-salle-Cortot",
+        "titre": "Récital salle Cortot",
+        "images": [
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/03_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/04_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/05_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/06_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/07_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/08_hogan-lovells-recital-cortot.webp",
+          "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/09_hogan-lovells-recital-cortot.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "rang": 11,
+    "ancre": "snitem",
+    "nom": "Snitem",
+    "couverture": "/images-compressed/v2/snitem/01_snitem-assemblee-generale.webp",
+    "reportages": [
+      {
+        "id": "snitem",
+        "titre": "Assemblée générale, Roland-Garros",
+        "images": [
+          "/images-compressed/v2/snitem/01_snitem-assemblee-generale.webp",
+          "/images-compressed/v2/snitem/02_snitem-assemblee-generale.webp",
+          "/images-compressed/v2/snitem/03_snitem-assemblee-generale.webp",
+          "/images-compressed/v2/snitem/04_snitem-assemblee-generale.webp",
+          "/images-compressed/v2/snitem/05_snitem-assemblee-generale.webp",
+          "/images-compressed/v2/snitem/06_snitem-assemblee-generale.webp"
+        ]
+      }
+    ]
+  }
+]
