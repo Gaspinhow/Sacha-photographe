@@ -7,7 +7,7 @@ import Logo from "../../components/Logo";
 import Link from "next/link";
 
 const inputClass =
-  "w-full border-b border-black/55 py-3 text-[12px] tracking-[0.1em] outline-none focus:border-black transition-colors bg-transparent rounded-none";
+  "w-full border-b border-black/55 py-3 text-[12px] tracking-[0.02em] outline-none focus:border-black transition-colors bg-transparent rounded-none";
 
 function Field({ id, label, type = "text", autoComplete, required = false, textarea = false, options }) {
   const common = {
@@ -20,7 +20,7 @@ function Field({ id, label, type = "text", autoComplete, required = false, texta
 
   return (
     <div className="flex flex-col gap-2">
-      <label htmlFor={id} className="text-[10px] uppercase tracking-[0.25em] text-black">
+      <label htmlFor={id} className="text-[10px] tracking-[0.04em] text-black">
         {label}
       </label>
       {options ? (
@@ -115,7 +115,7 @@ export default function ContactForm() {
   };
 
   return (
-    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-20 px-6 md:px-12 lg:px-24 text-gray-900">
+    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-20 px-6 md:px-12 lg:px-24 text-black">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24">
         
         {/* Colonne de gauche : Titre (Décalé style mosaïque) */}
@@ -123,11 +123,11 @@ export default function ContactForm() {
           <motion.h1 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="text-2xl md:text-5xl font-serif uppercase tracking-[0.2em] md:tracking-[0.3em] leading-tight"
+            className="text-2xl md:text-5xl tracking-[0.03em] md:tracking-[0.05em] leading-tight"
           >
             {content[lang].title}
           </motion.h1>
-          <p className="text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-black/80 font-light italic leading-relaxed">
+          <p className="text-[10px] md:text-[11px] tracking-[0.05em] text-black/80 font-normal italic leading-relaxed">
             {content[lang].subtitle}
           </p>
           <div className="hidden md:block pt-12">
@@ -135,7 +135,7 @@ export default function ContactForm() {
           </div>
 
           {/* Coordonnees : le cahier demande un telephone cliquable et un seul LinkedIn */}
-          <address className="not-italic flex flex-col gap-3 pt-2 text-[11px] tracking-[0.15em] text-black">
+          <address className="not-italic flex flex-col gap-3 pt-2 text-[11px] tracking-[0.02em] text-black">
             <a href={`mailto:${EMAIL}`} className="w-fit border-b border-black/40 pb-0.5 hover:opacity-60 transition-opacity">
               {EMAIL}
             </a>
@@ -201,7 +201,7 @@ export default function ContactForm() {
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="w-full md:w-fit px-20 py-5 border border-black/40 hover:border-black text-[10px] font-bold uppercase tracking-[0.5em] transition-all duration-700 bg-black text-white md:bg-transparent md:text-black md:hover:bg-black md:hover:text-white disabled:opacity-50"
+                className="w-full md:w-fit px-20 py-5 border border-black/40 hover:border-black text-[10px] font-semibold tracking-[0.08em] transition-all duration-700 bg-black text-white md:bg-transparent md:text-black md:hover:bg-black md:hover:text-white disabled:opacity-50"
               >
                 {status === 'loading' ? content[lang].sending : content[lang].send}
               </button>
@@ -210,10 +210,10 @@ export default function ContactForm() {
                 {/* aria-live : le lecteur d'écran annonce le résultat sans que
                     l'utilisateur ait à partir le chercher dans la page. */}
                 <div aria-live="polite" className="space-y-2">
-                  {status === 'success' && <p className="text-[10px] uppercase tracking-widest" style={{ color: '#15803d' }}>{content[lang].success}</p>}
-                  {status === 'error' && <p className="text-[10px] uppercase tracking-widest" style={{ color: '#b91c1c' }}>{content[lang].error}</p>}
+                  {status === 'success' && <p className="text-[10px] tracking-widest" style={{ color: '#15803d' }}>{content[lang].success}</p>}
+                  {status === 'error' && <p className="text-[10px] tracking-widest" style={{ color: '#b91c1c' }}>{content[lang].error}</p>}
                 </div>
-                <p className="text-[9px] uppercase tracking-[0.3em] text-black/80 italic">
+                <p className="text-[9px] tracking-[0.05em] text-black/80 italic">
                   {content[lang].info}
                 </p>
               </div>

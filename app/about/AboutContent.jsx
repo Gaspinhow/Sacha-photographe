@@ -40,24 +40,24 @@ export default function AboutContent() {
         {/* Colonne Texte - Décalée sur mobile pour la mosaïque */}
         <div className="flex flex-col gap-8 md:gap-12 mt-4 md:mt-0 px-2 md:px-0">
           
-          <h1 className="text-xl md:text-3xl lg:text-4xl font-serif leading-tight text-gray-900 tracking-tight max-w-lg">
+          <h1 className="text-xl md:text-3xl lg:text-4xl leading-tight text-black tracking-tight max-w-lg">
             {texts[lang].intro}
           </h1>
 
-          <div className="space-y-6 md:space-y-8 text-[13px] md:text-base text-gray-600 leading-relaxed font-light max-w-xl">
+          <div className="space-y-6 md:space-y-8 text-[13px] md:text-base text-black/80 leading-relaxed font-normal max-w-xl">
             <p>{texts[lang].p1}</p>
             <p>{texts[lang].p2}</p>
             
             <div className="pt-4">
-              <p className="italic border-l border-gray-200 pl-6 py-2 text-gray-400 text-sm md:text-base leading-relaxed">
+              <p className="italic border-l border-black/20 pl-6 py-2 text-black/80 text-sm md:text-base leading-relaxed">
                   {texts[lang].p3}
               </p>
             </div>
           </div>
 
           {/* Signature discrète en bas de page about */}
-          <div className="mt-8 pt-8 border-t border-gray-50">
-            <p className="text-[9px] uppercase tracking-[0.4em] text-gray-300">
+          <div className="mt-8 pt-8 border-t border-black/10">
+            <p className="text-[9px] tracking-[0.06em] text-black/80">
               Sacha Nahum — Paris
             </p>
           </div>

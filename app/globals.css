@@ -18,11 +18,8 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Force TOUT le texte (p, h1, h2, a, span) en Noir pur */
-  h1, h2, h3, h4, p, span, a, label, input, textarea {
-    color: #000000 !important;
-  }
-
+  /* Le texte est noir par défaut. Pas de !important ici : il annulait tous les
+     gris posés dans les pages, y compris ceux du formulaire de contact. */
   /* Supprime les soulignements par défaut */
   a { text-decoration: none; }
 }

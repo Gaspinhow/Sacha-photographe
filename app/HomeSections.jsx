@@ -26,21 +26,21 @@ export default function HomeSections() {
   };
 
   return (
-    <main className="min-h-screen bg-white pt-32 md:pt-48 pb-24 px-4 md:px-12 flex flex-col items-center justify-center font-serif text-black">
+    <main className="min-h-screen bg-white pt-32 md:pt-48 pb-24 px-4 md:px-12 flex flex-col items-center justify-center text-black">
       
       {/* Seul ajout demandé par le cahier V2 : un court texte au-dessus des photos */}
       <header className="max-w-[1400px] w-full mb-12 md:mb-20 text-center">
-        <h1 className="text-xl md:text-3xl lg:text-4xl tracking-[0.08em] leading-snug">
+        <h1 className="text-xl md:text-3xl lg:text-4xl tracking-[0.01em] leading-snug">
           {content[lang].titre}
         </h1>
-        <p className="mt-5 mx-auto max-w-2xl text-xs md:text-sm leading-relaxed font-light">
+        <p className="mt-5 mx-auto max-w-2xl text-xs md:text-sm leading-relaxed font-normal">
           {content[lang].phrase}
         </p>
         <p className="sr-only">{content[lang].references}</p>
-        <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[9px] md:text-[10px] uppercase tracking-[0.25em] text-black/75">
+        <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[9px] md:text-[10px] tracking-[0.04em] text-black/75">
           {REFERENCES_ACCUEIL.map((nom, i) => (
             <li key={nom} className="flex items-center gap-5">
-              {i > 0 && <span aria-hidden="true" className="text-black/30">·</span>}
+              {i > 0 && <span aria-hidden="true" className="text-black/80">·</span>}
               {nom}
             </li>
           ))}
@@ -64,7 +64,7 @@ export default function HomeSections() {
             />
           </div>
           {/* Titre : BIEN CENTRÉ, Noir Pur, toujours visible */}
-          <h2 className="text-[10px] md:text-xs uppercase tracking-[0.3em] font-medium text-center">
+          <h2 className="text-[10px] md:text-xs tracking-[0.05em] font-semibold text-center">
             {content[lang].documentary}
           </h2>
         </Link>
@@ -86,7 +86,7 @@ export default function HomeSections() {
             {/* L'overlay texte qui apparaissait au survol a été supprimé ici */}
           </div>
           {/* Titre : EN DESSOUS, BIEN CENTRÉ, Noir Pur, toujours visible */}
-          <h2 className="text-[10px] md:text-xs uppercase tracking-[0.3em] font-medium text-center">
+          <h2 className="text-[10px] md:text-xs tracking-[0.05em] font-semibold text-center">
             {content[lang].business}
           </h2>
         </Link>
@@ -95,7 +95,7 @@ export default function HomeSections() {
 
       {/* Signature finale */}
       <div className="mt-20 md:mt-32 text-center">
-        <p className="text-[9px] md:text-[10px] uppercase tracking-[0.5em] font-medium">
+        <p className="text-[9px] md:text-[10px] tracking-[0.08em] font-semibold">
           Sacha Nahum — Photographe
         </p>
       </div>

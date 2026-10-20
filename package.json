@@ -8,6 +8,7 @@
     "start": "next start",
     "export": "next build && next export",
     "images": "node scripts/generate-image-sizes.mjs",
+    "photos": "node scripts/import-photos-corporate.mjs && npm run images",
     "lint": "next lint"
   },
   "dependencies": {

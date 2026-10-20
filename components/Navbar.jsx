@@ -29,7 +29,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 inset-x-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 font-serif">
+    <nav className="fixed top-0 inset-x-0 z-50 bg-white/95 backdrop-blur-sm border-b border-black/10">
       <div className="max-w-7xl mx-auto px-6 h-20 md:h-28 flex items-center justify-between transition-all">
 
         {/* LOGO */}
@@ -48,10 +48,10 @@ export default function Navbar() {
               <Link
                 href={l.href}
                 className={clsx(
-                  "whitespace-nowrap text-[10px] xl:text-[11px] tracking-[0.2em] uppercase transition-all duration-300",
+                  "whitespace-nowrap text-[10px] xl:text-[11px] tracking-[0.03em] transition-all duration-300",
                   pathname === l.href
-                    ? "text-black border-b border-black pb-1 font-bold"
-                    : "text-black/40 hover:text-black"
+                    ? "text-black border-b border-black pb-1 font-semibold"
+                    : "text-black/80 hover:text-black"
                 )}
               >
                 {l.label}
@@ -66,7 +66,7 @@ export default function Navbar() {
             type="button"
             onClick={toggleLang}
             aria-label={lang === "FR" ? "Switch to English" : "Passer en français"}
-            className="text-[10px] font-bold tracking-[0.2em] border border-black px-3 py-1 hover:bg-black hover:text-white transition-all uppercase"
+            className="text-[10px] font-semibold tracking-[0.03em] border border-black px-3 py-1 hover:bg-black hover:text-white transition-all"
           >
             {lang}
           </button>
@@ -113,7 +113,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div id="menu-mobile" className={clsx(
-        "lg:hidden bg-white border-t border-gray-100 transition-all duration-500 overflow-hidden",
+        "lg:hidden bg-white border-t border-black/10 transition-all duration-500 overflow-hidden",
         mobileMenuOpen ? "max-h-screen pb-10" : "max-h-0"
       )}>
         <ul className="px-8 py-10 flex flex-col gap-8 text-left">
@@ -122,8 +122,8 @@ export default function Navbar() {
               <Link
                 href={l.href}
                 className={clsx(
-                  "text-sm tracking-[0.4em] uppercase font-medium",
-                  pathname === l.href ? "text-black border-l-2 border-black pl-4" : "text-black/40 pl-4"
+                  "text-sm tracking-[0.06em] font-semibold",
+                  pathname === l.href ? "text-black border-l-2 border-black pl-4" : "text-black/80 pl-4"
                 )}
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -131,14 +131,14 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
-          <li className="flex flex-col gap-8 pt-8 border-t border-gray-50 mt-4 pl-4">
-             <button type="button" onClick={toggleLang} aria-label={lang === "FR" ? "Switch to English" : "Passer en français"} className="w-fit text-[10px] font-bold tracking-widest border border-black px-4 py-1.5 uppercase">
+          <li className="flex flex-col gap-8 pt-8 border-t border-black/10 mt-4 pl-4">
+             <button type="button" onClick={toggleLang} aria-label={lang === "FR" ? "Switch to English" : "Passer en français"} className="w-fit text-[10px] font-semibold tracking-widest border border-black px-4 py-1.5">
               {lang}
             </button>
-            <div className="flex gap-6 text-black/60">
-              <a href="https://www.instagram.com/sacha_nahum" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">Instagram</a>
-              <a href="mailto:photo@sacha-nahum.com" className="text-[10px] tracking-[0.2em] uppercase">Email</a>
-              <a href="https://fr.linkedin.com/in/sacha-nahum-a06279281" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.2em] uppercase">LinkedIn</a>
+            <div className="flex gap-6 text-black/80">
+              <a href="https://www.instagram.com/sacha_nahum" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.03em]">Instagram</a>
+              <a href="mailto:photo@sacha-nahum.com" className="text-[10px] tracking-[0.03em]">Email</a>
+              <a href="https://fr.linkedin.com/in/sacha-nahum-a06279281" target="_blank" rel="noopener noreferrer" className="text-[10px] tracking-[0.03em]">LinkedIn</a>
             </div>
           </li>
         </ul>

@@ -2,8 +2,13 @@
 // conversion WebP, orientation EXIF respectée, plafonds de poids du cahier,
 // puis écriture de data/clients.json consommé par la page Corporate.
 //
-// Les originaux restent hors dépôt ; relancer après toute livraison de photos :
-//   node scripts/import-photos-corporate.mjs && npm run images
+// Les originaux restent hors dépôt. Après toute livraison de photos :
+//
+//   npm run photos
+//
+// Ne lancez PAS ce script seul : il réécrit public/images-compressed/v2, ce qui
+// supprime les déclinaisons @400w/@800w/@1600w que le manifeste référence encore.
+// Il faut enchaîner avec `npm run images`, et c'est ce que fait `npm run photos`.
 import sharp from 'sharp';
 import { readdir, mkdir, writeFile, stat, rm } from 'fs/promises';
 import { existsSync } from 'fs';
@@ -91,6 +96,7 @@ for (const client of CLIENTS) {
         ? reportage.sousDossier.replace(/^[a-z]_/, '')
         : client.ancre,
       titre: reportage.titre,
+      titreEN: reportage.titreEN ?? reportage.titre,
       images,
     });
   }

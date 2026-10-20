@@ -67,8 +67,8 @@ export async function POST(request) {
       subject: `CONTACT : ${String(firstName).slice(0, 60)} ${String(lastName).slice(0, 60)}`,
       replyTo: email,
       html: `
-        <div style="font-family: serif; color: #000000; line-height: 1.6; max-width: 600px;">
-          <h2 style="text-transform: uppercase; letter-spacing: 0.2em; border-bottom: 1px solid #000; padding-bottom: 10px;">
+        <div style="font-family: Helvetica, Arial, sans-serif; color: #000000; line-height: 1.6; max-width: 600px;">
+          <h2 style="font-size: 18px; font-weight: 600; border-bottom: 1px solid #000; padding-bottom: 10px;">
             Nouveau Message de Contact
           </h2>
           <p><strong>Nom :</strong> ${escapeHtml(lastName)}</p>
@@ -83,7 +83,7 @@ export async function POST(request) {
             <p><strong>Message :</strong></p>
             <p style="white-space: pre-wrap;">${escapeHtml(message)}</p>
           </div>
-          <footer style="margin-top: 40px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: #000000;">
+          <footer style="margin-top: 40px; font-size: 11px; color: #444444;">
             Envoyé depuis sacha-nahum.com
           </footer>
         </div>
@@ -107,7 +107,7 @@ export async function POST(request) {
         replyTo: DESTINATAIRE,
         subject: "Votre message a bien été reçu",
         html: `
-          <div style="font-family: serif; color: #000000; line-height: 1.6; max-width: 600px;">
+          <div style="font-family: Helvetica, Arial, sans-serif; color: #000000; line-height: 1.6; max-width: 600px;">
             <p>Bonjour ${escapeHtml(firstName)},</p>
             <p>Votre message m'est bien parvenu. Je reviens vers vous sous 24 h.</p>
             <p style="white-space: pre-wrap; border-left: 2px solid #000; padding-left: 14px; color: #333;">${escapeHtml(message)}</p>

@@ -1,15 +1,17 @@
 import "./globals.css";
-import { Cormorant_Garamond } from "next/font/google";
+import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import StructuredData from "../components/StructuredData";
 // ✅ IMPORT DU CONTEXTE POUR LE BILINGUE
 import { LanguageProvider } from "./context/LanguageContext"; 
 
-const cormorant = Cormorant_Garamond({
+// Deux graisses seulement, comme demandé : 400 pour le texte, 600 pour les titres.
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-cormorant",
+  weight: ["400", "600"],
+  variable: "--font-sans",
+  display: "swap",
 });
 
 export const metadata = {
@@ -40,12 +42,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" className={cormorant.variable}>
+    <html lang="fr" className={inter.variable}>
       <head>
         <StructuredData />
       </head>
-      {/* Changement ici : font-serif pour activer la Garamond sur tout le texte du site */}
-      <body className="font-serif antialiased text-black bg-white">
+      <body className="font-sans antialiased text-black bg-white">
         <LanguageProvider>
           <Navbar />
           {children}

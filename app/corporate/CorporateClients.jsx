@@ -30,10 +30,10 @@ export default function CorporateClients() {
     : [];
 
   return (
-    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 text-black font-serif">
+    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 text-black">
       <header className="max-w-7xl mx-auto px-4 md:px-12 lg:px-20 mb-14 md:mb-20">
-        <h1 className="text-xl md:text-3xl uppercase tracking-[0.2em] leading-relaxed">{t.titre}</h1>
-        <p className="mt-6 max-w-2xl text-[11px] md:text-xs uppercase tracking-[0.2em] leading-loose">{t.intro}</p>
+        <h1 className="text-xl md:text-3xl tracking-[0.03em] leading-relaxed">{t.titre}</h1>
+        <p className="mt-6 max-w-2xl text-[11px] md:text-xs tracking-[0.03em] leading-loose">{t.intro}</p>
       </header>
 
       <div className="space-y-20 md:space-y-28">
@@ -50,25 +50,28 @@ export default function CorporateClients() {
             style={{ contentVisibility: "auto", containIntrinsicSize: "auto 600px" }}
             className="scroll-mt-24 md:scroll-mt-36 max-w-7xl mx-auto px-4 md:px-12 lg:px-20"
           >
-            <h2 className="text-lg md:text-2xl tracking-[0.12em] mb-8 pb-4 border-b border-black/15">
+            <h2 className="text-lg md:text-2xl tracking-[0.02em] mb-8 pb-4 border-b border-black/15">
               {client.nom}
             </h2>
 
             <div className="space-y-10 md:space-y-14">
-              {client.reportages.map((reportage, indexReportage) => (
+              {client.reportages.map((reportage, indexReportage) => {
+                const titre = (lang === 'EN' && reportage.titreEN) ? reportage.titreEN : reportage.titre;
+                return (
                 <article key={reportage.id}>
-                  <h3 className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] mb-4">
-                    {reportage.titre}
+                  <h3 className="text-[10px] md:text-[11px] tracking-[0.04em] mb-4">
+                    {titre}
                   </h3>
                   <CarrouselPhotos
                     images={reportage.images}
-                    titre={reportage.titre}
+                    titre={titre}
                     lang={lang}
                     prioritaire={indexClient === 0 && indexReportage === 0}
-                    onOuvrir={(index) => setOuvert({ ...reportage, index })}
+                    onOuvrir={(index) => setOuvert({ ...reportage, titre, index })}
                   />
                 </article>
-              ))}
+                );
+              })}
             </div>
           </section>
         ))}
