@@ -9,13 +9,13 @@ export default function AboutContent() {
   const texts = {
     FR: {
       intro: "Je parcours le monde en quête de projets humains et sociaux qui racontent l'histoire d'autrui.",
-      p1: "Photographe de formation technique et artistique, j'arpente les émotions, les paysages, les identités et les mœurs de nos sociétés en m'efforçant de les retranscrire en images, en histoires qui perdurent dans le temps.",
+      p1: "J'arpente les émotions, les paysages, les identités et les mœurs de nos sociétés en m'efforçant de les retranscrire en images, en histoires qui perdurent dans le temps.",
       p2: "Mon parcours m'a amené à travailler sur des projets variés: événements d'entreprise, reportages institutionnels, portraits artistiques. Mais aussi, plus personnellement, la rencontre avec des porteurs de soufre en Indonésie ou encore la découverte de la vie de marginaux de la banlieue parisienne.",
       p3: "Photographier ce qui nous entoure est une chance qui se doit d'être transmise, partagée entre frontières et générations. C'est, à mes yeux, un devoir de documenter la société humaine avec l'authenticité.",
     },
     EN: {
       intro: "I travel the world in search of human and social projects that tell the stories of others.",
-      p1: "A photographer with both technical and artistic training, I explore emotions, landscapes, identities and the ways of our societies — striving to translate them into images, into stories that stand the test of time.",
+      p1: "I explore emotions, landscapes, identities and the ways of our societies — striving to translate them into images, into stories that stand the test of time.",
       p2: "My journey has led me to work on a wide range of projects: corporate events, institutional reportages, artistic portraits. But also, on a more personal level, encounters with sulfur miners in Indonesia or glimpses into the lives of the marginalized in the suburbs of Paris.",
       p3: "Photographing what surrounds us is a privilege that must be passed on, shared across borders and generations. To me, it is a duty to document human society with authenticity.",
     }

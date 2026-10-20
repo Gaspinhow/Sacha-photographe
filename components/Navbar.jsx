@@ -36,22 +36,19 @@ export default function Navbar() {
         <Link 
           href="/" 
           aria-label={lang === "EN" ? "Sacha Nahum — home" : "Sacha Nahum — accueil"}
-          className="flex items-center hover:opacity-60 transition-opacity"
+          className="flex shrink-0 items-center pr-8 hover:opacity-60 transition-opacity"
         >
-          <Logo
-            className="h-10 md:h-14 w-auto object-contain"
-            placeholderClassName="h-10 md:h-14 w-32 md:w-48"
-          />
+          <Logo className="h-7 md:h-9 w-auto object-contain" />
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center gap-10 lg:gap-14">
+        <ul className="hidden lg:flex items-center gap-8 xl:gap-12">
           {links[lang].map(l => (
             <li key={l.href}>
               <Link
                 href={l.href}
                 className={clsx(
-                  "text-[10px] md:text-[11px] tracking-[0.3em] uppercase transition-all duration-300",
+                  "whitespace-nowrap text-[10px] xl:text-[11px] tracking-[0.2em] uppercase transition-all duration-300",
                   pathname === l.href
                     ? "text-black border-b border-black pb-1 font-bold"
                     : "text-black/40 hover:text-black"
@@ -64,7 +61,7 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop Actions & Socials */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-6 xl:gap-8">
           <button 
             type="button"
             onClick={toggleLang}
@@ -100,7 +97,7 @@ export default function Navbar() {
         {/* Mobile burger */}
         <button
           type="button"
-          className="md:hidden p-2 text-black"
+          className="lg:hidden p-2 text-black"
           aria-label={mobileMenuOpen ? (lang === "EN" ? "Close menu" : "Fermer le menu") : (lang === "EN" ? "Open menu" : "Ouvrir le menu")}
           aria-expanded={mobileMenuOpen}
           aria-controls="menu-mobile"
@@ -116,7 +113,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div id="menu-mobile" className={clsx(
-        "md:hidden bg-white border-t border-gray-100 transition-all duration-500 overflow-hidden",
+        "lg:hidden bg-white border-t border-gray-100 transition-all duration-500 overflow-hidden",
         mobileMenuOpen ? "max-h-screen pb-10" : "max-h-0"
       )}>
         <ul className="px-8 py-10 flex flex-col gap-8 text-left">

@@ -15,10 +15,12 @@ import { join, relative, extname } from 'path';
 const PUBLIC_DIR = './public';
 const SCAN_DIR = './public/images-compressed';
 const OUTPUT = './data/image-sizes.json';
-// 400 : téléphone en 1x   800 : téléphone en 2x et vignettes retina
-// 1200 : colonne de page projet en 2x   l'original (2400) sert la visionneuse
-const WIDTHS = [400, 800, 1200];
-const QUALITY = 82;
+// Paliers imposés par le cahier des charges V2
+const WIDTHS = [400, 800, 1600];
+// Plafonds du cahier : 300 Ko par vignette, 600 Ko en plein écran.
+// On baisse la qualité par paliers jusqu'à passer sous la limite.
+const PLAFOND_KO = { 400: 150, 800: 300, 1600: 600, max: 600 };
+const QUALITES = [82, 74, 66, 58, 50];
 
 // Les fichiers déjà générés par un passage précédent, pour ne pas les réindexer
 const isGenerated = (name) => /-(\d+)\.webp$/.test(name);
@@ -33,6 +35,23 @@ async function walk(dir) {
   return out;
 }
 
+// Réencode en baissant la qualité jusqu'à passer sous le plafond.
+// Écrire sur le fichier source directement n'est pas possible avec sharp :
+// on passe par un buffer.
+async function encoderSousPlafond(source, destination, largeur, plafondKo) {
+  let dernier = null;
+  for (const qualite of QUALITES) {
+    const buffer = await sharp(source)
+      .rotate()
+      .resize({ width: largeur, withoutEnlargement: true })
+      .webp({ quality: qualite })
+      .toBuffer();
+    dernier = buffer;
+    if (buffer.length / 1024 <= plafondKo) break;
+  }
+  await writeFile(destination, dernier);
+}
+
 const all = await walk(SCAN_DIR);
 
 // On repart d'une base propre : sinon une photo remplacée laisse ses anciennes tailles
@@ -41,6 +60,7 @@ for (const file of all.filter((f) => isGenerated(f))) await rm(file);
 const sources = (await walk(SCAN_DIR)).filter((f) => !isGenerated(f));
 const sizes = {};
 let generated = 0;
+let allege = 0;
 
 for (const file of sources) {
   const meta = await sharp(file).metadata();
@@ -53,9 +73,17 @@ for (const file of sources) {
   for (const target of WIDTHS) {
     if (target >= w) continue; // jamais d'agrandissement
     const out = file.replace(/\.webp$/i, `-${target}.webp`);
-    await sharp(file).rotate().resize({ width: target }).webp({ quality: QUALITY }).toFile(out);
+    await encoderSousPlafond(file, out, target, PLAFOND_KO[target]);
     variants.push({ w: target, src: '/' + relative(PUBLIC_DIR, out) });
     generated++;
+  }
+
+  // Le fichier pleine taille est celui qu'ouvre la visionneuse : il doit lui
+  // aussi tenir sous les 600 Ko. 18 images le dépassaient.
+  const poidsKo = (await stat(file)).size / 1024;
+  if (poidsKo > PLAFOND_KO.max) {
+    await encoderSousPlafond(file, file, w, PLAFOND_KO.max);
+    allege++;
   }
   variants.push({ w, src: key });
 
@@ -64,4 +92,4 @@ for (const file of sources) {
 
 const ordered = Object.fromEntries(Object.keys(sizes).sort().map((k) => [k, sizes[k]]));
 await writeFile(OUTPUT, JSON.stringify(ordered, null, 2) + '\n');
-console.log(`${Object.keys(ordered).length} photos indexées, ${generated} déclinaisons générées`);
+console.log(`${Object.keys(ordered).length} photos indexées, ${generated} déclinaisons générées, ${allege} originaux allégés sous 600 Ko`);

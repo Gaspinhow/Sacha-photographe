@@ -10,7 +10,8 @@ export async function GET() {
     { url: '/corporate', changeFrequency: 'weekly', priority: 0.9 },
     { url: '/about', changeFrequency: 'monthly', priority: 0.8 },
     { url: '/contact', changeFrequency: 'monthly', priority: 0.7 },
-    { url: '/mentions-legales', changeFrequency: 'yearly', priority: 0.2 },
+    // Mentions legales et confidentialite sont en noindex : les lister ici
+    // enverrait a Google deux signaux contradictoires.
     // Une entrée par projet : ce sont ces pages-là que Google doit trouver.
     ...projects.map(p => ({ url: `/reportage/${p.id}`, changeFrequency: 'monthly', priority: 0.8 })),
   ];

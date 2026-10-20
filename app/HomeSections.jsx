@@ -24,7 +24,7 @@ export default function HomeSections() {
           <div className="relative overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm mb-4 mx-auto">
             <Photo 
               src="/images-compressed/indexacc.webp" 
-              alt="Documentary Section"
+              alt="Reportage documentaire"
               fill
               className="object-cover transition-transform duration-[2.5s] group-hover:scale-105" 
               sizes="(max-width: 768px) 50vw, 50vw"
@@ -45,7 +45,7 @@ export default function HomeSections() {
           <div className="relative overflow-hidden bg-gray-50 aspect-[4/5] md:aspect-[3/4] w-full shadow-sm mb-4 mx-auto">
             <Photo 
               src="/images-compressed/indexcorp.webp" 
-              alt="Business Section"
+              alt="Photographie corporate"
               fill
               className="object-cover transition-transform duration-[2.5s] group-hover:scale-105"
               sizes="(max-width: 768px) 50vw, 50vw"
@@ -64,7 +64,7 @@ export default function HomeSections() {
       {/* Signature finale */}
       <div className="mt-20 md:mt-32 text-center">
         <p className="text-[9px] md:text-[10px] uppercase tracking-[0.5em] font-medium">
-          Sacha Nahum — Photography
+          Sacha Nahum — Photographe
         </p>
       </div>
     </main>
