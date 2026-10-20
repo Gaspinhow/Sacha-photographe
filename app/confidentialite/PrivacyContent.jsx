@@ -60,18 +60,18 @@ export default function PrivacyContent() {
   const t = lang === 'EN' ? en : fr;
 
   return (
-    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-6 md:px-12 font-serif text-black">
+    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-6 md:px-12 text-black">
       <div className="max-w-2xl">
-        <h1 className="text-2xl md:text-3xl uppercase tracking-[0.15em] mb-3 border-b border-black pb-4">
+        <h1 className="text-2xl md:text-3xl tracking-[0.02em] mb-3 border-b border-black pb-4">
           {t.title}
         </h1>
-        <p className="text-[10px] uppercase tracking-[0.25em] text-black/70 mb-12">{t.updated}</p>
+        <p className="text-[10px] tracking-[0.04em] text-black/80 mb-12">{t.updated}</p>
 
         <div className="space-y-10">
           {t.sections.map(([titre, paragraphes]) => (
             <section key={titre}>
-              <h2 className="text-[11px] uppercase tracking-[0.25em] font-bold mb-3">{titre}</h2>
-              <div className="space-y-3 text-[13px] leading-relaxed font-light">
+              <h2 className="text-[11px] tracking-[0.04em] font-semibold mb-3">{titre}</h2>
+              <div className="space-y-3 text-[13px] leading-relaxed font-normal">
                 {paragraphes.map((p, i) => <p key={i}>{p}</p>)}
               </div>
             </section>

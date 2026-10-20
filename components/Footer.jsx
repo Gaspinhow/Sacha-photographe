@@ -30,11 +30,11 @@ export default function Footer() {
   const lien = "hover:opacity-50 transition-opacity";
 
   return (
-    <footer className="w-full bg-white border-t border-black py-14 px-6 md:px-12 font-serif text-black">
+    <footer className="w-full bg-white border-t border-black py-14 px-6 md:px-12 text-black">
       <div className="max-w-[1400px] mx-auto flex flex-col gap-10">
 
         {/* Coordonnees : le cahier demande email, telephone, LinkedIn et Instagram au pied de page */}
-        <nav aria-label={t.coordonnees} className="flex flex-wrap items-center gap-x-8 gap-y-4 text-[10px] uppercase tracking-[0.25em]">
+        <nav aria-label={t.coordonnees} className="flex flex-wrap items-center gap-x-8 gap-y-4 text-[10px] tracking-[0.04em]">
           <a href={`mailto:${EMAIL}`} className={lien}>{EMAIL}</a>
           <a href={`tel:${TELEPHONE_LIEN}`} className={lien}>{TELEPHONE_AFFICHE}</a>
           <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className={lien}>LinkedIn</a>
@@ -44,7 +44,7 @@ export default function Footer() {
         </nav>
 
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-t border-black/10 pt-8">
-          <p className="text-[10px] uppercase tracking-[0.3em]">
+          <p className="text-[10px] tracking-[0.05em]">
             © {new Date().getFullYear()} Sacha Nahum — {t.copyright}
           </p>
 
@@ -52,12 +52,12 @@ export default function Footer() {
             <button
               type="button"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-[9px] uppercase tracking-[0.4em] border-b border-black pb-1 hover:opacity-40 transition-all"
+              className="text-[9px] tracking-[0.06em] border-b border-black pb-1 hover:opacity-40 transition-all"
             >
               {t.backToTop}
             </button>
-            <span className="text-[10px] uppercase tracking-[0.25em] font-light italic">
-              {t.credits} <span className="font-medium not-italic">Gaspar Lebacq</span>
+            <span className="text-[10px] tracking-[0.04em] font-normal italic">
+              {t.credits} <span className="font-semibold not-italic">Gaspar Lebacq</span>
             </span>
           </div>
         </div>

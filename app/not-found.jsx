@@ -28,20 +28,20 @@ export default function NotFound() {
   const t = content[lang];
 
   return (
-    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-6 md:px-12 lg:px-20 font-serif text-black">
+    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-6 md:px-12 lg:px-20 text-black">
       <div className="max-w-2xl">
-        <p className="text-[10px] uppercase tracking-[0.4em] text-black/60 mb-8">{t.code}</p>
-        <h1 className="text-2xl md:text-4xl uppercase tracking-[0.15em] leading-relaxed mb-8">{t.title}</h1>
-        <p className="text-sm md:text-base font-light italic leading-relaxed mb-16">{t.text}</p>
+        <p className="text-[10px] tracking-[0.06em] text-black/80 mb-8">{t.code}</p>
+        <h1 className="text-2xl md:text-4xl tracking-[0.02em] leading-relaxed mb-8">{t.title}</h1>
+        <p className="text-sm md:text-base font-normal italic leading-relaxed mb-16">{t.text}</p>
 
         <nav className="flex flex-col sm:flex-row gap-6 sm:gap-10">
-          <Link href="/reportage" className="w-fit text-[10px] uppercase tracking-[0.3em] border-b border-black pb-1 hover:opacity-50 transition-opacity">
+          <Link href="/reportage" className="w-fit text-[10px] tracking-[0.05em] border-b border-black pb-1 hover:opacity-50 transition-opacity">
             {t.reportage}
           </Link>
-          <Link href="/corporate" className="w-fit text-[10px] uppercase tracking-[0.3em] border-b border-black pb-1 hover:opacity-50 transition-opacity">
+          <Link href="/corporate" className="w-fit text-[10px] tracking-[0.05em] border-b border-black pb-1 hover:opacity-50 transition-opacity">
             {t.corporate}
           </Link>
-          <Link href="/" className="w-fit text-[10px] uppercase tracking-[0.3em] border-b border-black pb-1 hover:opacity-50 transition-opacity">
+          <Link href="/" className="w-fit text-[10px] tracking-[0.05em] border-b border-black pb-1 hover:opacity-50 transition-opacity">
             {t.home}
           </Link>
         </nav>

@@ -8,6 +8,7 @@
       {
         "id": "mcdonalds",
         "titre": "Campagne filière pomme de terre",
+        "titreEN": "Potato supply chain campaign",
         "images": [
           "/images-compressed/v2/mcdonalds/01_mcdonalds-filiere-pomme-de-terre.webp",
           "/images-compressed/v2/mcdonalds/02_mcdonalds-filiere-pomme-de-terre.webp",
@@ -28,6 +29,7 @@
       {
         "id": "Parlement-europeen-2-editions",
         "titre": "Séminaires au Parlement européen — éditions 2024 et 2026",
+        "titreEN": "Seminars at the European Parliament — 2024 and 2026 editions",
         "images": [
           "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/01_escp-parlement-europeen.webp",
           "/images-compressed/v2/escp/a_Parlement-europeen-2-editions/02_escp-parlement-europeen.webp",
@@ -47,6 +49,7 @@
       {
         "id": "Remise-des-diplomes",
         "titre": "Remise des diplômes",
+        "titreEN": "Graduation ceremony",
         "images": [
           "/images-compressed/v2/escp/b_Remise-des-diplomes/01_escp-remise-des-diplomes.webp",
           "/images-compressed/v2/escp/b_Remise-des-diplomes/02_escp-remise-des-diplomes.webp",
@@ -61,6 +64,7 @@
       {
         "id": "ESCP-Woman",
         "titre": "ESCP Woman",
+        "titreEN": "ESCP Woman",
         "images": [
           "/images-compressed/v2/escp/c_ESCP-Woman/01_escp-woman.webp",
           "/images-compressed/v2/escp/c_ESCP-Woman/02_escp-woman.webp",
@@ -76,6 +80,7 @@
       {
         "id": "Conference",
         "titre": "Conférence",
+        "titreEN": "Conference",
         "images": [
           "/images-compressed/v2/escp/d_Conference/01_escp-conference.webp",
           "/images-compressed/v2/escp/d_Conference/02_escp-conference.webp",
@@ -99,6 +104,7 @@
       {
         "id": "ambassade-rdc",
         "titre": "Conférence et réception, Paris",
+        "titreEN": "Conference and reception, Paris",
         "images": [
           "/images-compressed/v2/ambassade-rdc/01_ambassade-rdc.webp",
           "/images-compressed/v2/ambassade-rdc/02_ambassade-rdc.webp",
@@ -120,6 +126,7 @@
       {
         "id": "sitl",
         "titre": "SITL — éditions 2025 et 2026",
+        "titreEN": "SITL — 2025 and 2026 editions",
         "images": [
           "/images-compressed/v2/sitl/01_sitl-2025-2026.webp",
           "/images-compressed/v2/sitl/02_sitl-2025-2026.webp",
@@ -141,6 +148,7 @@
       {
         "id": "supply-chain-event",
         "titre": "Couverture du salon",
+        "titreEN": "Trade show coverage",
         "images": [
           "/images-compressed/v2/supply-chain-event/01_supply-chain-event.webp",
           "/images-compressed/v2/supply-chain-event/02_supply-chain-event.webp",
@@ -159,6 +167,7 @@
       {
         "id": "autf",
         "titre": "AUTF — éditions 2024 et 2026",
+        "titreEN": "AUTF — 2024 and 2026 editions",
         "images": [
           "/images-compressed/v2/autf/01_autf-2024-2026.webp",
           "/images-compressed/v2/autf/02_autf-2024-2026.webp",
@@ -187,6 +196,7 @@
       {
         "id": "credit-agricole",
         "titre": "Nouveau bâtiment, Limoges",
+        "titreEN": "New building, Limoges",
         "images": [
           "/images-compressed/v2/credit-agricole/01_credit-agricole-limoges.webp",
           "/images-compressed/v2/credit-agricole/02_credit-agricole-limoges.webp",
@@ -207,6 +217,7 @@
       {
         "id": "epita",
         "titre": "Vie de campus",
+        "titreEN": "Campus life",
         "images": [
           "/images-compressed/v2/epita/01_epita-vie-de-campus.webp",
           "/images-compressed/v2/epita/02_epita-vie-de-campus.webp",
@@ -227,6 +238,7 @@
       {
         "id": "dsm-firmenich",
         "titre": "Capital Markets Day 2024",
+        "titreEN": "Capital Markets Day 2024",
         "images": [
           "/images-compressed/v2/dsm-firmenich/01_dsm-firmenich-capital-markets-day-2024.webp",
           "/images-compressed/v2/dsm-firmenich/02_dsm-firmenich-capital-markets-day-2024.webp",
@@ -247,6 +259,7 @@
       {
         "id": "Soiree-reseautage",
         "titre": "Soirée réseautage",
+        "titreEN": "Networking evening",
         "images": [
           "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/01_hogan-lovells-soiree.webp",
           "/images-compressed/v2/hogan-lovells/a_Soiree-reseautage/02_hogan-lovells-soiree.webp",
@@ -265,6 +278,7 @@
       {
         "id": "Recital-salle-Cortot",
         "titre": "Récital salle Cortot",
+        "titreEN": "Recital at Salle Cortot",
         "images": [
           "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/01_hogan-lovells-recital-cortot.webp",
           "/images-compressed/v2/hogan-lovells/b_Recital-salle-Cortot/02_hogan-lovells-recital-cortot.webp",
@@ -288,6 +302,7 @@
       {
         "id": "snitem",
         "titre": "Assemblée générale, Roland-Garros",
+        "titreEN": "Annual general meeting, Roland-Garros",
         "images": [
           "/images-compressed/v2/snitem/01_snitem-assemblee-generale.webp",
           "/images-compressed/v2/snitem/02_snitem-assemblee-generale.webp",

@@ -52,8 +52,7 @@ export default function CarrouselPhotos({ images, titre, onOuvrir, lang = "FR", 
         ref={piste}
         onScroll={majFleches}
         // snap-x : le défilement s'arrête proprement sur une photo
-        className="flex gap-2.5 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-1
-                   [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex gap-2.5 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {images.map((src, index) => (
           <li key={src} className="snap-start shrink-0">

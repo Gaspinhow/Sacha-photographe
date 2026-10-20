@@ -25,8 +25,8 @@ export default function ProjectGallery({ project }) {
     <main className="min-h-screen bg-white pt-28 md:pt-44 pb-20 px-4 md:px-12 lg:px-20 text-black">
       <div className="max-w-7xl mx-auto">
         <header className="mb-16 md:mb-24 max-w-4xl text-left">
-          <h1 className="text-3xl md:text-6xl font-serif uppercase tracking-[0.05em] mb-10 text-black leading-tight">{displayTitle}</h1>
-          <p className="text-black text-sm md:text-xl leading-relaxed font-light italic max-w-3xl">{displayDescription}</p>
+          <h1 className="text-3xl md:text-6xl tracking-[0.01em] mb-10 text-black leading-tight">{displayTitle}</h1>
+          <p className="text-black text-sm md:text-xl leading-relaxed font-normal italic max-w-3xl">{displayDescription}</p>
         </header>
 
         {/* Colonnes CSS plutôt qu'une grille : les photos s'empilent au plus près,
@@ -83,10 +83,10 @@ export default function ProjectGallery({ project }) {
         />
 
         <footer className="mt-32 pt-10 border-t border-black/10 flex justify-between items-center">
-          <Link href={`/${project.category}`} className="text-[10px] uppercase tracking-[0.4em] text-black font-bold">
+          <Link href={`/${project.category}`} className="text-[10px] tracking-[0.06em] text-black font-semibold">
             ← {lang === 'FR' ? 'Retour' : 'Back'}
           </Link>
-          <p className="text-[9px] uppercase tracking-[0.5em] text-black font-medium">Sacha Nahum — Photographe</p>
+          <p className="text-[9px] tracking-[0.08em] text-black font-semibold">Sacha Nahum — Photographe</p>
         </footer>
       </div>
     </main>

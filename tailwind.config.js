@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-cormorant)", "serif"],
-      },
-      colors: {
-        accent: "#e85d4a",
+        // Cahier V2 : une seule police, sans empattement, deux graisses.
+        // font-serif est redirigé vers la même famille pour qu'aucune classe
+        // oubliée ne ramène un empattement.
+        sans: ["var(--font-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
+        serif: ["var(--font-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
       },
     },
   },

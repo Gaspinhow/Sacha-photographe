@@ -20,26 +20,26 @@ export default function LegalContent() {
   ].filter(([, valeur]) => valeur);
 
   return (
-    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-6 md:px-12 font-serif text-black">
+    <main className="min-h-screen bg-white pt-28 md:pt-44 pb-24 px-6 md:px-12 text-black">
       <div className="max-w-2xl">
-        <h1 className="text-2xl md:text-3xl uppercase tracking-[0.15em] mb-12 border-b border-black pb-4">
+        <h1 className="text-2xl md:text-3xl tracking-[0.02em] mb-12 border-b border-black pb-4">
           {fr ? "Mentions légales" : "Legal notice"}
         </h1>
 
-        <div className="space-y-10 text-[13px] leading-relaxed font-light">
+        <div className="space-y-10 text-[13px] leading-relaxed font-normal">
           <section>
-            <h2 className="text-[11px] uppercase tracking-[0.25em] font-bold mb-3">
+            <h2 className="text-[11px] tracking-[0.04em] font-semibold mb-3">
               {fr ? "Éditeur du site" : "Site editor"}
             </h2>
             <dl className="space-y-1">
               {editeur.map(([cle, valeur]) => (
                 <div key={cle} className="flex flex-wrap gap-x-2">
-                  <dt className="font-medium">{cle} :</dt>
+                  <dt className="font-semibold">{cle} :</dt>
                   <dd>{valeur}</dd>
                 </div>
               ))}
               <div className="flex flex-wrap gap-x-2">
-                <dt className="font-medium">{fr ? "Contact" : "Contact"} :</dt>
+                <dt className="font-semibold">{fr ? "Contact" : "Contact"} :</dt>
                 <dd>
                   <a href={`mailto:${EMAIL}`} className="border-b border-black/40 hover:opacity-60">{EMAIL}</a>
                   {" — "}
@@ -50,14 +50,14 @@ export default function LegalContent() {
           </section>
 
           <section>
-            <h2 className="text-[11px] uppercase tracking-[0.25em] font-bold mb-3">
+            <h2 className="text-[11px] tracking-[0.04em] font-semibold mb-3">
               {fr ? "Hébergement" : "Hosting"}
             </h2>
             <p>Vercel Inc. — 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis</p>
           </section>
 
           <section>
-            <h2 className="text-[11px] uppercase tracking-[0.25em] font-bold mb-3">
+            <h2 className="text-[11px] tracking-[0.04em] font-semibold mb-3">
               {fr ? "Propriété intellectuelle" : "Intellectual property"}
             </h2>
             <p>
@@ -68,7 +68,7 @@ export default function LegalContent() {
           </section>
 
           <section>
-            <h2 className="text-[11px] uppercase tracking-[0.25em] font-bold mb-3">
+            <h2 className="text-[11px] tracking-[0.04em] font-semibold mb-3">
               {fr ? "Données personnelles" : "Personal data"}
             </h2>
             <p>
@@ -81,7 +81,7 @@ export default function LegalContent() {
           </section>
 
           <section>
-            <h2 className="text-[11px] uppercase tracking-[0.25em] font-bold mb-3">
+            <h2 className="text-[11px] tracking-[0.04em] font-semibold mb-3">
               {fr ? "Crédits" : "Credits"}
             </h2>
             <p>{fr ? "Photographies : Sacha Nahum. Conception et développement : Gaspar Lebacq." : "Photographs: Sacha Nahum. Design and development: Gaspar Lebacq."}</p>
