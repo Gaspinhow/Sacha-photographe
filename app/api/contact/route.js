@@ -6,6 +6,20 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 const DESTINATAIRE = 'photo@sacha-nahum.com';
 
+// TEMPORAIRE — à retirer une fois le domaine vérifié chez Resend.
+//
+// L'expéditeur onboarding@resend.dev est l'adresse partagée de Resend : elle ne
+// livre qu'au propriétaire du compte. Tout envoi vers photo@sacha-nahum.com est
+// refusé en 403, donc les demandes des visiteurs étaient perdues.
+// En attendant la vérification du domaine, on bascule sur l'adresse du compte
+// pour qu'aucune demande ne disparaisse.
+//
+// Une fois le domaine vérifié sur resend.com/domains :
+//   1. définir RESEND_FROM, par exemple "Sacha Nahum <contact@sacha-nahum.com>"
+//   2. supprimer DESTINATAIRE_SECOURS et la bascule plus bas
+const DESTINATAIRE_SECOURS = 'sacha.nahum@gmail.com';
+const EXPEDITEUR = process.env.RESEND_FROM || 'Portfolio <onboarding@resend.dev>';
+
 // Le contenu du formulaire finissait tel quel dans le HTML du mail : n'importe
 // qui pouvait y glisser des balises ou un lien déguisé.
 const escapeHtml = (value) =>
@@ -61,15 +75,10 @@ export async function POST(request) {
       return Response.json({ ok: false, error: "Trop d'envois, réessayez plus tard" }, { status: 429 });
     }
 
-    const { error } = await resend.emails.send({
-      from: 'Portfolio <onboarding@resend.dev>',
-      to: [DESTINATAIRE],
-      subject: `CONTACT : ${String(firstName).slice(0, 60)} ${String(lastName).slice(0, 60)}`,
-      replyTo: email,
-      html: `
+    const corps = `
         <div style="font-family: Helvetica, Arial, sans-serif; color: #000000; line-height: 1.6; max-width: 600px;">
           <h2 style="font-size: 18px; font-weight: 600; border-bottom: 1px solid #000; padding-bottom: 10px;">
-            Nouveau Message de Contact
+            Nouveau message de contact
           </h2>
           <p><strong>Nom :</strong> ${escapeHtml(lastName)}</p>
           <p><strong>Prénom :</strong> ${escapeHtml(firstName)}</p>
@@ -87,13 +96,38 @@ export async function POST(request) {
             Envoyé depuis sacha-nahum.com
           </footer>
         </div>
-      `
-    });
+      `;
+
+    const sujet = `CONTACT : ${String(firstName).slice(0, 60)} ${String(lastName).slice(0, 60)}`;
+
+    const envoyer = (destinataire, entete = "") =>
+      resend.emails.send({
+        from: EXPEDITEUR,
+        to: [destinataire],
+        subject: sujet,
+        replyTo: email,
+        html: entete + corps,
+      });
+
+    let { error } = await envoyer(DESTINATAIRE);
+
+    if (error) {
+      // Resend refuse l'adresse principale : on ne perd pas la demande.
+      console.error(`Envoi vers ${DESTINATAIRE} refusé, bascule sur l'adresse de secours :`, error);
+      const secours = await envoyer(
+        DESTINATAIRE_SECOURS,
+        `<div style="font-family: Helvetica, Arial, sans-serif; background: #fff4e5; border-left: 3px solid #b26a00; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; color: #000;">
+           Ce message n'a pas pu être remis à <strong>${DESTINATAIRE}</strong> : le domaine sacha-nahum.com
+           n'est pas encore vérifié chez Resend. Il vous est transmis ici pour qu'il ne soit pas perdu.
+         </div>`
+      );
+      error = secours.error;
+      if (error) console.error("Envoi de secours également refusé :", error);
+    }
 
     if (error) {
       // Tracé côté serveur : sans ça, un refus de Resend (domaine non vérifié,
       // quota, adresse invalide) est invisible et le formulaire semble juste "planté".
-      console.error("Resend a refusé l'envoi :", error);
       return Response.json({ ok: false, error: "Erreur d'envoi" }, { status: 500 });
     }
 
@@ -102,7 +136,7 @@ export async function POST(request) {
     // donc on n'en fait pas échouer le formulaire.
     try {
       const { error: erreurAccuse } = await resend.emails.send({
-        from: 'Sacha Nahum <onboarding@resend.dev>',
+        from: EXPEDITEUR,
         to: [email],
         replyTo: DESTINATAIRE,
         subject: "Votre message a bien été reçu",
