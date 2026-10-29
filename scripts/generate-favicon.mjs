@@ -13,15 +13,29 @@ const SORTIE = './app/favicon.ico';
 // <link sizes>, et c'est celle que Google recommande.
 const TAILLES = [48, 32, 16];
 
+// Google, Android et iOS affichent les favicons dans un cercle. Un dessin qui
+// touche les bords du carré se fait rogner : le demi-dôme y perdait sa base.
+// On le réduit pour qu'il tienne dans le cercle inscrit, le reste est de la marge.
+const PART_DESSIN = 0.72;
+
 const images = [];
 for (const taille of TAILLES) {
-  images.push({
-    taille,
-    png: await sharp(SOURCE, { density: 400 })
-      .resize(taille, taille, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
-      .png()
-      .toBuffer(),
-  });
+  const dessin = Math.round(taille * PART_DESSIN);
+  const marge = Math.round((taille - dessin) / 2);
+
+  const png = await sharp(SOURCE, { density: 600 })
+    .resize(dessin, dessin, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
+    .extend({
+      top: marge,
+      bottom: taille - dessin - marge,
+      left: marge,
+      right: taille - dessin - marge,
+      background: { r: 255, g: 255, b: 255, alpha: 0 },
+    })
+    .png()
+    .toBuffer();
+
+  images.push({ taille, png });
 }
 
 // En-tête ICONDIR : 2 octets réservés, type 1 (icône), nombre d'images
