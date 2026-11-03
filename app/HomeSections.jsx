@@ -3,7 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 import Photo from "../components/Photo";
 import { useLanguage } from "./context/LanguageContext";
-import { REFERENCES_ACCUEIL } from "../data/clients.config.mjs";
 
 export default function HomeSections() {
   const { lang } = useLanguage();
@@ -14,21 +13,20 @@ export default function HomeSections() {
       business: "Corporate",
       titre: "Photographe événementiel et corporate à Paris",
       phrase: "Conventions, salons, conférences et portraits pour les entreprises, les agences et les institutions.",
-      references: "Ils m'ont fait confiance",
     },
     EN: {
       documentary: "Documentary",
       business: "Corporate",
       titre: "Event and corporate photographer in Paris",
       phrase: "Conventions, trade shows, conferences and portraits for companies, agencies and institutions.",
-      references: "Trusted by",
     }
   };
 
   return (
     <main className="min-h-screen bg-white pt-32 md:pt-48 pb-24 px-4 md:px-12 flex flex-col items-center justify-center text-black">
       
-      {/* Seul ajout demandé par le cahier V2 : un court texte au-dessus des photos */}
+      {/* Court texte au-dessus des photos. La ligne de références clients
+          qui figurait ici a été retirée à la demande de Sacha. */}
       <header className="max-w-[1400px] w-full mb-12 md:mb-20 text-center">
         <h1 className="text-xl md:text-3xl lg:text-4xl tracking-[0.01em] leading-snug">
           {content[lang].titre}
@@ -36,15 +34,6 @@ export default function HomeSections() {
         <p className="mt-5 mx-auto max-w-2xl text-xs md:text-sm leading-relaxed font-normal">
           {content[lang].phrase}
         </p>
-        <p className="sr-only">{content[lang].references}</p>
-        <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[9px] md:text-[10px] tracking-[0.04em] text-black/75">
-          {REFERENCES_ACCUEIL.map((nom, i) => (
-            <li key={nom} className="flex items-center gap-5">
-              {i > 0 && <span aria-hidden="true" className="text-black/80">·</span>}
-              {nom}
-            </li>
-          ))}
-        </ul>
       </header>
 
       {/* Grille Mosaïque (2 colonnes) */}
